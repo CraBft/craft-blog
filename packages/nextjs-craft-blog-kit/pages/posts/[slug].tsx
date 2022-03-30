@@ -4,17 +4,10 @@ import {
   GetStaticProps,
   NextPage,
 } from 'next'
+import { CraftPage } from 'react-craft-x'
+import styled from 'styled-components'
 import { getAllPosts } from '../../libs/post-api'
 import { CraftBlogPage } from '../../types/CraftBlogPage'
-
-const PostPage: NextPage<{
-  page: CraftBlogPage
-}> = ({ page }) => {
-  return <div>{page.rootBlock.content.map((text) => text.text).join('')}</div>
-  // return <CraftPage id={page.id} rootBlock={page.rootBlock} />
-}
-
-export default PostPage
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
   const { slug } = ctx.params!
@@ -53,3 +46,16 @@ export const getStaticPaths: GetStaticPaths = async (ctx) => {
     paths,
   }
 }
+
+const PostPage: NextPage<{
+  page: CraftBlogPage
+}> = ({ page }) => {
+  const StyledCraftPage = styled(CraftPage)`
+    margin-left: auto;
+    margin-right: auto;
+  `
+
+  return <StyledCraftPage rootBlock={page.rootBlock} />
+}
+
+export default PostPage
