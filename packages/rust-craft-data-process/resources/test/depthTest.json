@@ -1,0 +1,174 @@
+{
+	"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+	"listStyle": { "type": "none" },
+	"content": [
+		{
+			"isItalic": false,
+			"isStrikethrough": false,
+			"text": "1",
+			"isCode": false,
+			"isBold": false
+		}
+	],
+	"hasFocusDecoration": false,
+	"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+	"hasBlockDecoration": false,
+	"indentationLevel": 0,
+	"style": {
+		"fontStyle": "system",
+		"alignmentStyle": "left",
+		"textStyle": "page"
+	},
+	"subblocks": [
+		{
+			"hasBlockDecoration": false,
+			"id": "080EA372-4124-48A7-8FA4-1BA418EB5934",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+			"listStyle": { "type": "none" },
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": []
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "842672DE-791A-42B8-917E-D8DE67010903",
+			"style": {
+				"fontStyle": "system",
+				"cardStyle": {
+					"isLightColor": true,
+					"backgroundColorKey": "white",
+					"type": "subtle",
+					"backgroundColor": "#FFFFFF #303436"
+				},
+				"alignmentStyle": "left",
+				"textStyle": "card"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+			"listStyle": { "type": "none" },
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "2-1",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "68B16456-6097-4701-9C66-E42EFE8C3953",
+			"style": {
+				"fontStyle": "system",
+				"cardStyle": {
+					"isLightColor": true,
+					"backgroundColorKey": "white",
+					"type": "subtle",
+					"backgroundColor": "#FFFFFF #303436"
+				},
+				"alignmentStyle": "left",
+				"textStyle": "card"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+			"listStyle": { "type": "none" },
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "2-2",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "A0342E7D-FB5B-40E3-82A2-41A63955CA05",
+			"style": {
+				"fontStyle": "system",
+				"cardStyle": {
+					"isLightColor": true,
+					"backgroundColorKey": "white",
+					"type": "subtle",
+					"backgroundColor": "#FFFFFF #303436"
+				},
+				"alignmentStyle": "left",
+				"textStyle": "card"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+			"listStyle": { "type": "none" },
+			"subblocks": [
+				{
+					"hasBlockDecoration": false,
+					"id": "235AD81B-B21F-42E5-8097-5896AA454DD1",
+					"style": {
+						"fontStyle": "system",
+						"cardStyle": {
+							"isLightColor": true,
+							"backgroundColorKey": "white",
+							"type": "subtle",
+							"backgroundColor": "#FFFFFF #303436"
+						},
+						"alignmentStyle": "left",
+						"textStyle": "card"
+					},
+					"hasFocusDecoration": false,
+					"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+					"listStyle": { "type": "none" },
+					"subblocks": [],
+					"type": "textBlock",
+					"color": "text",
+					"indentationLevel": 0,
+					"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+					"content": [
+						{
+							"isItalic": false,
+							"isStrikethrough": false,
+							"text": "3-1",
+							"isCode": false,
+							"isBold": false
+						}
+					]
+				}
+			],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "2-3",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		}
+	],
+	"color": "text",
+	"type": "textBlock",
+	"id": "362E2FE6-92B7-4869-A166-630A9C07FD0F"
+}

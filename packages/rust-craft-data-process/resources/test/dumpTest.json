@@ -1,0 +1,283 @@
+{
+	"color": "text",
+	"hasFocusDecoration": false,
+	"style": {
+		"fontStyle": "system",
+		"alignmentStyle": "left",
+		"textStyle": "page"
+	},
+	"type": "textBlock",
+	"subblocks": [
+		{
+			"hasBlockDecoration": false,
+			"id": "B8193EBD-0DD0-495B-AA5E-C21F8915D0D6",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+			"listStyle": { "type": "none" },
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "안녕 나는 증조할아버지라고 해",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "674B07CF-FAFA-4EA6-947F-C1FD883CF933",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "page"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+			"listStyle": { "type": "none" },
+			"subblocks": [
+				{
+					"hasBlockDecoration": false,
+					"id": "2442889C-B13A-49C4-9DE9-6DFDD98ACAD7",
+					"style": {
+						"fontStyle": "system",
+						"alignmentStyle": "left",
+						"textStyle": "body"
+					},
+					"hasFocusDecoration": false,
+					"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+					"listStyle": { "type": "none" },
+					"subblocks": [],
+					"type": "textBlock",
+					"color": "text",
+					"indentationLevel": 0,
+					"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+					"content": [
+						{
+							"isItalic": false,
+							"isStrikethrough": false,
+							"text": "안녕 나는 할아버지야",
+							"isCode": false,
+							"isBold": false
+						}
+					]
+				},
+				{
+					"hasBlockDecoration": false,
+					"id": "56E8B405-E426-4AD4-B8EC-4F45A04E9B29",
+					"style": {
+						"fontStyle": "system",
+						"alignmentStyle": "left",
+						"textStyle": "page"
+					},
+					"hasFocusDecoration": false,
+					"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+					"listStyle": { "type": "none" },
+					"subblocks": [
+						{
+							"hasBlockDecoration": false,
+							"id": "67B39B77-16CD-4403-9E66-8BD1101EBBA0",
+							"style": {
+								"fontStyle": "system",
+								"alignmentStyle": "left",
+								"textStyle": "body"
+							},
+							"hasFocusDecoration": false,
+							"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+							"listStyle": { "type": "none" },
+							"subblocks": [],
+							"type": "textBlock",
+							"color": "text",
+							"indentationLevel": 0,
+							"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+							"content": [
+								{
+									"isItalic": false,
+									"isStrikethrough": false,
+									"text": "안녕 나는 아버지라고해",
+									"isCode": false,
+									"isBold": false
+								}
+							]
+						},
+						{
+							"hasBlockDecoration": false,
+							"id": "39276403-28B1-4E3F-B9E2-A01D74B0276E",
+							"style": {
+								"fontStyle": "system",
+								"alignmentStyle": "left",
+								"textStyle": "page"
+							},
+							"hasFocusDecoration": false,
+							"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+							"listStyle": { "type": "none" },
+							"subblocks": [
+								{
+									"hasBlockDecoration": false,
+									"id": "4EBFB0F1-EE81-4554-ADF5-2BA79E7AAA80",
+									"style": {
+										"fontStyle": "system",
+										"alignmentStyle": "left",
+										"textStyle": "body"
+									},
+									"hasFocusDecoration": false,
+									"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+									"listStyle": { "type": "none" },
+									"subblocks": [],
+									"type": "textBlock",
+									"color": "text",
+									"indentationLevel": 0,
+									"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+									"content": [
+										{
+											"isItalic": false,
+											"isStrikethrough": false,
+											"text": "안녕 내가 기준이야",
+											"isCode": false,
+											"isBold": false
+										}
+									]
+								},
+								{
+									"hasBlockDecoration": false,
+									"id": "DEA3080E-06C6-4E17-8E1E-70740A3202F5",
+									"style": {
+										"fontStyle": "system",
+										"alignmentStyle": "left",
+										"textStyle": "page"
+									},
+									"hasFocusDecoration": false,
+									"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+									"listStyle": { "type": "none" },
+									"subblocks": [
+										{
+											"hasBlockDecoration": false,
+											"id": "7A145ECC-C758-4167-90BE-47D80005175D",
+											"style": {
+												"fontStyle": "system",
+												"alignmentStyle": "left",
+												"textStyle": "body"
+											},
+											"hasFocusDecoration": false,
+											"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+											"listStyle": { "type": "none" },
+											"subblocks": [],
+											"type": "textBlock",
+											"color": "text",
+											"indentationLevel": 0,
+											"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+											"content": [
+												{
+													"isItalic": false,
+													"isStrikethrough": false,
+													"text": "안녕 나는 자식이라고해 ",
+													"isCode": false,
+													"isBold": false
+												}
+											]
+										},
+										{
+											"hasBlockDecoration": false,
+											"id": "7B02E41C-9714-43FD-ACDE-7D5E84592B28",
+											"style": {
+												"fontStyle": "system",
+												"alignmentStyle": "left",
+												"textStyle": "body"
+											},
+											"hasFocusDecoration": false,
+											"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+											"listStyle": { "type": "none" },
+											"subblocks": [],
+											"type": "textBlock",
+											"color": "text",
+											"indentationLevel": 0,
+											"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+											"content": []
+										}
+									],
+									"type": "textBlock",
+									"color": "text",
+									"indentationLevel": 0,
+									"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+									"content": [
+										{
+											"isItalic": false,
+											"isStrikethrough": false,
+											"text": "자식",
+											"isCode": false,
+											"isBold": false
+										}
+									]
+								}
+							],
+							"type": "textBlock",
+							"color": "text",
+							"indentationLevel": 0,
+							"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+							"content": [
+								{
+									"isItalic": false,
+									"isStrikethrough": false,
+									"text": "기준",
+									"isCode": false,
+									"isBold": false
+								}
+							]
+						}
+					],
+					"type": "textBlock",
+					"color": "text",
+					"indentationLevel": 0,
+					"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+					"content": [
+						{
+							"isItalic": false,
+							"isStrikethrough": false,
+							"text": "아버지",
+							"isCode": false,
+							"isBold": false
+						}
+					]
+				}
+			],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "할아버지",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		}
+	],
+	"id": "46BB32F5-915A-4637-AAE5-58A942676FAC",
+	"indentationLevel": 0,
+	"documentId": "9A1F672F-D145-45C7-BD44-0FB3FE09A392",
+	"content": [
+		{
+			"isItalic": false,
+			"isStrikethrough": false,
+			"text": "증조할아버지",
+			"isCode": false,
+			"isBold": false
+		}
+	],
+	"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+	"listStyle": { "type": "none" },
+	"hasBlockDecoration": false
+}

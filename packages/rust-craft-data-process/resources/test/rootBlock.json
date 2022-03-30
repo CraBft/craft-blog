@@ -1,0 +1,817 @@
+{
+	"hasBlockDecoration": false,
+	"indentationLevel": 0,
+	"subblocks": [
+		{
+			"hasBlockDecoration": false,
+			"id": "91186AB5-D4E9-4522-A6CC-C4788988C7DA",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "subtitle"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "개요",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "EEEDA7DB-F10B-4C92-82A3-1630A39019EF",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "참여자 : kilee, jaeskim, 차경묵 멘토님",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "A87F11EE-114A-428C-AA1C-F7DC206ADEC8",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "장소 : zoom",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "387A5A1A-AA0E-49EC-B2FA-CEE11AFFD11C",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "시간 : 오후 5시",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "065AF8B2-B650-4E58-999C-0B0A3AC5FC01",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "주제 : Craft Blog 프로젝트 진행에 대한 조언 구하기",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "F804373E-A011-4B71-B2CE-0F473E79B9F6",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "Extension과 정적 블로그 하나.",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "072FC6D3-2726-4B66-B6C7-01334D3AAFC0",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "block들 렌더링 해주는 컴포넌트 라이브러리 하나 ",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "8A5466EE-9E61-47CC-A626-C71A1D5B4C9D",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": []
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "583D5042-8E78-4335-A59C-91141C9B653B",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "subtitle"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "멘토링 준비",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "4ED215DE-860A-4241-A9A8-6A78608B22FC",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "프로젝트 기간 : 2주",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "306E43E6-A3A6-43E9-A391-DDADF1156204",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "프로젝트 목표 산출물 : 크래프트로 작성된 문서를 Github Pages 를 통해 SSG 형태로 제공하는 블로깅 시스템 개발",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "34C4E38B-4DB7-499E-BF6E-7AD2C44FF3C5",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "핵심 목표 기능 ",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "98D60419-C435-4547-B772-16F66619107C",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "Craft에서 제공하는 Data model 을 Native service 의 디자인과 동일하게 Dom을 랜더링",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "D254BBB8-6C8B-4D80-9248-737F05D29623",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "Craft 앱 내에서 Github 으로 데이터를 전송하는 Extension 개발",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "7EEF2C8B-03AD-4D28-BA8B-9FFE0BF50264",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "정적 블로그 생성기능 개발",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "B2B82F2E-B5E6-4EFF-B44E-A783DE158F4A",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "제한 적인 요소 ",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "ED32DD33-EFA5-4C0A-8175-B56CDAAFEDBA",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "Extension은 webview 환경에서 동작하며, Craft Api를 객체 호출 방식으로 사용해야한다. dev 모드에서 Craft에서 설정해둔 mockup data를 활용하여 개발해야하므로, Production 환경에 대해 Test가 제한적이다.",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "2C3A9EAD-D40D-4956-8441-EC0BC600F490",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": []
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "C1D8BC1A-4B32-4F45-B48C-AC4B72FF5296",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "여쭤보고 싶은 것",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "86EF431B-1068-43F6-A75A-1568FD4897A4",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "확장성을 고려하고 싶다. 다양한 정적 사이트 호스팅 서비스와 호환되게 하고 싶다.",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "1012A0F0-E538-44FF-AEBA-B8FCE829FE4B",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "배포 시간 최소화 ( 동기화 속도 ) ",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "B3F7DE92-87E7-4D8B-A423-E1C0EAEC1B25",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "Craft의 데이터 모델을 보셨을 때, 우리 서비스에 적합한 데이터 관리 방식, 구조에 대해서.",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "0CEC5A01-57BC-4722-8427-FDB7D4A9BA95",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "사용자들이 나중에 커스텀 디자인을 적용하기 쉽게 만들고 싶다. ",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "05B04D86-60C1-44DE-A377-2444452C7DE8",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": []
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "141D83E1-1DB1-439B-8537-485D03EE522E",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "subtitle"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "none"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "멘토링 진행",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "CB03D8F0-13E6-4355-A24C-C44DE4F5F516",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "데이터 옮기는게 귀찮아서 블로그를 잘 안하게 되거나, ",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "4F5CD590-02D0-4130-83FC-E8D4D393ADBF",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "블로그를 지킬로 운영하고 계신다.",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "92266418-844C-4BCF-9F93-EE2204EE0419",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "컨텐츠는 옵시디언으로 거의 옮겨가고 있는데,",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		},
+		{
+			"hasBlockDecoration": false,
+			"id": "7EF33F0D-434D-4DB6-90AA-9A859DE98828",
+			"style": {
+				"fontStyle": "system",
+				"alignmentStyle": "left",
+				"textStyle": "body"
+			},
+			"hasFocusDecoration": false,
+			"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+			"listStyle": {
+				"type": "bullet"
+			},
+			"subblocks": [],
+			"type": "textBlock",
+			"color": "text",
+			"indentationLevel": 0,
+			"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+			"content": [
+				{
+					"isItalic": false,
+					"isStrikethrough": false,
+					"text": "휴고로 옮기",
+					"isCode": false,
+					"isBold": false
+				}
+			]
+		}
+	],
+	"hasFocusDecoration": false,
+	"id": "30FB08F5-9382-40FE-BC8F-4D7D4DFB7C35",
+	"type": "textBlock",
+	"documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+	"spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+	"style": {
+		"fontStyle": "system",
+		"alignmentStyle": "left",
+		"textStyle": "page"
+	},
+	"color": "text",
+	"content": [
+		{
+			"isItalic": false,
+			"isStrikethrough": false,
+			"text": "3.24(목) 차경묵 멘토님 멘토링",
+			"isCode": false,
+			"isBold": false
+		}
+	],
+	"listStyle": {
+		"type": "none"
+	}
+}
