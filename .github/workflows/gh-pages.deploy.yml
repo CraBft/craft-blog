@@ -3,7 +3,7 @@ name: gh-pages deploy
 on:
   push:
     paths:
-      - '_contents/**.json'
+      - '_contents/posts/*.json'
 
 jobs:
   deploy:
