@@ -1,5 +1,3 @@
-name: Update posts
-
 on:
   workflow_dispatch:
     inputs:
