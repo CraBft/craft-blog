@@ -21,7 +21,7 @@ pub fn save_pages(
 ) -> std::io::Result<()> {
 	create_dir_all(dest_dir).ok();
 	for (id, craft_blog_page) in pages.iter() {
-		let path = dest_dir.join(id);
+		let path = dest_dir.join(id.to_owned() + ".json");
 		let mut f = File::create(path)?;
 		serde_json::to_writer_pretty(&mut f, &craft_blog_page)?;
 	}
