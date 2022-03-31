@@ -1,0 +1,56 @@
+name: create-posts
+
+on:
+  workflow_dispatch:
+    inputs:
+      craftDocument:
+        description: 'Craft Document Data'
+        required: true
+        type: string
+env:
+  WORK_DIR: ./packages/rust-craft-data-process
+  POST_DIR_FROM_WORK_DIR: ../../_contents/posts
+  INPUT_JSON: input.json
+  BLOG_PAGE_BRANCH: main
+
+jobs:
+  create-posts:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Build rust-craft-data-process
+        working-directory: ${{ env.WORK_DIR }}
+        run: cargo build --verbose
+
+      - name: Create input file from dispatch input
+        working-directory: ${{env.WORK_DIR}}
+        run: echo "$CRAFT_DOCUMENT" > "$INPUT_JSON"
+        env:
+          CRAFT_DOCUMENT: ${{ github.event.inputs.craftDocument }}
+
+      - name: Check input file
+        working-directory: ${{env.WORK_DIR}}
+        run: cat $INPUT_JSON
+
+      - name: Create posts
+        working-directory: ${{env.WORK_DIR}}
+        run: RUST_BACKTRACE=1 cargo run --verbose ./$INPUT_JSON $POST_DIR_FROM_WORK_DIR
+
+      - name: Set blog page target branch
+        env:
+          USE_CUSTOM_BRANCH: ${{ secrets.USE_CUSTOM_BRANCH }}
+        if: ${{ env.USE_CUSTOM_BRANCH }}
+        run: |
+          echo "BLOG_PAGE_BRANCH=blog-pages" >> $GITHUB_ENV
+
+      - name: Commit to blog page branch
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          branch: ${{ env.BLOG_PAGE_BRANCH }}
+          create_branch: true
+          commit_message: 'published by CraBft🦀'
+          file_pattern: _contents/*
+          commit_user_name: CraBft🦀 # defaults to "GitHub Actions"
+          skip_dirty_check: true
+          disable_globbing: true

@@ -67,6 +67,9 @@ pub fn dump_subblock_under_grandchild(block: &mut Value) {
 }
 
 fn recursive_subblock_dumper(block: &mut Value, current_depth: u32) {
+	if block["type"] != "textBlock" {
+		return;
+	}
 	let subblocks = block["subblocks"].as_array_mut().unwrap();
 	if current_depth == 2 || subblocks.is_empty() {
 		block["subblocks"] = json!([]);

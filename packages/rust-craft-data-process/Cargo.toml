@@ -3,7 +3,14 @@ name = "dataprocess"
 version = "0.1.0"
 edition = "2021"
 
+[[bin]]
+name = "main"
+path = "src/main.rs"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[lib]
+name = "dataprocess"           # The name of the target.
+path = "src/lib.rs"
 
 [dependencies]
 serde = "1.0.0"
