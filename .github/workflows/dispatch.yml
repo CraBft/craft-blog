@@ -54,3 +54,4 @@ jobs:
           commit_user_name: CraBft🦀 # defaults to "GitHub Actions"
           skip_dirty_check: true
           disable_globbing: true
+          push_options: '--force'
