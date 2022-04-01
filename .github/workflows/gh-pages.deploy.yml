@@ -1,9 +1,9 @@
 name: gh-pages deploy
-
 on:
-  push:
-    paths:
-      - '_contents/**.json'
+  workflow_run:
+    workflows: ['create-posts']
+    types:
+      - completed
 
 jobs:
   deploy:
