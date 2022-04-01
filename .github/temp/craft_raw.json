@@ -1,5 +1,4 @@
 {
-  "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
   "subblocks": [
     {
       "hasBlockDecoration": false,
@@ -15349,10 +15348,14 @@
       "content": []
     }
   ],
-  "type": "textBlock",
-  "listStyle": {
-    "type": "none"
+  "style": {
+    "fontStyle": "system",
+    "alignmentStyle": "left",
+    "textStyle": "body"
   },
+  "hasBlockDecoration": false,
+  "hasFocusDecoration": false,
+  "type": "textBlock",
   "content": [
     {
       "isItalic": false,
@@ -15362,15 +15365,12 @@
       "isBold": false
     }
   ],
-  "hasBlockDecoration": false,
+  "listStyle": {
+    "type": "none"
+  },
   "color": "text",
   "indentationLevel": 0,
+  "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
   "id": "C2213E77-E6ED-4991-8C93-7B4FE39CF797",
-  "hasFocusDecoration": false,
-  "style": {
-    "fontStyle": "system",
-    "alignmentStyle": "left",
-    "textStyle": "body"
-  },
-  "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a"
+  "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA"
 }
