@@ -25,13 +25,11 @@ jobs:
 
       - name: Create posts
         working-directory: ${{env.RUST_DIR}}
-        run: |
-          RUST_BACKTRACE=1 cargo run --verbose $INPUT_DIR_FROM_RUST_DIR/$INPUT_JSON $POST_DIR_FROM_WORK_DIR
+        run: RUST_BACKTRACE=1 cargo run --verbose $INPUT_DIR_FROM_RUST_DIR/$INPUT_JSON $POST_DIR_FROM_RUST_DIR
 
       - name: Commit to blog page branch
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          branch: 'main'
           commit_message: 'published by CraBft🦀'
           file_pattern: _contents/*
           commit_user_name: CraBft🦀 # defaults to "GitHub Actions"
