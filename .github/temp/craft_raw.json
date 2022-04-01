@@ -4,6 +4,9 @@
     "alignmentStyle": "left",
     "textStyle": "body"
   },
+  "id": "C2213E77-E6ED-4991-8C93-7B4FE39CF797",
+  "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+  "indentationLevel": 0,
   "content": [
     {
       "isItalic": false,
@@ -13,6 +16,8 @@
       "isBold": false
     }
   ],
+  "color": "text",
+  "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
   "subblocks": [
     {
       "hasBlockDecoration": false,
@@ -15362,15 +15367,10 @@
       "content": []
     }
   ],
-  "indentationLevel": 0,
-  "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+  "hasFocusDecoration": false,
+  "hasBlockDecoration": false,
+  "type": "textBlock",
   "listStyle": {
     "type": "none"
-  },
-  "id": "C2213E77-E6ED-4991-8C93-7B4FE39CF797",
-  "type": "textBlock",
-  "color": "text",
-  "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-  "hasFocusDecoration": false,
-  "hasBlockDecoration": false
+  }
 }
