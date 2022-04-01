@@ -4,12 +4,23 @@ on:
     workflows: ['create-posts']
     types:
       - completed
+env:
+  BLOG_PAGE_BRANCH: main
 
 jobs:
   deploy:
     runs-on: ubuntu-18.04
     steps:
+      - name: Set blog page target branch
+        env:
+          USE_CUSTOM_BRANCH: ${{ secrets.USE_CUSTOM_BRANCH }}
+        if: ${{ env.USE_CUSTOM_BRANCH }}
+        run: |
+          echo "BLOG_PAGE_BRANCH=blog-pages" >> $GITHUB_ENV
+
       - uses: actions/checkout@v3
+        with:
+          ref: ${{ env.BLOG_PAGE_BRANCH }}
 
       - name: Setup node
         uses: actions/setup-node@v2
