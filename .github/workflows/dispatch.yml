@@ -1,17 +1,17 @@
 name: create-posts
 
 on:
-  workflow_dispatch:
-    inputs:
-      craftDocument:
-        description: 'Craft Document Data'
-        required: true
-        type: string
+  push:
+    branches:
+      - 'main'
+    paths:
+      - '.github/temp'
+
 env:
-  WORK_DIR: ./packages/rust-craft-data-process
-  POST_DIR_FROM_WORK_DIR: ../../_contents/posts
-  INPUT_JSON: input.json
-  BLOG_PAGE_BRANCH: main
+  RUST_DIR: ./packages/rust-craft-data-process
+  POST_DIR_FROM_RUST_DIR: ../../_contents/posts
+  INPUT_DIR_FROM_RUST_DIR: ../../.github/temp
+  INPUT_JSON: craft_raw.json
 
 jobs:
   create-posts:
@@ -20,35 +20,18 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Build rust-craft-data-process
-        working-directory: ${{ env.WORK_DIR }}
+        working-directory: ${{ env.RUST_DIR }}
         run: cargo build --verbose
 
-      - name: Create input file from dispatch input
-        working-directory: ${{env.WORK_DIR}}
-        run: echo "$CRAFT_DOCUMENT" > "$INPUT_JSON"
-        env:
-          CRAFT_DOCUMENT: ${{ github.event.inputs.craftDocument }}
-
-      - name: Check input file
-        working-directory: ${{env.WORK_DIR}}
-        run: cat $INPUT_JSON
-
       - name: Create posts
-        working-directory: ${{env.WORK_DIR}}
-        run: RUST_BACKTRACE=1 cargo run --verbose ./$INPUT_JSON $POST_DIR_FROM_WORK_DIR
-
-      - name: Set blog page target branch
-        env:
-          USE_CUSTOM_BRANCH: ${{ secrets.USE_CUSTOM_BRANCH }}
-        if: ${{ env.USE_CUSTOM_BRANCH }}
+        working-directory: ${{env.RUST_DIR}}
         run: |
-          echo "BLOG_PAGE_BRANCH=blog-pages" >> $GITHUB_ENV
+          RUST_BACKTRACE=1 cargo run --verbose $INPUT_DIR_FROM_RUST_DIR/$INPUT_JSON $POST_DIR_FROM_WORK_DIR
 
       - name: Commit to blog page branch
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          branch: ${{ env.BLOG_PAGE_BRANCH }}
-          create_branch: true
+          branch: 'main'
           commit_message: 'published by CraBft🦀'
           file_pattern: _contents/*
           commit_user_name: CraBft🦀 # defaults to "GitHub Actions"
