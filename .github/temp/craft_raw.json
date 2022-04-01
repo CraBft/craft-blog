@@ -1,73 +1,1143 @@
 {
-  "type": "textBlock",
   "content": [
     {
-      "text": "Craft X developer tools"
+      "isItalic": false,
+      "isStrikethrough": false,
+      "text": "3.30(수) 미팅",
+      "isCode": false,
+      "isBold": false
     }
   ],
-  "id": "yj1b4llfash",
-  "spaceId": "p3otp4zgels",
-  "documentId": "zgfsvfd04lc",
+  "type": "textBlock",
+  "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
   "indentationLevel": 0,
-  "listStyle": {
-    "type": "none"
-  },
-  "hasBlockDecoration": false,
-  "hasFocusDecoration": false,
-  "color": "text",
   "subblocks": [
     {
-      "type": "textBlock",
-      "content": [
-        {
-          "text": "These tools facilitate extension development by creating a mock Craft API."
-        }
-      ],
-      "id": "310otjtdwao",
-      "spaceId": "p3otp4zgels",
-      "documentId": "zgfsvfd04lc",
-      "indentationLevel": 0,
+      "hasBlockDecoration": false,
+      "id": "5AE0FEFB-A37E-4413-9E8F-F7976EE93ED9",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "subtitle"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
       "listStyle": {
         "type": "none"
       },
-      "hasBlockDecoration": false,
-      "hasFocusDecoration": false,
-      "color": "text",
       "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "개요 ",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "812F1458-5B91-4A6B-8C27-7B2560F05174",
       "style": {
-        "textStyle": "body",
         "fontStyle": "system",
-        "alignmentStyle": "left"
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "참여자 : kilee, jaeskim",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "68970B81-04A2-4510-9DD0-3ADE030FAD95",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "일시 : 3/30 오전 11시",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "91C1C443-F0C3-4E5B-994A-8B2F1183F6B2",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "장소 : 개포동 클러스터 4층 오아시스",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "66894BDF-2462-4EB5-BEC0-ACD39B199C1B",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "주제 : 각자 파트 코드리뷰 및 코드 병합 계획",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "9F047FD6-F9DA-4CEC-87A0-AA6957551FE2",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "subtitle"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "안건 ",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "1195F7BF-9302-4931-941B-264C42922399",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "numbered"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "오가니제이션 명 정하기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "0C1E0F81-2436-4EBF-A3A5-58ED1E72B4E0",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "numbered"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "레포지토리 구조 정하기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "1D5276D2-E4BA-4028-9AE3-812D17371F88",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "subtitle"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "내용",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "7B6D1CDE-C346-4ABD-B0FE-EE0889869437",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "안건1. 오가니제이션 명 정하기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "B2DED0B9-F1C3-4632-96C9-629AFEB2CCB1",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "결정 : ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "CraBft",
+          "isCode": false,
+          "highlightColor": "lime",
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A7978790-FF7C-4977-B506-3D4B78DF1DDD",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "이유 : Craft + Blog, Craft + Rust(Crab), Craft + FortyTwo",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "219DD23C-7C25-4BBF-8B86-50620F8DC031",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "솔직히 일단 지엇고 해몽했다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "F1869683-5459-4321-97B0-E362EAB3232C",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "047B75F7-70CE-468B-838D-CC360F0E7834",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "안건2. 레포지토리 구조 정하기 ",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "F03E8CDF-8C16-4143-A551-FD38D2108ED1",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "레포지토리 명은 : ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "craft-blog",
+          "isCode": false,
+          "highlightColor": "green",
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "26B0C0FC-BBFC-41C8-B3A8-2F8DE6B8FFEC",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "프로젝트 구조는 : ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "MONO-REPO",
+          "isCode": false,
+          "highlightColor": "yellow",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "  이며 아래 이미지와 같다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "E7DEE4FB-292B-4784-9983-17C15ECE5052",
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "filename": "Frame 2.png",
+      "url": "https://res.craft.do/user/full/9b73b1e8-42ea-cb9a-4429-738126302e2a/doc/E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E/E7DEE4FB-292B-4784-9983-17C15ECE5052_2/qbqABoER2xkkufEyzXIUwYJNpg7iMb4YyxrlxqHmchYz/Frame%202.png",
+      "type": "imageBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "previewImageStyle": {
+        "fillStyle": "fit",
+        "sizeStyle": "auto"
       }
     },
     {
-      "type": "textBlock",
-      "content": [
-        {
-          "text": "By reducing the feedback cycle developers can iterate with great velocity."
-        }
-      ],
-      "id": "bjhg9jgbpx9",
-      "spaceId": "p3otp4zgels",
-      "documentId": "zgfsvfd04lc",
-      "indentationLevel": 0,
+      "hasBlockDecoration": false,
+      "id": "CDAD94B1-0A34-4DDB-B72F-10E452FDB74D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
       "listStyle": {
         "type": "none"
       },
-      "hasBlockDecoration": false,
-      "hasFocusDecoration": false,
-      "color": "text",
       "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Craft-Blog repo 브랜치 설정",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "453E5D0D-7AE8-49A9-A1CB-EF4BC95D6EC3",
       "style": {
-        "textStyle": "body",
         "fontStyle": "system",
-        "alignmentStyle": "left"
-      }
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "main",
+          "isCode": true,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": " 브랜치에는 ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "packages/",
+          "isCode": true,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "  내에 있는 프로젝트 모듈의 소스코드가 존재한다.  ",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "577A7A4A-0E5C-43CF-9FE6-4261AE069A5D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "nextjs-craft-blog-kit",
+          "isCode": false,
+          "highlightColor": "yellow",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "  : ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "rust-craft-data-process",
+          "isCode": false,
+          "highlightColor": "cyan",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": " 에서 전처리하여 제공하는 데이터를 활용하여 정적 사이트를 빌드한다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "E9F8B5AE-9EAA-4FA2-A688-844FD9DB5695",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "rust-craft-data-process",
+          "isCode": false,
+          "highlightColor": "cyan",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": " : ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "craft-x-data-publish",
+          "isCode": false,
+          "highlightColor": "pink",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "  를 통해 craft document data 가 도착하면, ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "github actions",
+          "isCode": true,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": " 위에서 동작하여, 정적 사이트 빌드에 필요한 데이터로 가공한다. ",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "AE4CF3CA-BC68-43F5-9387-C4D65DBA3142",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "craft-x-data-publish",
+          "isCode": false,
+          "highlightColor": "pink",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": " : Craft 의 확장프로그램으로, 레포지토리로 craft document data를 전송한다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A2BDDA98-A17D-4BC1-AAAC-52EB9BA355FD",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "gh-pages",
+          "isCode": true,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "  : github pages 를 위한 최종 정적페이지 데이터만 존재하는 브랜치",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "8C522A32-5CFF-4861-A52D-CBAA6E6135F6",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "전처리 파일 저장 브랜치",
+          "isCode": true,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": " : rust-craft-data-process 로 전처리된 json 파일 저장되는 브랜치",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "2E8EC107-DDF7-42C2-BE44-7238497DC977",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "*환경변수를 통해 개발 레포지토리에서는 ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "blog-data",
+          "isCode": true,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "  브랜치로 커밋되도록 설정 default는 ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "main",
+          "isCode": true,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": " ",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "9218837F-2FCB-4852-90F6-4C2978097953",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "즉, 사용자들이 fork 떠서 바로 사용할 때, 전처리된 데이터는 기본적으로 ",
+          "isCode": false,
+          "highlightColor": "beachGradient",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "main",
+          "isCode": true,
+          "highlightColor": "beachGradient",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "  브랜치에 저장된다. 이 후 최종 정적페이지 데이터는 ",
+          "isCode": false,
+          "highlightColor": "beachGradient",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "gh-pages",
+          "isCode": true,
+          "highlightColor": "beachGradient",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "  에 저장되고, 깃헙 페이지를 통해 배포된다. ",
+          "isCode": false,
+          "highlightColor": "beachGradient",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "\n",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "195C3844-95FE-4451-91DC-1585A79819C8",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "subtitle"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Action Items",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A4C512C8-6C70-4BF4-A089-429C52E8CA28",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "todo",
+        "state": "checked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "오가니제이션 생성 ",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "D4C2A211-91EE-43E0-94F3-E448FD882313",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "todo",
+        "state": "checked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "레포지토리 생성",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A9BF87FD-D407-4240-A27B-82D410E12674",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "각 모듈 initail commit",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "E3B7406A-C887-42E2-B005-B179CE36DA5C",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "커밋 컨벤션 + lint 적용",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "BC90678C-9361-4EBA-AD2A-C09B940F6E7D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "E68ED7BD-CF1C-4C8C-94DE-D754060DBF6E",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "브랜치 전략 정하기 문서",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
     }
   ],
+  "color": "text",
+  "hasFocusDecoration": false,
+  "id": "5A60BD85-FA6D-444E-A08C-0B9703D75691",
+  "listStyle": {
+    "type": "none"
+  },
   "style": {
-    "textStyle": "body",
     "fontStyle": "system",
-    "alignmentStyle": "left"
-  }
+    "alignmentStyle": "left",
+    "textStyle": "page"
+  },
+  "hasBlockDecoration": false,
+  "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a"
 }
