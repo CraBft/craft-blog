@@ -8,6 +8,7 @@
   "scripts": {
     "lint": "eslint .",
     "blog:dev": "yarn workspace nextjs-craft-blog-kit run dev",
+    "blog:start": "yarn workspace nextjs-craft-blog-kit run start",
     "blog:build": "yarn workspace nextjs-craft-blog-kit run build",
     "blog:export": "yarn workspace nextjs-craft-blog-kit run export"
   },
@@ -19,7 +20,7 @@
     "@types/react-dom": "^17.0.14",
     "@types/styled-components": "^5.1.24",
     "eslint": "^8.12.0",
-    "eslint-config-next": "^12.1.2",
+    "eslint-config-next": "^12.1.4",
     "eslint-config-prettier": "^8.5.0",
     "prettier": "^2.6.1",
     "react": "^18.0.0",

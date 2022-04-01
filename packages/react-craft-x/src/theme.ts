@@ -1,7 +1,9 @@
 import {
   Color,
+  CraftBlock,
   CraftCardBackgroundColorKey,
   CraftTableCellFillColor,
+  CraftTextBlock,
   FontStyle,
   TextHighlightColor,
 } from '@craftdocs/craft-extension-api'
@@ -15,7 +17,6 @@ type screen = {
 export type colors = {
   color: Record<Color, string>
   background: Record<Color, string>
-  fontStyle: Record<FontStyle, ReturnType<typeof css>>
   text: {
     highlightColor: Record<TextHighlightColor, string>
     anchoredHighlightColor: Record<
@@ -33,6 +34,16 @@ export type colors = {
   table: {
     fillColor: Record<CraftTableCellFillColor, string>
   }
+  todo: {
+    rounded: {
+      checked: string
+      unChecked: string
+    }
+    squre: {
+      checked: string
+      unChecked: string
+    }
+  }
 }
 
 export type common = {
@@ -43,6 +54,7 @@ export type common = {
 export type theme = {
   common: common
   screen: screen
+  fontStyle: Record<FontStyle, ReturnType<typeof css>>
   light: colors
 }
 
@@ -52,8 +64,22 @@ export const theme: theme = {
     marginX: '10px',
   },
   screen: {
-    maxWidth: '780px',
+    maxWidth: '720px',
     paddingX: '20px',
+  },
+  fontStyle: {
+    system: css`
+      font-family: Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+    `,
+    'system-serif': css`
+      font-family: 'Noto Serif', serif;
+    `,
+    'system-mono': css`
+      font-family: 'Roboto Mono', monospace;
+    `,
+    'system-rounded': css`
+      font-family: 'Varela Round', sans-serif;
+    `,
   },
   light: {
     background: {
@@ -159,20 +185,6 @@ export const theme: theme = {
       yellow2: '#e38405',
       yellow3: '#e39905',
       yellow4: '#deaa05',
-    },
-    fontStyle: {
-      system: css`
-        font-family: Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
-      `,
-      'system-serif': css`
-        font-family: 'Noto Serif', serif;
-      `,
-      'system-mono': css`
-        font-family: 'Roboto Mono', monospace;
-      `,
-      'system-rounded': css`
-        font-family: 'Varela Round', sans-serif;
-      `,
     },
     table: {
       fillColor: {
@@ -288,5 +300,95 @@ export const theme: theme = {
         },
       },
     },
+    todo: {
+      rounded: {
+        checked: '#14446f',
+        unChecked: '#7f7f7f',
+      },
+      squre: {
+        checked: '#0087ff',
+        unChecked: '#7f7f7f',
+      },
+    },
+  },
+}
+
+export const baseStyle = {
+  font: {
+    title: css`
+      font-size: 30px;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 24px;
+      }
+
+      font-weight: 700;
+      line-height: 1.2;
+      white-space: pre-wrap;
+      word-break: break-word;
+
+      padding-top: 4px;
+      padding-bottom: 4px;
+      transition: all 0.3s ease 0s;
+    `,
+    subtitle: css`
+      font-size: 24px;
+
+      @media only screen and (max-width: 768px) {
+        font-size: 21px;
+      }
+
+      font-weight: 700;
+      line-height: 1.2;
+      white-space: pre-wrap;
+      word-break: break-word;
+
+      padding-top: 4px;
+      padding-bottom: 4px;
+    `,
+    heading: css`
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.2;
+      white-space: pre-wrap;
+      word-break: break-word;
+
+      padding-top: 4px;
+      padding-bottom: 4px;
+    `,
+    strong: css`
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 1.2;
+      white-space: pre-wrap;
+      word-break: break-word;
+
+      padding-top: 4px;
+      padding-bottom: 4px;
+    `,
+    body: css`
+      font-size: 17px;
+      font-weight: 400;
+      font-style: normal;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-break: break-word;
+
+      padding-top: 1px;
+      padding-bottom: 1px;
+    `,
+    caption: css`
+      font-size: 15px;
+      font-weight: 300;
+      font-style: normal;
+      line-height: 1.6;
+      white-space: pre-wrap;
+      word-break: break-word;
+
+      padding-top: 1.1px;
+      padding-bottom: 1.1px;
+    `,
+    card: css``,
+    page: css``,
   },
 }
