@@ -1,0 +1,68 @@
+{
+  "id": "6130FC15-9C0C-45BC-BFAC-7C437B502D24",
+  "parentId": "EA135769-DEFB-49A5-9A89-1E2657764183",
+  "rootBlock": {
+    "color": "text",
+    "content": [
+      {
+        "isBold": false,
+        "isCode": false,
+        "isItalic": false,
+        "isStrikethrough": false,
+        "text": "dark-gray"
+      }
+    ],
+    "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+    "hasBlockDecoration": false,
+    "hasFocusDecoration": false,
+    "id": "6130FC15-9C0C-45BC-BFAC-7C437B502D24",
+    "indentationLevel": 0,
+    "listStyle": {
+      "type": "none"
+    },
+    "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+    "style": {
+      "alignmentStyle": "left",
+      "cardStyle": {
+        "backgroundColor": "#637785",
+        "backgroundColorKey": "dark-gray",
+        "fontStyle": "serif",
+        "isLightColor": false,
+        "type": "square"
+      },
+      "fontStyle": "system",
+      "textStyle": "card"
+    },
+    "subblocks": [
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "linear-gradient(rgb(99, 119, 133), rgb(63, 84, 111));"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "E249436A-E45E-48FE-BA2A-A9D5CC2B54E1",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "numbered"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      }
+    ],
+    "type": "textBlock"
+  }
+}

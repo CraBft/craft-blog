@@ -1,0 +1,60 @@
+{
+  "id": "F7D1FA64-64D7-4349-9E68-0422969B08CC",
+  "parentId": "AC8B3E25-08BC-4DAC-B3FA-61F27A4B31EE",
+  "rootBlock": {
+    "color": "text",
+    "content": [
+      {
+        "isBold": false,
+        "isCode": false,
+        "isItalic": false,
+        "isStrikethrough": false,
+        "text": "8"
+      }
+    ],
+    "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+    "hasBlockDecoration": false,
+    "hasFocusDecoration": false,
+    "id": "F7D1FA64-64D7-4349-9E68-0422969B08CC",
+    "indentationLevel": 0,
+    "listStyle": {
+      "type": "none"
+    },
+    "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+    "style": {
+      "alignmentStyle": "left",
+      "cardStyle": {
+        "backgroundColor": "#6c4e36",
+        "backgroundUrl": "local:plugin.bg.nature.4",
+        "fontStyle": "regular",
+        "isLightColor": false,
+        "type": "small"
+      },
+      "fontStyle": "system",
+      "textStyle": "card"
+    },
+    "subblocks": [
+      {
+        "color": "text",
+        "content": [],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "81E2593A-CB95-4FDB-90B5-A350531D96C7",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      }
+    ],
+    "type": "textBlock"
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "id": "E7302D39-9091-4499-9E5B-7DA673A5B784",
+  "parentId": "C2213E77-E6ED-4991-8C93-7B4FE39CF797",
+  "rootBlock": {
+    "color": "text",
+    "content": [
+      {
+        "isBold": false,
+        "isCode": false,
+        "isItalic": false,
+        "isStrikethrough": false,
+        "text": "Base"
+      }
+    ],
+    "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+    "hasBlockDecoration": false,
+    "hasFocusDecoration": false,
+    "id": "E7302D39-9091-4499-9E5B-7DA673A5B784",
+    "indentationLevel": 0,
+    "listStyle": {
+      "type": "none"
+    },
+    "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+    "style": {
+      "alignmentStyle": "left",
+      "cardStyle": {
+        "backgroundColor": "#257449",
+        "backgroundUrl": "local:plugin.bg.nature.3",
+        "fontStyle": "rounded",
+        "isLightColor": false,
+        "type": "large"
+      },
+      "fontStyle": "system",
+      "textStyle": "card"
+    },
+    "subblocks": [
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "Page"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "3BEE05D3-FFBA-4B82-A248-847C6243B9A8",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "title"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "스크린 사이즈는 "
+          },
+          {
+            "isBold": false,
+            "isCode": true,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "max-width: 800px"
+          },
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": " "
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "D67B7DAA-0100-4434-A029-DCAFC1A0B100",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "code": "@media screen and (max-height: 700px) { \n\tmargin-bottom: 80px ;\n}\n@media screen and (min-height: 701px) { \n\tmargin-bottom: 11.4vh\n}",
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "E5CEB92C-8C12-47B7-B227-DBD431B20279",
+        "indentationLevel": 0,
+        "language": "css",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "codeBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "화면 높이가 "
+          },
+          {
+            "isBold": false,
+            "isCode": true,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "700px"
+          },
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": " 를 충족하지 못하는 경우 "
+          },
+          {
+            "isBold": false,
+            "isCode": true,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "margin-bottom"
+          },
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "를  "
+          },
+          {
+            "isBold": false,
+            "isCode": true,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "80px"
+          },
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": " 적용 만약 아니라면 "
+          },
+          {
+            "isBold": false,
+            "isCode": true,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "11.4vh"
+          },
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": " "
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "E3D00269-CE01-4189-BDF4-87A7FDF7C753",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "caption"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "code": "@media (min-width: 601px){\n\tmargin-left: 40px;\n\tmargin-right: 40px;\n}\n\n@media (min-width: 401px) and (max-width: 600px) {\n\tmargin-left: calc(20px + (100vw - 400px) / 10);\n\tmargin-right: calc(20px + (100vw - 400px) / 10);\n}\n\n@media (max-width: 400px) {\n\tmargin-left: 20px;\n\tmargin-right: 20px;\n}",
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "B4D0F140-33B3-4803-AAFF-A10B0975241B",
+        "indentationLevel": 0,
+        "language": "css",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "codeBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "화면 margin 설정"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "C556018D-3768-4755-B8C7-7C034D2BACC3",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "caption"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "Card와 Code의 경우 아래의 margin를 제거하여 좀더 넓은 화면을 제공"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "4E32EADB-5B18-455F-94F1-34D2CE4FB0F5",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "code": "margin-left: -10px;\nmargin-right: -10px;",
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "92E1B407-6241-4874-982D-C2199316E4F7",
+        "indentationLevel": 0,
+        "language": "css",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "codeBlock"
+      },
+      {
+        "color": "text",
+        "content": [],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "1BE8464C-0CA5-416B-AAA7-7FC4DDA81F4C",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      }
+    ],
+    "type": "textBlock"
+  }
+}

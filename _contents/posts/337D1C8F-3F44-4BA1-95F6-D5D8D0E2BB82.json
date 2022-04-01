@@ -1,0 +1,477 @@
+{
+  "id": "337D1C8F-3F44-4BA1-95F6-D5D8D0E2BB82",
+  "parentId": "C2213E77-E6ED-4991-8C93-7B4FE39CF797",
+  "rootBlock": {
+    "color": "text",
+    "content": [
+      {
+        "highlightColor": "nightSkyGradient",
+        "isBold": false,
+        "isCode": false,
+        "isItalic": false,
+        "isStrikethrough": false,
+        "text": "CraftHorizontalLineBlock"
+      }
+    ],
+    "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+    "hasBlockDecoration": false,
+    "hasFocusDecoration": false,
+    "id": "337D1C8F-3F44-4BA1-95F6-D5D8D0E2BB82",
+    "indentationLevel": 0,
+    "listStyle": {
+      "type": "none"
+    },
+    "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+    "style": {
+      "alignmentStyle": "left",
+      "cardStyle": {
+        "backgroundColor": "#038ED2",
+        "backgroundColorKey": "cyan_vivid",
+        "fontStyle": "regular",
+        "isLightColor": false,
+        "type": "small"
+      },
+      "fontStyle": "system",
+      "textStyle": "card"
+    },
+    "subblocks": [
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "70734740-79AD-42C1-8999-0FEACB6EEE85",
+        "indentationLevel": 0,
+        "lineStyle": "extraLight",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "F9652CD6-BB0F-4BDC-B49D-9EE5CEF13674",
+        "indentationLevel": 0,
+        "lineStyle": "light",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "6467CA3A-A8C9-481C-9E90-59530F555BFE",
+        "indentationLevel": 0,
+        "lineStyle": "regular",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "8CC8455F-E7D3-4A16-87E5-4563E12BB6F1",
+        "indentationLevel": 0,
+        "lineStyle": "strong",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "text",
+        "content": [],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "DF9A5F08-FCB2-4E0B-B37C-DFF0BCA911B7",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": false,
+        "id": "5905F2EA-DF77-433F-A9FB-430E7C37B319",
+        "indentationLevel": 0,
+        "lineStyle": "extraLight",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": false,
+        "id": "FD19BAF0-7BFB-49F3-BFE3-88C4FB18158E",
+        "indentationLevel": 0,
+        "lineStyle": "light",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": false,
+        "id": "6FBAF721-BD1F-4A6C-938E-0B0B23010334",
+        "indentationLevel": 0,
+        "lineStyle": "regular",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": false,
+        "id": "16B177A5-1917-4659-9B32-BC94A3120921",
+        "indentationLevel": 0,
+        "lineStyle": "strong",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "text",
+        "content": [],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "BE7A1153-458D-42F4-863A-B8BDC987E7A7",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "2452E4AA-2015-4629-9DE7-AAE9188271AE",
+        "indentationLevel": 0,
+        "lineStyle": "extraLight",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "F522B988-8E0C-41F7-B51A-7723AFB298AA",
+        "indentationLevel": 0,
+        "lineStyle": "light",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "C6B95FF9-1206-4F18-B74E-4D12F0237A7E",
+        "indentationLevel": 0,
+        "lineStyle": "regular",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "grey2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "6ED0C5DF-3298-4AF7-917B-29EC9D6B0A49",
+        "indentationLevel": 0,
+        "lineStyle": "strong",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "text",
+        "content": [],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "610122BE-9E6B-42AC-A375-79ABB4A4FFC6",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "CB2172A2-5E5B-417D-9859-8F0DA8283AF4",
+        "indentationLevel": 0,
+        "lineStyle": "extraLight",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "87F27F9D-2A62-4B82-BAD7-615E18826642",
+        "indentationLevel": 0,
+        "lineStyle": "light",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "3BE9937F-7D30-48CC-99D0-3F36DECBF763",
+        "indentationLevel": 0,
+        "lineStyle": "regular",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "7B949C8C-FCC3-4EEE-91B5-4E10BA9B34B1",
+        "indentationLevel": 0,
+        "lineStyle": "strong",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "cyan2",
+        "content": [],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "26C2E744-5C8E-429F-AC38-220F71EB76A3",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": false,
+        "id": "C4595436-04B4-4D25-87A9-4B7944A67B76",
+        "indentationLevel": 0,
+        "lineStyle": "extraLight",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": false,
+        "id": "7186BFC3-F45A-41C1-81AE-646C05980B4B",
+        "indentationLevel": 0,
+        "lineStyle": "light",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": false,
+        "id": "9752286F-A4E3-42C5-9CFC-DB494CF4342B",
+        "indentationLevel": 0,
+        "lineStyle": "regular",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": false,
+        "id": "56893B56-7234-4E51-907F-F3C19DD7EDC8",
+        "indentationLevel": 0,
+        "lineStyle": "strong",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "cyan2",
+        "content": [],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "1DA16C94-5693-42F8-9B3D-EDE607B6F572",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "932912CC-8314-48FF-884D-5BB6060C03C2",
+        "indentationLevel": 0,
+        "lineStyle": "extraLight",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "371D5CF8-A48C-4C19-AAFC-B6AAD61B7FF0",
+        "indentationLevel": 0,
+        "lineStyle": "light",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "2170869E-3BC8-4A62-9BEA-2C028C863EC1",
+        "indentationLevel": 0,
+        "lineStyle": "regular",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "cyan2",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "2EF3159D-CCF2-49E6-AD4A-DAAA0E1CFB06",
+        "indentationLevel": 0,
+        "lineStyle": "strong",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      }
+    ],
+    "type": "textBlock"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "id": "2B26F13C-204D-45CA-AF23-B4193FC7E38F",
+  "parentId": "C2213E77-E6ED-4991-8C93-7B4FE39CF797",
+  "rootBlock": {
+    "color": "text",
+    "content": [
+      {
+        "highlightColor": "sunsetGradient",
+        "isBold": false,
+        "isCode": false,
+        "isItalic": false,
+        "isStrikethrough": false,
+        "text": "CraftCodeBlock"
+      }
+    ],
+    "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+    "hasBlockDecoration": false,
+    "hasFocusDecoration": false,
+    "id": "2B26F13C-204D-45CA-AF23-B4193FC7E38F",
+    "indentationLevel": 0,
+    "listStyle": {
+      "type": "none"
+    },
+    "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+    "style": {
+      "alignmentStyle": "left",
+      "cardStyle": {
+        "backgroundColor": "#038ED2",
+        "backgroundColorKey": "cyan_vivid",
+        "fontStyle": "regular",
+        "isLightColor": false,
+        "type": "small"
+      },
+      "fontStyle": "system",
+      "textStyle": "card"
+    },
+    "subblocks": [
+      {
+        "code": "export interface CraftCodeBlock extends CraftBaseBlock {\n  type: \"codeBlock\";\n  code: string;\n  language: CodeLanguage;\n}",
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "744544A5-9A18-4AA6-9EE2-776824FA918B",
+        "indentationLevel": 0,
+        "language": "typescript",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "codeBlock"
+      },
+      {
+        "code": "export interface CraftCodeBlock extends CraftBaseBlock {\n  type: \"codeBlock\";\n  code: string;\n  language: CodeLanguage;\n}",
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": true,
+        "id": "C1086D09-DC60-4006-A994-B49D70FAD512",
+        "indentationLevel": 0,
+        "language": "typescript",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "codeBlock"
+      },
+      {
+        "code": "export interface CraftCodeBlock extends CraftBaseBlock {\n  type: \"codeBlock\";\n  code: string;\n  language: CodeLanguage;\n}",
+        "color": "yellow4",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": true,
+        "id": "0B886E1E-7796-4D0A-B87F-DC55E004783E",
+        "indentationLevel": 0,
+        "language": "typescript",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "codeBlock"
+      },
+      {
+        "color": "text",
+        "content": [],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "9ADA0DB8-EBAC-47B8-8730-1BFF84A20909",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "code": "\\sum_{k=1}^N k^2\t",
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "0FC3096D-CF53-4050-BB75-9543855CF6E1",
+        "indentationLevel": 0,
+        "language": "math_formula",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "codeBlock"
+      }
+    ],
+    "type": "textBlock"
+  }
+}

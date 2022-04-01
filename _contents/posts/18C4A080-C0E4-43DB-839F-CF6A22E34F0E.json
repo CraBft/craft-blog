@@ -1,0 +1,301 @@
+{
+  "id": "18C4A080-C0E4-43DB-839F-CF6A22E34F0E",
+  "parentId": "C2213E77-E6ED-4991-8C93-7B4FE39CF797",
+  "rootBlock": {
+    "color": "text",
+    "content": [
+      {
+        "highlightColor": "sunsetGradient",
+        "isBold": false,
+        "isCode": false,
+        "isItalic": false,
+        "isStrikethrough": false,
+        "text": "CraftUrlBlock"
+      }
+    ],
+    "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+    "hasBlockDecoration": false,
+    "hasFocusDecoration": false,
+    "id": "18C4A080-C0E4-43DB-839F-CF6A22E34F0E",
+    "indentationLevel": 0,
+    "listStyle": {
+      "type": "none"
+    },
+    "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+    "style": {
+      "alignmentStyle": "left",
+      "cardStyle": {
+        "backgroundColor": "#038ED2",
+        "backgroundColorKey": "cyan_vivid",
+        "fontStyle": "regular",
+        "isLightColor": false,
+        "type": "small"
+      },
+      "fontStyle": "system",
+      "textStyle": "card"
+    },
+    "subblocks": [
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "LayoutStyle"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "4BA95E36-2968-435F-86AB-BC307642239F",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "title"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "4C286FC6-4B8D-414A-B639-B4F3D4EF6153",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FbDnZb2Co0NsBLcTp1L0A%2Ficon%2Fi6vbULhRxbafktdkIg5Y%2FCraft%20iOS4.png?alt=media&token=ddca4678-f83b-463e-987b-5560bc501e17",
+        "indentationLevel": 0,
+        "layoutStyle": "small",
+        "listStyle": {
+          "type": "none"
+        },
+        "pageDescription": "\"\" id=\"",
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "title": "URL - Craft X Documentation",
+        "type": "urlBlock",
+        "url": "https://documentation.developer.craft.do/extensions/data-model/block/url"
+      },
+      {
+        "color": "text4",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "small"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "359E0F99-33CD-4955-A9D3-7245D9DA491D",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "7A134CA9-EB18-4D1C-ABCB-5987308D9B72",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FbDnZb2Co0NsBLcTp1L0A%2Ficon%2Fi6vbULhRxbafktdkIg5Y%2FCraft%20iOS4.png?alt=media&token=ddca4678-f83b-463e-987b-5560bc501e17",
+        "indentationLevel": 0,
+        "layoutStyle": "regular",
+        "listStyle": {
+          "type": "none"
+        },
+        "pageDescription": "\"\" id=\"",
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "title": "URL - Craft X Documentation",
+        "type": "urlBlock",
+        "url": "https://documentation.developer.craft.do/extensions/data-model/block/url"
+      },
+      {
+        "color": "text4",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "regular"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "EBE53A0B-6F88-4EB2-A777-A1D7A6655CB1",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "414410EA-6658-458D-A447-B8F6A39F65CE",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FbDnZb2Co0NsBLcTp1L0A%2Ficon%2Fi6vbULhRxbafktdkIg5Y%2FCraft%20iOS4.png?alt=media&token=ddca4678-f83b-463e-987b-5560bc501e17",
+        "indentationLevel": 0,
+        "layoutStyle": "card",
+        "listStyle": {
+          "type": "none"
+        },
+        "pageDescription": "\"\" id=\"",
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "title": "URL - Craft X Documentation",
+        "type": "urlBlock",
+        "url": "https://documentation.developer.craft.do/extensions/data-model/block/url"
+      },
+      {
+        "color": "text4",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "card"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "A4990E68-AA47-45F4-B1F8-CF98A039FD67",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "4BD1E0AE-DAFA-424A-9C21-8151C91218A9",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": true,
+        "id": "FE551334-0FC0-4289-BD27-CDFDAEFB8C38",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FbDnZb2Co0NsBLcTp1L0A%2Ficon%2Fi6vbULhRxbafktdkIg5Y%2FCraft%20iOS4.png?alt=media&token=ddca4678-f83b-463e-987b-5560bc501e17",
+        "indentationLevel": 0,
+        "layoutStyle": "small",
+        "listStyle": {
+          "type": "none"
+        },
+        "pageDescription": "\"\" id=\"",
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "title": "URL - Craft X Documentation",
+        "type": "urlBlock",
+        "url": "https://documentation.developer.craft.do/extensions/data-model/block/url"
+      },
+      {
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": true,
+        "id": "ECF1AFDC-1938-410A-9BAB-2F4E69198008",
+        "imageUrl": "https://827995558-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FbDnZb2Co0NsBLcTp1L0A%2Ficon%2Fi6vbULhRxbafktdkIg5Y%2FCraft%20iOS4.png?alt=media&token=ddca4678-f83b-463e-987b-5560bc501e17",
+        "indentationLevel": 0,
+        "layoutStyle": "regular",
+        "listStyle": {
+          "type": "none"
+        },
+        "pageDescription": "\"\" id=\"",
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "title": "URL - Craft X Documentation",
+        "type": "urlBlock",
+        "url": "https://documentation.developer.craft.do/extensions/data-model/block/url"
+      },
+      {
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": true,
+        "hasFocusDecoration": true,
+        "id": "C646FFC1-B10B-4821-9487-F61DFEA7CF20",
+        "imageUrl": "https://firebasestorage.googleapis.com/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FbDnZb2Co0NsBLcTp1L0A%2Ficon%2Fi6vbULhRxbafktdkIg5Y%2FCraft%20iOS4.png?alt=media&token=ddca4678-f83b-463e-987b-5560bc501e17",
+        "indentationLevel": 0,
+        "layoutStyle": "card",
+        "listStyle": {
+          "type": "none"
+        },
+        "pageDescription": "\"\" id=\"",
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "title": "URL - Craft X Documentation",
+        "type": "urlBlock",
+        "url": "https://documentation.developer.craft.do/extensions/data-model/block/url"
+      },
+      {
+        "color": "text",
+        "content": [],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "D9B77533-6119-4C07-960D-97BD51D1593D",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      }
+    ],
+    "type": "textBlock"
+  }
+}

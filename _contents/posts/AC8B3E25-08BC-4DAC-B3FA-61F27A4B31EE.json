@@ -1,0 +1,2960 @@
+{
+  "id": "AC8B3E25-08BC-4DAC-B3FA-61F27A4B31EE",
+  "parentId": "DF7D2F92-C28A-4953-A30C-326277DB93B2",
+  "rootBlock": {
+    "color": "text",
+    "content": [
+      {
+        "isBold": false,
+        "isCode": false,
+        "isItalic": false,
+        "isStrikethrough": false,
+        "text": "cardStyle"
+      }
+    ],
+    "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+    "hasBlockDecoration": false,
+    "hasFocusDecoration": false,
+    "id": "AC8B3E25-08BC-4DAC-B3FA-61F27A4B31EE",
+    "indentationLevel": 0,
+    "listStyle": {
+      "type": "none"
+    },
+    "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+    "style": {
+      "alignmentStyle": "left",
+      "cardStyle": {
+        "backgroundColor": "#FFFFFF #303436",
+        "backgroundColorKey": "white",
+        "isLightColor": true,
+        "type": "wide"
+      },
+      "fontStyle": "system",
+      "textStyle": "card"
+    },
+    "subblocks": [
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "type"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "0A0323D7-3EB2-430B-8E02-E1C6EB5E6F6E",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "title"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "subtle"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "0B394D81-7522-4A1F-8F96-61AC53BB950A",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#FFFFFF #303436",
+            "backgroundColorKey": "white",
+            "fontStyle": "regular",
+            "isLightColor": true,
+            "type": "subtle"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Title"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "74632A62-5E38-4BAF-BDBA-F5D004887F1C",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "title"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Subtitle"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "664B96F1-B296-419E-9509-3FEB91C5C1EF",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "subtitle"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Heading"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "B192F161-63B3-47E6-9D0A-04751795F74A",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "heading"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Strong"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "A86FE87B-3366-4D36-94DD-878795D11C27",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "strong"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Body"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "48FAB7A0-11C6-41E7-AC0A-9FF56C2205AE",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "body"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Caption"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "C6BF761D-C31A-475A-AE2F-E29714865FB3",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "caption"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          }
+        ],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "small"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "8187F8D3-5538-4808-91DA-A23099B4FEDD",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#FFFFFF #303436",
+            "backgroundColorKey": "white",
+            "isLightColor": true,
+            "type": "small"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Title"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "29F1DD06-25FB-4378-B1B3-37FF95FD903C",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "title"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Subtitle"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "55AA49D6-B399-4DB9-B540-434F47F5AAB0",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "subtitle"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Heading"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "6943AB3E-5BD0-4AFF-BC06-2F6A34417D28",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "heading"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Strong"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "31794424-5C4B-4B91-8119-D1D415273486",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "strong"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Body"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "5CE7DD32-BE66-4B2F-B31C-F255B0E27B93",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "body"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Caption"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "D87465EC-4C96-4A43-88DE-C31948F7B2DB",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "caption"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          }
+        ],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "square"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "CBF91481-07DF-4B08-90FA-A8E7B007C3AB",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#FFFFFF #303436",
+            "backgroundColorKey": "white",
+            "isLightColor": true,
+            "type": "square"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Title"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "CEF603F3-0893-44C7-869A-41320A68995B",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "title"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Subtitle"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "1C01764B-DE18-4F46-A4E7-658E998FA8F9",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "subtitle"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Heading"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "C270B346-05CB-44BE-9D4D-9F16A79E6C82",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "heading"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Strong"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "CDA3CDF7-1CFF-4D4C-8CF7-F41D899DF1AE",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "strong"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Body"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "318C0AFE-B17D-4709-96F9-AED1362376CB",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "body"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Caption"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "81E6FCDA-E9B3-4012-B93A-637AE04C294C",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "caption"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          }
+        ],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "wide"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "1B341CAC-2254-46F1-AC4F-0FAAA69CE4D4",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#FFFFFF #303436",
+            "backgroundColorKey": "white",
+            "isLightColor": true,
+            "type": "wide"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Title"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "91BE11D2-92EE-4B8C-9A44-7E66B54B27C1",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "title"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Subtitle"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "A7DAF4EC-268B-4EEA-8E47-CC7B7643F451",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "subtitle"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Heading"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "F5FE40C6-FBB0-460A-9353-E5F9738E922B",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "heading"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Strong"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "9753208C-F1A2-4FDB-85BC-CB2B0E367C7A",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "strong"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Body"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "01550C64-74B7-41D3-B2C8-F79584E2FECA",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "body"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Caption"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "EC31097E-0081-41D3-A9AC-0D549BDA7124",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "caption"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          }
+        ],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "Large"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "6A663AAA-B92A-4053-AA2B-2619C8B0A247",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#FFFFFF #303436",
+            "backgroundColorKey": "white",
+            "isLightColor": true,
+            "type": "large"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Title"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "17C75F35-7279-433B-BFE3-4EACAA91090C",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "title"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Subtitle"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "B21DAA36-BBE9-4EE6-93A9-6DD327B97BB8",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "subtitle"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Heading"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "1DE4C721-7A5C-4145-A71F-8D57C2DD2A4D",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "heading"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Strong"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "E56414CE-55BC-4A59-994A-20956CA52531",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "strong"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Body"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "14A2AA7A-EC6E-43BE-93E9-46FCEBF21B42",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "body"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "Caption"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "E1ED5140-FC50-483E-9163-BD2FCD453E11",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "caption"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          }
+        ],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "backgroundImage"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "1CC420BA-D443-4095-A72E-2B4F5A5DF53A",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "subtitle"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "1"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "2EA31129-B835-472C-A262-06D8E6D1E4AF",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#2a0a99",
+            "backgroundUrl": "local:plugin.bg.abstract.1",
+            "fontStyle": "regular",
+            "isLightColor": false,
+            "type": "small"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "2"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "9EA07F74-95A3-4294-AB13-F1026E727F2C",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#ef0277",
+            "backgroundUrl": "local:plugin.bg.abstract.2",
+            "fontStyle": "regular",
+            "isLightColor": false,
+            "type": "small"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "3"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "18DED506-D416-4180-B3C4-1470FA40541A",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#026b80",
+            "backgroundUrl": "local:plugin.bg.abstract.3",
+            "fontStyle": "regular",
+            "isLightColor": false,
+            "type": "small"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "4"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "DE41C78C-1681-4C0F-87C3-D07910095022",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#2a2c50",
+            "backgroundUrl": "local:plugin.bg.abstract.4",
+            "fontStyle": "regular",
+            "isLightColor": false,
+            "type": "small"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "5"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "14B8342F-1DB8-4276-A31B-C82D5684384E",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#0279ad",
+            "backgroundUrl": "local:plugin.bg.nature.1",
+            "fontStyle": "regular",
+            "isLightColor": false,
+            "type": "small"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "6"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "24D7C4E3-7EBB-41E6-B635-41BBF405C7CE",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#0295a7",
+            "backgroundUrl": "local:plugin.bg.nature.2",
+            "fontStyle": "regular",
+            "isLightColor": false,
+            "type": "small"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "7"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "23A9F8CD-10E5-4F84-8248-E033696BBE04",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#257449",
+            "backgroundUrl": "local:plugin.bg.nature.3",
+            "fontStyle": "regular",
+            "isLightColor": false,
+            "type": "small"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "8"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "F7D1FA64-64D7-4349-9E68-0422969B08CC",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#6c4e36",
+            "backgroundUrl": "local:plugin.bg.nature.4",
+            "fontStyle": "regular",
+            "isLightColor": false,
+            "type": "small"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [
+          {
+            "color": "text",
+            "content": [],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "81E2593A-CB95-4FDB-90B5-A350531D96C7",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "fontStyle": "system",
+              "textStyle": "body"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          }
+        ],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "D19BB2FF-C85D-4F31-9CA4-B19ECC02E3EF",
+        "indentationLevel": 0,
+        "lineStyle": "regular",
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "type": "horizontalLineBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "unsplash"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "AE8060F7-86B6-478D-BE4F-F5335BD9E402",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#59a6d9",
+            "backgroundUrl": "https://images.unsplash.com/photo-1647788003488-62c0d5bd0009?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDIyNzR8MHwxfGNvbGxlY3Rpb258MTB8MzE3MDk5fHx8fHwyfHwxNjQ4MzA1Mzk5&ixlib=rb-1.2.1&q=80&w=1080",
+            "fontStyle": "regular",
+            "isLightColor": false,
+            "type": "small"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "upload"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "B2AB80B6-387F-4DBC-B922-2F9DAB30EAD2",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "cardStyle": {
+            "backgroundColor": "#ffffff",
+            "backgroundUrl": "https://res.craft.do/user/full/9b73b1e8-42ea-cb9a-4429-738126302e2a/22D45F07-CCD6-41AD-BBFB-41862061662B_3/HOUZIFFOJKImJimERk0vhzfxdA4DybxBeAwe45UnLJgz",
+            "fontStyle": "regular",
+            "isLightColor": false,
+            "type": "small"
+          },
+          "fontStyle": "system",
+          "textStyle": "card"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "backgroundColor"
+          }
+        ],
+        "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "EA135769-DEFB-49A5-9A89-1E2657764183",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "page"
+        },
+        "subblocks": [
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "white"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "1B5689EC-50B3-44F0-A158-0A49F322E88D",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#FFFFFF #303436",
+                "backgroundColorKey": "white",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "dark-gray"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "6130FC15-9C0C-45BC-BFAC-7C437B502D24",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#637785",
+                "backgroundColorKey": "dark-gray",
+                "fontStyle": "serif",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "blue"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "FDF6F049-01F0-400F-A878-52C18CC949E6",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#3006FF",
+                "backgroundColorKey": "blue",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "blue_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "EB680457-1517-42E3-9757-70DA2451E66A",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#304BBD",
+                "backgroundColorKey": "blue_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "blue_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "FE9073FB-8EB5-4605-8E38-D2052AFEF678",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#2806FF",
+                "backgroundColorKey": "blue_vivid",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "ocean"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "2BC08AF8-D704-4D9A-B2D1-482D8868D5B6",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#056DFB",
+                "backgroundColorKey": "ocean",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "ocean_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "B4FD6727-CAF8-48B5-B81D-08CEC52696BA",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#4977B8",
+                "backgroundColorKey": "ocean_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "ocean_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "E5073962-D936-48D5-9062-91E8ED8094E3",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#055EFB",
+                "backgroundColorKey": "ocean_vivid",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "cyan"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "C9B0A846-B5F7-4BFE-A101-ED92042DFE5F",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#02BCDB",
+                "backgroundColorKey": "cyan",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "cyan_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "2FF0B360-5880-4C0C-8E9E-CB7F6ADA80DB",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#45A1B0",
+                "backgroundColorKey": "cyan_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "cyan_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "72CFF592-CAE1-4DA3-A7A9-B72A486A1491",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#038ED2",
+                "backgroundColorKey": "cyan_vivid",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "green"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "26F158C6-B022-4252-80C5-98D2FE536933",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#00C3B1",
+                "backgroundColorKey": "green",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "green_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "E604904B-CABD-4028-A302-663385E93538",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#35C4B7",
+                "backgroundColorKey": "green_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "green_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "A630B412-B1DD-4974-BF15-73B5AC34EF6A",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#00DC27",
+                "backgroundColorKey": "green_vivid",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "purple"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "3B36A98A-2C3F-488E-B719-307DD35D1B5A",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#D800F3",
+                "backgroundColorKey": "purple",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "purple_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "C1F2A574-38BD-491D-9117-21EEFB5CFA19",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#CB64C0",
+                "backgroundColorKey": "purple_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "purple_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "AFAC10D0-DD50-4044-BA20-313A513F182E",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#F300D9",
+                "backgroundColorKey": "purple_vivid",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "magenta"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "179AF6EB-3460-4F2E-B7FE-2ED3177DCE4A",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#ED093C",
+                "backgroundColorKey": "magenta",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "magenta_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "5CFE413B-C799-428C-A946-2154090D1EEA",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#BF3654",
+                "backgroundColorKey": "magenta_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "magenta_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "0184279C-29E5-4008-B7E3-6068477BE1DF",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#ED093C",
+                "backgroundColorKey": "magenta_vivid",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "bloodOrange"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "84F7CB6C-B66E-467C-AD02-BFD7B149C1F9",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#ED2309",
+                "backgroundColorKey": "bloodOrange",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "bloodOrange_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "D3FD62F7-3D27-4406-9CB1-E3B2F9C81471",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#C45C4F",
+                "backgroundColorKey": "bloodOrange_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "bloodOrange_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "0CAC1A72-43BB-427F-B25A-19BCFC11C2C7",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#ED2309",
+                "backgroundColorKey": "bloodOrange_vivid",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "orange"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "DC24372F-CFFB-4986-828F-26A5E24A98EF",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#F9B600",
+                "backgroundColorKey": "orange",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "orange_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "D043823D-E07D-4764-A668-FCD37A5B764D",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#CAA84C",
+                "backgroundColorKey": "orange_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "orange_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "347038ED-EFC5-4A56-9D1D-89C39D59E3BF",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#F9A700",
+                "backgroundColorKey": "orange_vivid",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "brown"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "FAA1F27F-8E4A-4CB4-9D2B-172F73E0DE91",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#916A00",
+                "backgroundColorKey": "brown",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "brown_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "4188374D-CEBA-4908-8165-99BED1267C84",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#9C833D",
+                "backgroundColorKey": "brown_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "brown_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "91ED3652-9DA3-4FAC-9851-9ACEE1887486",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#914D00",
+                "backgroundColorKey": "brown_vivid",
+                "fontStyle": "regular",
+                "isLightColor": false,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightYellow"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "437166BC-309D-4209-A868-4E03B1E1B746",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#FCFFC3 #666535",
+                "backgroundColorKey": "lightYellow",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightYellow_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "CA5D3932-3C59-4467-B664-6DD36A80C78E",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#FFF7BB #666535",
+                "backgroundColorKey": "lightYellow_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightYellow_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "227BD721-5813-49DA-9EE2-060584CDFF8D",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#FAFF9A #666535",
+                "backgroundColorKey": "lightYellow_vivid",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightGreen"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "39156DE8-7971-415D-A070-43041C8F7868",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#E4FCDF #34714B",
+                "backgroundColorKey": "lightGreen",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightGreen_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "E27D2860-5B25-4DDB-A7D9-3D9A0975E6C5",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#A0E8C8 #34714B",
+                "backgroundColorKey": "lightGreen_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightGreen_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "B0ED10BB-2225-4B5F-93FD-2F97D4B92773",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#D3FFCA #34714B",
+                "backgroundColorKey": "lightGreen_vivid",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightBlue"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "F117DD57-845B-4DE5-A6CE-7E8797180A11",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#E8FCFF #346C71",
+                "backgroundColorKey": "lightBlue",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightBlue_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "F6F95E1C-036D-480A-AD7A-1796068745CA",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#E7F5F7 #346C71",
+                "backgroundColorKey": "lightBlue_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightBlue_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "4B5613BD-341D-4C69-A14C-4D62F6471E12",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#CAF8FF #346C71",
+                "backgroundColorKey": "lightBlue_vivid",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightPink"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "0266B194-8B4D-4A63-B84A-DC73CA89C153",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#FFEDFF #6D3350",
+                "backgroundColorKey": "lightPink",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightPink_dimmed"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "3FD75106-7E88-4943-8213-5C6B77B24A35",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#FCF4FC #6D3350",
+                "backgroundColorKey": "lightPink_dimmed",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          },
+          {
+            "color": "text",
+            "content": [
+              {
+                "isBold": false,
+                "isCode": false,
+                "isItalic": false,
+                "isStrikethrough": false,
+                "text": "lightPink_vivid"
+              }
+            ],
+            "documentId": "C07AFD86-C996-4704-9690-58B3850B30BA",
+            "hasBlockDecoration": false,
+            "hasFocusDecoration": false,
+            "id": "83A00536-41A6-405D-9BAD-85E692009032",
+            "indentationLevel": 0,
+            "listStyle": {
+              "type": "none"
+            },
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "style": {
+              "alignmentStyle": "left",
+              "cardStyle": {
+                "backgroundColor": "#FFEAFF #6D3350",
+                "backgroundColorKey": "lightPink_vivid",
+                "fontStyle": "regular",
+                "isLightColor": true,
+                "type": "square"
+              },
+              "fontStyle": "system",
+              "textStyle": "card"
+            },
+            "subblocks": [],
+            "type": "textBlock"
+          }
+        ],
+        "type": "textBlock"
+      }
+    ],
+    "type": "textBlock"
+  }
+}
