@@ -7,6 +7,7 @@ const nextConfig = withTM({
     styledComponents: true,
   },
   swcMinify: true,
+  basePath: "/craft-blog"
 })
 
 module.exports = nextConfig
