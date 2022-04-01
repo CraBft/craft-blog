@@ -5,7 +5,7 @@ on:
     branches:
       - 'main'
     paths:
-      - '.github/temp'
+      - '.github/temp/**'
 
 env:
   RUST_DIR: ./packages/rust-craft-data-process
