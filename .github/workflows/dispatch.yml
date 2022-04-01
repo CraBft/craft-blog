@@ -30,9 +30,10 @@ jobs:
       - name: Commit to blog page branch
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: 'published by CraBft🦀'
+          commit_message: 'published by CraBft 🦀'
           file_pattern: _contents/*
-          commit_user_name: CraBft🦀 # defaults to "GitHub Actions"
+          commit_user_name: CraBft 🦀 # defaults to "GitHub Actions"
           skip_dirty_check: true
           disable_globbing: true
+          commit_options: '--no-verify --signoff'
           push_options: '--force'
