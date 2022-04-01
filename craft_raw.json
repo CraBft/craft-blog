@@ -1,0 +1,73 @@
+{
+  "type": "textBlock",
+  "content": [
+    {
+      "text": "Craft X developer tools"
+    }
+  ],
+  "id": "3raapuhdhx3",
+  "spaceId": "eql9jivx8qs",
+  "documentId": "nj5h5hew92s",
+  "indentationLevel": 0,
+  "listStyle": {
+    "type": "none"
+  },
+  "hasBlockDecoration": false,
+  "hasFocusDecoration": false,
+  "color": "text",
+  "subblocks": [
+    {
+      "type": "textBlock",
+      "content": [
+        {
+          "text": "These tools facilitate extension development by creating a mock Craft API."
+        }
+      ],
+      "id": "rgpydogarwp",
+      "spaceId": "eql9jivx8qs",
+      "documentId": "nj5h5hew92s",
+      "indentationLevel": 0,
+      "listStyle": {
+        "type": "none"
+      },
+      "hasBlockDecoration": false,
+      "hasFocusDecoration": false,
+      "color": "text",
+      "subblocks": [],
+      "style": {
+        "textStyle": "body",
+        "fontStyle": "system",
+        "alignmentStyle": "left"
+      }
+    },
+    {
+      "type": "textBlock",
+      "content": [
+        {
+          "text": "By reducing the feedback cycle developers can iterate with great velocity."
+        }
+      ],
+      "id": "r0raj0qgebb",
+      "spaceId": "eql9jivx8qs",
+      "documentId": "nj5h5hew92s",
+      "indentationLevel": 0,
+      "listStyle": {
+        "type": "none"
+      },
+      "hasBlockDecoration": false,
+      "hasFocusDecoration": false,
+      "color": "text",
+      "subblocks": [],
+      "style": {
+        "textStyle": "body",
+        "fontStyle": "system",
+        "alignmentStyle": "left"
+      }
+    }
+  ],
+  "style": {
+    "textStyle": "body",
+    "fontStyle": "system",
+    "alignmentStyle": "left"
+  }
+}
