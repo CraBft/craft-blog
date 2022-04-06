@@ -21,7 +21,7 @@ jobs:
         run: yarn install
 
       - name: Build
-        run: yarn run blog:export
+        run: BASE_PATH='/craft-blog' yarn run blog:export
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
