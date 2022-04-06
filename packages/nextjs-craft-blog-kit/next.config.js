@@ -1,6 +1,6 @@
 const withTM = require('next-transpile-modules')(['react-craft-x'])
 
-const basePath = process.BASE_PATH
+const basePath = process.env.BASE_PATH
 
 /** @type {import('next').NextConfig} */
 const nextConfig = withTM({

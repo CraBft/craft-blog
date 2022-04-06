@@ -1,4 +1,4 @@
-import React, { ComponentPropsWithoutRef, useState, useEffect, ReactElement, ElementType, memo, useMemo } from 'react'
+import React, { ComponentPropsWithoutRef, ReactElement, ElementType, memo, useMemo } from 'react'
 import KaTeX, { ParseError, KatexOptions } from 'katex'
 
 const TeX: React.FC<TeXProps> = ({
