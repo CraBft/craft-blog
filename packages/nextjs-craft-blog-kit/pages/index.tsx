@@ -1,8 +1,4 @@
-import type {
-  GetStaticPropsContext,
-  InferGetStaticPropsType,
-  NextPage,
-} from 'next'
+import type { GetStaticPropsContext, InferGetStaticPropsType, NextPage } from 'next'
 import Link from 'next/link'
 import { getAllPosts } from '../libs/post-api'
 
@@ -21,9 +17,7 @@ export const getStaticProps = async (ctx: GetStaticPropsContext) => {
   }
 }
 
-const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({
-  posts,
-}) => {
+const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({ posts }) => {
   return (
     <div>
       <h1>craft-blog-starter</h1>

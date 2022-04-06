@@ -1,10 +1,4 @@
-import Document, {
-  DocumentContext,
-  Html,
-  Head,
-  Main,
-  NextScript,
-} from 'next/document'
+import Document, { DocumentContext, Html, Head, Main, NextScript } from 'next/document'
 import { ServerStyleSheet } from 'styled-components'
 
 export default class MyDocument extends Document {
@@ -15,8 +9,7 @@ export default class MyDocument extends Document {
     try {
       ctx.renderPage = () =>
         originalRenderPage({
-          enhanceApp: (App) => (props) =>
-            sheet.collectStyles(<App {...props} />),
+          enhanceApp: (App) => (props) => sheet.collectStyles(<App {...props} />),
         })
 
       const initialProps = await Document.getInitialProps(ctx)
@@ -38,22 +31,10 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <link
-            href="https://fonts.googleapis.com/css?family=Roboto&display=optional"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css?family=Noto%20Serif&display=optional"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css?family=Roboto%20Mono&display=optional"
-            rel="stylesheet"
-          />
-          <link
-            href="https://fonts.googleapis.com/css?family=Varela%20Round&display=optional"
-            rel="stylesheet"
-          />
+          <link href="https://fonts.googleapis.com/css?family=Roboto&display=optional" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Noto%20Serif&display=optional" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Roboto%20Mono&display=optional" rel="stylesheet" />
+          <link href="https://fonts.googleapis.com/css?family=Varela%20Round&display=optional" rel="stylesheet" />
         </Head>
         <body>
           <Main />

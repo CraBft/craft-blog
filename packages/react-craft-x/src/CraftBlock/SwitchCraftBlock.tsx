@@ -14,10 +14,7 @@ export type SwitchCraftBlockProps = {
   block: CraftBlock
 }
 
-const SwitchCraftBlock: React.VFC<SwitchCraftBlockProps> = ({
-  block,
-  ...props
-}) => {
+const SwitchCraftBlock: React.VFC<SwitchCraftBlockProps> = ({ block, ...props }) => {
   if (block.type === 'textBlock') {
     return <CraftTextBlock block={block} {...props} />
   }

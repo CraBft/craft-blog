@@ -6,10 +6,7 @@ export type CraftVideoBlockProps = {
   className?: string
 }
 
-const CraftVideoBlock: React.VFC<CraftVideoBlockProps> = ({
-  block,
-  className,
-}) => {
+const CraftVideoBlock: React.VFC<CraftVideoBlockProps> = ({ block, className }) => {
   return <video className={`craft-video-block ${className}`} />
 }
 

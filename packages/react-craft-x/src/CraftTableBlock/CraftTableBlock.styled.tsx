@@ -1,9 +1,6 @@
-import {
-  CraftTableCellFillColor,
-  CraftTableCellStyle,
-  CraftTableColumnStyle,
-} from '@craftdocs/craft-extension-api'
-import styled, { css } from 'styled-components'
+import { CraftTableCellFillColor, CraftTableCellStyle, CraftTableColumnStyle } from '@craftdocs/craft-extension-api'
+import styled from 'styled-components'
+import { css } from 'styled-components'
 import { theme } from '../theme'
 
 const Styled = {
@@ -47,9 +44,7 @@ const Styled = {
         background-color: ${theme.light.table.fillColor[cellStyle.fillColor]};
       `};
     min-width: ${({ columnStyle }) =>
-      columnStyle?.width
-        ? `${(parseFloat(columnStyle?.width) / 100) * 168}px`
-        : '168px'};
+      columnStyle?.width ? `${(parseFloat(columnStyle?.width) / 100) * 168}px` : '168px'};
     height: 27px;
     padding: 4px 6px;
   `,

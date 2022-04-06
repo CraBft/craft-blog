@@ -1,2 +1,2 @@
-export { default } from "./CraftTextRun";
-export type { CraftTextRunProps } from "./CraftTextRun";
+export { default } from './CraftTextRun'
+export type { CraftTextRunProps } from './CraftTextRun'

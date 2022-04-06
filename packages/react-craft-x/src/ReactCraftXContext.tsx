@@ -31,10 +31,7 @@ const defaultComponents: components = {
     </a>
   ),
   Code: ({ code, language, darkmode, ...props }) => (
-    <SyntaxHighlighter
-      language={language}
-      style={darkmode ? a11yDark : a11yLight}
-    >
+    <SyntaxHighlighter language={language} style={darkmode ? a11yDark : a11yLight}>
       {code}
     </SyntaxHighlighter>
   ),
@@ -52,8 +49,7 @@ const defaultConfig = {
   documentBaseUrl: '/',
 }
 
-export const ReactCraftXContext =
-  React.createContext<ReactCraftXContext>(defaultConfig)
+export const ReactCraftXContext = React.createContext<ReactCraftXContext>(defaultConfig)
 
 export const usePrevBlock = (index?: number) => {
   const context = useContext(ReactCraftXContext)
@@ -65,22 +61,37 @@ export const usePrevBlock = (index?: number) => {
 
 export const useNextBlock = (index?: number) => {
   const context = useContext(ReactCraftXContext)
-  if (
-    context &&
-    typeof index !== 'undefined' &&
-    context.subBlocks.length > index + 1
-  ) {
+  if (context && typeof index !== 'undefined' && context.subBlocks.length > index + 1) {
     return context.subBlocks[index + 1]
   }
   return undefined
 }
 
+export const useListOfIndex = (block: CraftBlock, index?: number) => {
+  const context = useContext(ReactCraftXContext)
+  const { listStyle, indentationLevel } = block
+
+  let listOfIndex = 1
+  if (!context || typeof index === 'undefined') return listOfIndex
+
+  const { subBlocks } = context
+
+  for (
+    let i = index - 1;
+    i >= 0 &&
+    (subBlocks[i].indentationLevel > indentationLevel ||
+      (subBlocks[i].indentationLevel === indentationLevel && subBlocks[i].listStyle.type === listStyle.type));
+    --i
+  ) {
+    if (subBlocks[i].indentationLevel === indentationLevel) {
+      ++listOfIndex
+    }
+  }
+  return listOfIndex
+}
+
 export const ReactCraftXContextProvider: React.FC<{
   config: Partial<ReactCraftXContext>
 }> = ({ children, config }) => {
-  return (
-    <ReactCraftXContext.Provider value={{ ...defaultConfig, ...config }}>
-      {children}
-    </ReactCraftXContext.Provider>
-  )
+  return <ReactCraftXContext.Provider value={{ ...defaultConfig, ...config }}>{children}</ReactCraftXContext.Provider>
 }

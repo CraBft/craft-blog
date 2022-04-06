@@ -1,5 +1,7 @@
 const withTM = require('next-transpile-modules')(['react-craft-x'])
 
+const basePath = process.BASE_PATH
+
 /** @type {import('next').NextConfig} */
 const nextConfig = withTM({
   reactStrictMode: true,
@@ -7,7 +9,7 @@ const nextConfig = withTM({
     styledComponents: true,
   },
   swcMinify: true,
-  basePath: "/craft-blog"
+  basePath: basePath,
 })
 
 module.exports = nextConfig

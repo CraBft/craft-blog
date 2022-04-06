@@ -1,9 +1,18 @@
 import { CraftHorizontalLineBlock } from '@craftdocs/craft-extension-api'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
+import { css } from 'styled-components'
 import { theme } from '../theme'
+
+const baseStyle = css`
+  width: 100%;
+  height: 27px;
+  box-sizing: content-box;
+  transition: all 0.3s ease 0s;
+`
 
 const Styled = {
   strong: styled.hr<{ block: CraftHorizontalLineBlock }>`
+    ${baseStyle}
     border: none;
     background-image: linear-gradient(
       to right,
@@ -15,6 +24,7 @@ const Styled = {
     background-repeat: repeat-x;
   `,
   regular: styled.hr<{ block: CraftHorizontalLineBlock }>`
+    ${baseStyle}
     border: none;
     background-image: linear-gradient(
       to right,
@@ -26,6 +36,7 @@ const Styled = {
     background-repeat: repeat-x;
   `,
   light: styled.hr<{ block: CraftHorizontalLineBlock }>`
+    ${baseStyle}
     border: none;
     background-image: linear-gradient(
       to right,
@@ -37,6 +48,7 @@ const Styled = {
     background-repeat: repeat-x;
   `,
   extraLight: styled.hr<{ block: CraftHorizontalLineBlock }>`
+    ${baseStyle}
     display: flex;
     border: none;
     justify-content: center;
@@ -45,15 +57,6 @@ const Styled = {
       content: '• • •';
       font-size: 2px;
     }
-  `,
-}
-
-export const CSS = {
-  base: css`
-    width: 100%;
-    height: 27px;
-    box-sizing: content-box;
-    transition: all 0.3s ease 0s;
   `,
 }
 

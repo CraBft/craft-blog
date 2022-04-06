@@ -2,9 +2,9 @@
   "id": "crabft.publisher",
   "name": "Crabft🦀-publisher",
   "fileName": "Crabft🦀-publisher",
-  "author" : "Crabft🦀",
-  "author-email" : "gnsdlrl@daum.net",
-  "description" : "Publish Craft document to blog extension ",
+  "author": "Crabft🦀",
+  "author-email": "gnsdlrl@daum.net",
+  "description": "Publish Craft document to blog extension ",
   "api": "0.0.1",
   "main": "index.html"
 }

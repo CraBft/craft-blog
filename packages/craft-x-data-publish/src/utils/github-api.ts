@@ -39,9 +39,7 @@ export interface DispatchDto {
 export async function getStorageDataOf(key: string) {
   const result = await craft.storageApi.get(key)
   if (result.status === 'error') {
-    logToInPageConsole(
-      `Failed to get storage data of ${key}: ${result.message}`
-    )
+    logToInPageConsole(`Failed to get storage data of ${key}: ${result.message}`)
     throw new Error(result.message)
   } else {
     return JSON.parse(result.data)
@@ -49,9 +47,7 @@ export async function getStorageDataOf(key: string) {
 }
 
 export async function isExistContent(path: string) {
-  const { owner, repo, token } = (await getStorageDataOf(
-    GITHUB_CONFIG
-  )) as GithubConfig
+  const { owner, repo, token } = (await getStorageDataOf(GITHUB_CONFIG)) as GithubConfig
   const response = await craft.httpProxy.fetch({
     method: 'GET',
     url: `https://api.github.com/repos/${owner}/${repo}/contents/${path}`,
@@ -65,9 +61,7 @@ export async function isExistContent(path: string) {
 }
 
 export async function getExistContent(path: string) {
-  const { owner, repo, token } = (await getStorageDataOf(
-    GITHUB_CONFIG
-  )) as GithubConfig
+  const { owner, repo, token } = (await getStorageDataOf(GITHUB_CONFIG)) as GithubConfig
   const response = await craft.httpProxy.fetch({
     method: 'GET',
     url: `https://api.github.com/repos/${owner}/${repo}/contents/${path}`,
@@ -77,14 +71,11 @@ export async function getExistContent(path: string) {
     },
   })
   if (response.status === 'error') throw new Error()
-  if (response.data)
-    return (await response.data.body?.json()) as GitHubContentData
+  if (response.data) return (await response.data.body?.json()) as GitHubContentData
 }
 
 export async function triggerGithubActions(dispatchDto: DispatchDto) {
-  const { owner, repo, token } = (await getStorageDataOf(
-    GITHUB_CONFIG
-  )) as GithubConfig
+  const { owner, repo, token } = (await getStorageDataOf(GITHUB_CONFIG)) as GithubConfig
   const { workflowName, content } = dispatchDto
 
   const apiParameters = {
@@ -113,16 +104,12 @@ export async function triggerGithubActions(dispatchDto: DispatchDto) {
     logToInPageConsole(`Response have error ${response.message}`)
   } else {
     logToInPageConsole(response.data.status.toString())
-    logToInPageConsole(
-      JSON.stringify(await response.data.body!.text(), null, 2)
-    )
+    logToInPageConsole(JSON.stringify(await response.data.body!.text(), null, 2))
   }
 }
 
 export async function createContent(uploadContentDto: UploadContentDto) {
-  const { owner, repo, token } = (await getStorageDataOf(
-    GITHUB_CONFIG
-  )) as GithubConfig
+  const { owner, repo, token } = (await getStorageDataOf(GITHUB_CONFIG)) as GithubConfig
   try {
     uploadContentDto.content = Base64.encode(uploadContentDto.content)
   } catch (e) {
@@ -148,8 +135,6 @@ export async function createContent(uploadContentDto: UploadContentDto) {
     throw new Error(response.message)
   } else {
     logToInPageConsole(response.data.status.toString())
-    logToInPageConsole(
-      JSON.stringify(await response.data.body!.text(), null, 2)
-    )
+    logToInPageConsole(JSON.stringify(await response.data.body!.text(), null, 2))
   }
 }

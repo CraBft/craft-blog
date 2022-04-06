@@ -1,9 +1,22 @@
-import {
-  CraftTextRun,
-  TextHighlightColor,
-} from '@craftdocs/craft-extension-api'
-import styled, { css } from 'styled-components'
+import { CraftTextRun, TextHighlightColor } from '@craftdocs/craft-extension-api'
+import React, { ReactNode } from 'react'
+import styled from 'styled-components'
+import { css } from 'styled-components'
+import { components } from '../ReactCraftXContext'
 import { theme } from '../theme'
+
+const UnStyledAnchor = <C extends keyof JSX.IntrinsicElements | React.ComponentType>({
+  text,
+  Component,
+  children,
+  ...props
+}: {
+  text: CraftTextRun
+  Component: React.FC<React.ComponentProps<components['Link']>>
+  children?: ReactNode | ReactNode[]
+} & React.ComponentProps<components['Link']>) => {
+  return <Component {...props}>{children}</Component>
+}
 
 const Styled = {
   Text: styled.span<{
@@ -47,36 +60,6 @@ const Styled = {
           transition: all 0.3s ease 0s;
           padding-top: 2px;
           padding-bottom: 2px;
-          &::before {
-            z-index: -1;
-            content: '${text.text}';
-            position: absolute;
-            color: transparent;
-            -webkit-text-fill-color: transparent;
-            height: 100%;
-
-            font-family: 'Roboto Mono', monospace;
-            background-color: rgb(247, 247, 247);
-            -webkit-print-color-adjust: exact;
-
-            ${!prev?.isCode &&
-            css`
-              margin-left: -5px;
-              padding-left: 5px;
-              border-top-left-radius: 6px;
-              border-bottom-left-radius: 6px;
-            `}
-            ${!next?.isCode &&
-            css`
-              padding-right: 5px;
-              border-top-right-radius: 6px;
-              border-bottom-right-radius: 6px;
-            `}
-            margin-top: 2px;
-            padding-top: 2px;
-            padding-bottom: 2px;
-            transition: all 0.3s ease 0s;
-          }
         `}
       `
     }}
@@ -97,13 +80,10 @@ const Styled = {
         case 'red':
         case 'grey':
           return css`
-            background-color: ${theme.light.text.highlightColor[
-              highlightColor
-            ]};
+            background-color: ${theme.light.text.highlightColor[highlightColor]};
             print-color-adjust: exact;
             -webkit-print-color-adjust: exact;
-            box-shadow: ${theme.light.text.highlightColor[highlightColor]} -1px 0px
-                0px,
+            box-shadow: ${theme.light.text.highlightColor[highlightColor]} -1px 0px 0px,
               ${theme.light.text.highlightColor[highlightColor]} 1px 0px 0px;
             transition: all 0.3s ease 0s;
             border-radius: 2px;
@@ -114,9 +94,7 @@ const Styled = {
         case 'orangeGradient':
         case 'goldGradient':
           return css`
-            background-image: ${theme.light.text.highlightColor[
-              highlightColor
-            ]};
+            background-image: ${theme.light.text.highlightColor[highlightColor]};
             -webkit-text-fill-color: transparent;
             background-clip: text;
             -webkit-background-clip: text;
@@ -130,10 +108,10 @@ const Styled = {
     }}
   `,
   Code: styled.code``,
-  anchor: (text: CraftTextRun) => css`
+  anchor: styled(UnStyledAnchor)`
     &:hover {
       opacity: 0.65;
-      ${(() => {
+      ${({ text }) => {
         switch (text.highlightColor) {
           case 'beachGradient':
           case 'nightSkyGradient':
@@ -141,11 +119,8 @@ const Styled = {
           case 'orangeGradient':
           case 'goldGradient':
             return css`
-              color: ${theme.light.text.anchoredHighlightColor[
-                text.highlightColor
-              ]};
-              -webkit-text-fill-color: ${theme.light.text
-                .anchoredHighlightColor[text.highlightColor]};
+              color: ${theme.light.text.anchoredHighlightColor[text.highlightColor]};
+              -webkit-text-fill-color: ${theme.light.text.anchoredHighlightColor[text.highlightColor]};
             `
           default:
             return css`
@@ -153,13 +128,13 @@ const Styled = {
               -webkit-text-fill-color: rgb(16, 85, 146);
             `
         }
-      })()}
+      }}
     }
     color: rgb(16, 85, 146);
     -webkit-text-fill-color: rgb(16, 85, 146);
     text-decoration: underline;
     text-underline-position: under;
-    ${(() => {
+    ${({ text }) => {
       switch (text.highlightColor) {
         case 'yellow':
         case 'lime':
@@ -176,12 +151,10 @@ const Styled = {
           return css`
             color: transparent;
             -webkit-text-fill-color: transparent;
-            text-decoration-color: ${theme.light.text.anchoredHighlightColor[
-              text.highlightColor
-            ]};
+            text-decoration-color: ${theme.light.text.anchoredHighlightColor[text.highlightColor]};
           `
       }
-    })()}
+    }}
   `,
 }
 

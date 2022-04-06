@@ -1,5 +1,7 @@
 import { CraftCardStyle } from '@craftdocs/craft-extension-api'
-import styled, { css } from 'styled-components'
+import { ReactNode } from 'react'
+import styled from 'styled-components'
+import { css } from 'styled-components'
 
 import abstract1 from '../assets/plugin.bg.abstract.1.jpg'
 import abstract2 from '../assets/plugin.bg.abstract.2.jpg'
@@ -21,68 +23,76 @@ const pluginBg = {
   'local:plugin.bg.nature.4': nature4.src,
 }
 
-const gridCardCss = css`
-  display: inline-flex;
+const baseStyle = (style: CraftCardStyle) => {
+  const { isLightColor, backgroundColorKey, backgroundUrl } = style
+  const colors = (style.backgroundColor ?? '#FFFFFF #303436').split(' ')
 
-  width: calc(100% / 2 - 6px);
-  @media screen and (min-width: 560px) {
-    width: calc(100% / 3 - 6px);
-  }
-`
+  return css`
+    box-sizing: border-box;
+    margin: 2px 3px;
+    margin-bottom: 8px;
 
-const Styled = {
-  subtle: styled.div`
-    ${gridCardCss}
-    height: 140px;
-  `,
-  small: styled.div`
-    ${gridCardCss}
-    height: 140px;
-  `,
-  square: styled.div`
-    ${gridCardCss}
-    height: 220px;
-  `,
-  wide: styled.div`
-    height: 140px;
-  `,
-  large: styled.div`
-    height: 240px;
-  `,
+    border-radius: 7px;
+    overflow: hidden;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 1px;
+    transition: all 0.3s ease 0s;
+    padding: 25px;
+
+    background-color: ${colors[0]};
+    color: ${isLightColor ? 'black' : 'white'};
+    ${backgroundUrl &&
+    css`
+      content: '';
+      background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2)),
+        url(${pluginBg[backgroundUrl as keyof typeof pluginBg] ?? backgroundUrl});
+      background-size: cover;
+      background-position: center;
+    `};
+  `
 }
 
-export const CSS = {
-  base: (style: CraftCardStyle) => {
-    const { isLightColor, backgroundColorKey, backgroundUrl } = style
-    const colors = (style.backgroundColor ?? '#FFFFFF #303436').split(' ')
+type StyledCardProps = {
+  style: CraftCardStyle
+  children: ReactNode
+  className: string
+}
 
-    return css`
-      box-sizing: border-box;
-      margin: 2px 3px;
-      margin-bottom: 8px;
-
-      border-radius: 7px;
-      overflow: hidden;
-      box-shadow: rgb(0 0 0 / 20%) 0px 0px 1px;
-      transition: all 0.3s ease 0s;
-      padding: 25px;
-
-      background-color: ${colors[0]};
-      color: ${isLightColor ? 'black' : 'white'};
-      ${backgroundUrl &&
-      css`
-        content: '';
-        background-image: linear-gradient(
-            rgba(0, 0, 0, 0.3),
-            rgba(0, 0, 0, 0.2)
-          ),
-          url(${pluginBg[backgroundUrl as keyof typeof pluginBg] ??
-          backgroundUrl});
-        background-size: auto 100%;
-        background-position: center;
-      `};
-    `
-  },
+const Styled = {
+  subtle: styled(({ style, children, ...props }: StyledCardProps) => <div {...props}>{children}</div>)`
+    ${({ style }) => baseStyle(style)}
+    display: inline-flex;
+    width: calc(100% / 2 - 6px);
+    @media screen and (min-width: 560px) {
+      width: calc(100% / 3 - 6px);
+    }
+    height: 140px;
+  `,
+  small: styled(({ style, children, ...props }: StyledCardProps) => <div {...props}>{children}</div>)`
+    ${({ style }) => baseStyle(style)}
+    display: inline-flex;
+    width: calc(100% / 2 - 6px);
+    @media screen and (min-width: 560px) {
+      width: calc(100% / 3 - 6px);
+    }
+    height: 140px;
+  `,
+  square: styled(({ style, children, ...props }: StyledCardProps) => <div {...props}>{children}</div>)`
+    ${({ style }) => baseStyle(style)}
+    display: inline-flex;
+    width: calc(100% / 2 - 6px);
+    @media screen and (min-width: 560px) {
+      width: calc(100% / 3 - 6px);
+    }
+    height: 220px;
+  `,
+  wide: styled(({ style, children, ...props }: StyledCardProps) => <div {...props}>{children}</div>)`
+    ${({ style }) => baseStyle(style)}
+    height: 140px;
+  `,
+  large: styled(({ style, children, ...props }: StyledCardProps) => <div {...props}>{children}</div>)`
+    ${({ style }) => baseStyle(style)}
+    height: 240px;
+  `,
 }
 
 export default Styled

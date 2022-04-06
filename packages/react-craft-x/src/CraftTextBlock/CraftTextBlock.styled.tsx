@@ -1,8 +1,10 @@
 import { CraftTextBlock } from '@craftdocs/craft-extension-api'
-import styled, { css } from 'styled-components'
+import { ReactChild } from 'react'
+import styled from 'styled-components'
+import { css } from 'styled-components'
 import { baseStyle, theme } from '../theme'
 
-const defaultStyle = (block: CraftTextBlock) => css`
+const defaultStyle = (block: CraftTextBlock, children?: ReactChild) => css`
   display: flex;
   width: 100%;
   margin: 0px;
@@ -11,45 +13,31 @@ const defaultStyle = (block: CraftTextBlock) => css`
 `
 
 const Styled = {
-  title: styled.h1<{
-    block: CraftTextBlock
-  }>`
+  title: styled(({ block, ...props }: { block: CraftTextBlock; children?: ReactChild }) => <h1 {...props} />)`
     ${({ block }) => defaultStyle(block)}
     ${baseStyle.font.title}
   `,
-  subtitle: styled.h2<{
-    block: CraftTextBlock
-  }>`
+  subtitle: styled(({ block, ...props }: { block: CraftTextBlock; children?: ReactChild }) => <h2 {...props} />)`
     ${({ block }) => defaultStyle(block)}
     ${baseStyle.font.subtitle}
   `,
-  heading: styled.h3<{
-    block: CraftTextBlock
-  }>`
+  heading: styled(({ block, ...props }: { block: CraftTextBlock; children?: ReactChild }) => <h3 {...props} />)`
     ${({ block }) => defaultStyle(block)}
     ${baseStyle.font.heading}
   `,
-  strong: styled.style<{
-    block: CraftTextBlock
-  }>`
+  strong: styled(({ block, ...props }: { block: CraftTextBlock; children?: ReactChild }) => <strong {...props} />)`
     ${({ block }) => defaultStyle(block)}
     ${baseStyle.font.strong}
   `,
-  body: styled.p<{
-    block: CraftTextBlock
-  }>`
+  body: styled(({ block, ...props }: { block: CraftTextBlock; children?: ReactChild }) => <p {...props} />)`
     ${({ block }) => defaultStyle(block)}
     ${baseStyle.font.body}
   `,
-  caption: styled.small<{
-    block: CraftTextBlock
-  }>`
+  caption: styled(({ block, ...props }: { block: CraftTextBlock; children?: ReactChild }) => <small {...props} />)`
     ${({ block }) => defaultStyle(block)}
     ${baseStyle.font.caption}
   `,
-  page: styled.div<{
-    block: CraftTextBlock
-  }>`
+  page: styled(({ block, ...props }: { block: CraftTextBlock; children?: ReactChild }) => <div {...props} />)`
     ${({ block }) => defaultStyle(block)}
     ${baseStyle.font.page}
   `,

@@ -1,21 +1,15 @@
-import React from "react";
-import styled from "styled-components";
-import { CraftHorizontalLineBlock } from "@craftdocs/craft-extension-api";
-import Styled, { CSS } from "./CraftHorizontalLineBlock.styled";
+import React from 'react'
+import { CraftHorizontalLineBlock } from '@craftdocs/craft-extension-api'
+import Styled from './CraftHorizontalLineBlock.styled'
 
 export type CraftHorizontalLineBlockProps = {
-  block: CraftHorizontalLineBlock;
-};
+  block: CraftHorizontalLineBlock
+}
 
-const CraftHorizontalLineBlock: React.VFC<CraftHorizontalLineBlockProps> = ({
-  block,
-  ...props
-}) => {
-  const HorizontalLine = styled(Styled[block.lineStyle])`
-    ${CSS.base}
-  `;
+const CraftHorizontalLineBlock: React.VFC<CraftHorizontalLineBlockProps> = ({ block, ...props }) => {
+  const HorizontalLine = Styled[block.lineStyle]
 
-  return <HorizontalLine block={block} {...props} />;
-};
+  return <HorizontalLine block={block} {...props} />
+}
 
-export default CraftHorizontalLineBlock;
+export default CraftHorizontalLineBlock
