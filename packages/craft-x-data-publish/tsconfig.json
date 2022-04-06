@@ -9,13 +9,8 @@
     "strict": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "lib": [
-      "dom",
-      "esnext"
-    ],
-    "typeRoots": [
-      "./node_modules/@craftdocs/craft-extension-api"
-    ]
+    "lib": ["dom", "esnext"],
+    "typeRoots": ["./node_modules/@craftdocs/craft-extension-api"]
   },
   "exclude": ["node_modules"]
 }

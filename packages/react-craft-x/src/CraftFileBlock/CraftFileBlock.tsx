@@ -6,10 +6,7 @@ export type CraftFileBlockProps = {
   className?: string
 }
 
-const CraftFileBlock: React.VFC<CraftFileBlockProps> = ({
-  block,
-  className,
-}) => {
+const CraftFileBlock: React.VFC<CraftFileBlockProps> = ({ block, className }) => {
   return <div className={`craft-file-block ${className}`}>CraftFileBlock</div>
 }
 

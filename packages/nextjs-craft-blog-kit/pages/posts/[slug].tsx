@@ -1,9 +1,4 @@
-import {
-  GetStaticPaths,
-  GetStaticPathsResult,
-  GetStaticProps,
-  NextPage,
-} from 'next'
+import { GetStaticPaths, GetStaticPathsResult, GetStaticProps, NextPage } from 'next'
 import { CraftPage } from 'react-craft-x'
 import styled from 'styled-components'
 import { getAllPosts } from '../../libs/post-api'

@@ -1,9 +1,7 @@
 import {
   Color,
-  CraftBlock,
   CraftCardBackgroundColorKey,
   CraftTableCellFillColor,
-  CraftTextBlock,
   FontStyle,
   TextHighlightColor,
 } from '@craftdocs/craft-extension-api'
@@ -20,11 +18,7 @@ export type colors = {
   text: {
     highlightColor: Record<TextHighlightColor, string>
     anchoredHighlightColor: Record<
-      | 'beachGradient'
-      | 'nightSkyGradient'
-      | 'sunsetGradient'
-      | 'orangeGradient'
-      | 'goldGradient',
+      'beachGradient' | 'nightSkyGradient' | 'sunsetGradient' | 'orangeGradient' | 'goldGradient',
       string
     >
     card: {
@@ -83,7 +77,7 @@ export const theme: theme = {
   },
   light: {
     background: {
-      text: '#e9e9e9',
+      text: '#f4f4f4',
       text1: '#e6e6e6',
       text2: '#eff0f1',
       text3: '#f4f4f5',
@@ -236,16 +230,11 @@ export const theme: theme = {
         pink: '#ffd5f9',
         red: '#ffd6d6',
         grey: '#e3e6e8',
-        beachGradient:
-          'linear-gradient(90deg, rgb(40, 188, 190) 0%, rgb(57, 53, 221) 100%)',
-        nightSkyGradient:
-          'linear-gradient(90deg, rgb(36, 73, 254) 0%, rgb(202, 75, 167) 100%)',
-        sunsetGradient:
-          'linear-gradient(90deg, rgb(255, 113, 0) 0%, rgb(243, 0, 173) 100%)',
-        orangeGradient:
-          'linear-gradient(90deg, rgb(243, 170, 0) 0%, rgb(228, 62, 41) 100%)',
-        goldGradient:
-          'linear-gradient(90deg, rgb(177, 106, 77) 0%, rgb(213, 166, 56) 100%)',
+        beachGradient: 'linear-gradient(90deg, rgb(40, 188, 190) 0%, rgb(57, 53, 221) 100%)',
+        nightSkyGradient: 'linear-gradient(90deg, rgb(36, 73, 254) 0%, rgb(202, 75, 167) 100%)',
+        sunsetGradient: 'linear-gradient(90deg, rgb(255, 113, 0) 0%, rgb(243, 0, 173) 100%)',
+        orangeGradient: 'linear-gradient(90deg, rgb(243, 170, 0) 0%, rgb(228, 62, 41) 100%)',
+        goldGradient: 'linear-gradient(90deg, rgb(177, 106, 77) 0%, rgb(213, 166, 56) 100%)',
       },
       anchoredHighlightColor: {
         beachGradient: 'rgb(49, 121, 206)',
@@ -326,10 +315,6 @@ export const baseStyle = {
       line-height: 1.2;
       white-space: pre-wrap;
       word-break: break-word;
-
-      padding-top: 4px;
-      padding-bottom: 4px;
-      transition: all 0.3s ease 0s;
     `,
     subtitle: css`
       font-size: 24px;
@@ -342,9 +327,6 @@ export const baseStyle = {
       line-height: 1.2;
       white-space: pre-wrap;
       word-break: break-word;
-
-      padding-top: 4px;
-      padding-bottom: 4px;
     `,
     heading: css`
       font-size: 20px;
@@ -352,9 +334,6 @@ export const baseStyle = {
       line-height: 1.2;
       white-space: pre-wrap;
       word-break: break-word;
-
-      padding-top: 4px;
-      padding-bottom: 4px;
     `,
     strong: css`
       font-size: 20px;
@@ -362,9 +341,6 @@ export const baseStyle = {
       line-height: 1.2;
       white-space: pre-wrap;
       word-break: break-word;
-
-      padding-top: 4px;
-      padding-bottom: 4px;
     `,
     body: css`
       font-size: 17px;
@@ -373,9 +349,6 @@ export const baseStyle = {
       line-height: 1.6;
       white-space: pre-wrap;
       word-break: break-word;
-
-      padding-top: 1px;
-      padding-bottom: 1px;
     `,
     caption: css`
       font-size: 15px;
@@ -384,9 +357,6 @@ export const baseStyle = {
       line-height: 1.6;
       white-space: pre-wrap;
       word-break: break-word;
-
-      padding-top: 1.1px;
-      padding-bottom: 1.1px;
     `,
     card: css``,
     page: css``,

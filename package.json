@@ -7,6 +7,7 @@
   ],
   "scripts": {
     "lint": "eslint .",
+    "lint:prettier": "prettier --write .",
     "blog:dev": "yarn workspace nextjs-craft-blog-kit run dev",
     "blog:start": "yarn workspace nextjs-craft-blog-kit run start",
     "blog:build": "yarn workspace nextjs-craft-blog-kit run build",
@@ -25,7 +26,7 @@
     "prettier": "^2.6.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "styled-component": "^2.8.0",
+    "styled-components": "^5.3.5",
     "typescript": "^4.6.3"
   }
 }

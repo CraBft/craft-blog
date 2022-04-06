@@ -6,11 +6,7 @@ export type CraftDrawingBlockProps = {
   className?: string
 }
 
-const CraftDrawingBlock: React.VFC<CraftDrawingBlockProps> = ({
-  block,
-  className,
-  ...props
-}) => {
+const CraftDrawingBlock: React.VFC<CraftDrawingBlockProps> = ({ block, className, ...props }) => {
   return (
     <div className={`craft-drawing-block ${className}`} {...props}>
       CraftDrawingBlock

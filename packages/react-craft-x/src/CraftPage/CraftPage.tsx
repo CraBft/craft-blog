@@ -1,8 +1,5 @@
 import React from 'react'
-import {
-  CraftTextBlock,
-  CraftBlock as CraftBlockType,
-} from '@craftdocs/craft-extension-api'
+import { CraftTextBlock, CraftBlock as CraftBlockType } from '@craftdocs/craft-extension-api'
 import Styled from './CraftPage.styled'
 import CraftBlock from '../CraftBlock'
 import { ReactCraftXContextProvider } from '../ReactCraftXContext'
@@ -26,32 +23,25 @@ const CraftPage: React.VFC<CraftPageProps> = ({ rootBlock, ...props }) => {
   )
 }
 
-const renderCraftBlocks: (blocks: CraftBlockType[]) => React.ReactNode[] = (
-  blocks
-) => {
+const renderCraftBlocks: (blocks: CraftBlockType[]) => React.ReactNode[] = (blocks) => {
   let index = 0
   const renderListCraftBlocks = (parent?: CraftBlockType) => {
     const nodes: React.ReactNode[] = []
     while (index < blocks.length) {
       const block = blocks[index]
-      const prev = index !== 0 ? blocks[index - 1] : undefined
       const next = index + 1 < blocks.length ? blocks[index + 1] : undefined
 
       if (parent && block.indentationLevel <= parent.indentationLevel) break
 
       ++index
-      if (
-        next &&
-        block.listStyle.type === 'toggle' &&
-        block.indentationLevel < next.indentationLevel
-      ) {
+      if (next && block.listStyle.type === 'toggle' && block.indentationLevel < next.indentationLevel) {
         nodes.push(
-          <CraftBlock key={block.id} block={block} index={index}>
+          <CraftBlock key={block.id} block={block} index={index - 1}>
             {renderListCraftBlocks(block)}
           </CraftBlock>
         )
       } else {
-        nodes.push(<CraftBlock key={block.id} block={block} index={index} />)
+        nodes.push(<CraftBlock key={block.id} block={block} index={index - 1} />)
       }
     }
     return nodes

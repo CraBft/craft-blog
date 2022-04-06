@@ -1,11 +1,13 @@
 import { CraftUrlBlock } from '@craftdocs/craft-extension-api'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
+import { css } from 'styled-components'
 import { theme } from '../theme'
 
 const Styled = {
   a: styled.a`
     display: inline-flex;
     width: auto;
+    max-width: 100%;
 
     color: inherit;
     text-decoration: none;
@@ -17,6 +19,7 @@ const Styled = {
       if (block.layoutStyle === 'small') {
         return css`
           width: 36px;
+          min-width: 36px;
           max-width: 36px;
           height: 36px;
           padding: 8px;
@@ -25,6 +28,7 @@ const Styled = {
       if (block.layoutStyle === 'regular') {
         return css`
           width: 56px;
+          min-width: 56px;
           max-width: 56px;
           height: 56px;
           padding: 8px;
@@ -96,7 +100,6 @@ const Styled = {
   card: styled.div`
     display: flex;
     flex-direction: column;
-    /* -webkit-box-flex: 1; */
     flex-grow: 1;
 
     min-width: 10px;

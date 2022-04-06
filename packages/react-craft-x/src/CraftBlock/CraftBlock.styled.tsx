@@ -1,5 +1,6 @@
 import { Color, CraftBlock, TodoState } from '@craftdocs/craft-extension-api'
-import styled, { css } from 'styled-components'
+import styled from 'styled-components'
+import { css } from 'styled-components'
 import { baseStyle, theme } from '../theme'
 import ToggleSvgr from '../svgr/Toggle'
 import TodoChecked from '../svgr/TodoChecked'
@@ -59,13 +60,13 @@ const Styled = {
       max-width: 4px;
 
       ${({ prev, block }) =>
-        (prev?.color !== block.color || !prev?.hasFocusDecoration) &&
+        !(prev && prev.color === block.color && prev.hasFocusDecoration) &&
         css`
           border-top-left-radius: 2px;
           border-top-right-radius: 2px;
         `}
       ${({ next, block }) =>
-        (next?.color !== block.color || !next?.hasFocusDecoration) &&
+        !(next && next.color === block.color && next.hasFocusDecoration) &&
         css`
           border-bottom-left-radius: 2px;
           border-bottom-right-radius: 2px;
@@ -80,19 +81,18 @@ const Styled = {
     prev?: CraftBlock
     next?: CraftBlock
   }>`
-    background-color: ${({ block: { color } }) =>
-      theme.light.background[color]};
+    background-color: ${({ block: { color } }) => theme.light.background[color]};
 
     padding: 12px 10px;
 
     ${({ prev, block }) =>
-      (prev?.color !== block.color || !prev?.hasBlockDecoration) &&
+      !(prev && prev.color === block.color && prev.hasBlockDecoration) &&
       css`
         border-top-left-radius: 4px;
         border-top-right-radius: 4px;
       `}
     ${({ next, block }) =>
-      (next?.color !== block.color || !next?.hasBlockDecoration) &&
+      !(next && next.color === block.color && next.hasBlockDecoration) &&
       css`
         border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
@@ -117,10 +117,8 @@ const Styled = {
     min-width: 28px;
     padding: 0px 6px 0px 4px;
     box-sizing: border-box;
-    ${({ block }) =>
-      block.type === 'textBlock' && theme.fontStyle[block.style.fontStyle]}
-    ${({ block }) =>
-      block.type === 'textBlock' && baseStyle.font[block.style.textStyle]}
+    ${({ block }) => block.type === 'textBlock' && theme.fontStyle[block.style.fontStyle]}
+    ${({ block }) => block.type === 'textBlock' && baseStyle.font[block.style.textStyle]}
   `,
   todo: {
     container: styled.div`
@@ -153,7 +151,7 @@ const Styled = {
   },
   toggle: {
     details: styled.details`
-      &[open] summary > div > svg {
+      &[open] > summary > div > svg {
         transform: rotate(90deg);
       }
     `,
@@ -164,18 +162,17 @@ const Styled = {
         display: none;
       }
     `,
-    icon: styled(ToggleSvgr)<{
-      'data-color': Color
-      'data-has-children': boolean
-    }>`
+    icon: styled(({ color, hasChildren, ...props }: { color: Color; hasChildren: boolean }) => (
+      <ToggleSvgr {...props} />
+    ))`
       transition: all 0.3s ease 0s;
       width: 13px;
       height: 13px;
-      fill: ${(props) => theme.light.color[props['data-color']]};
-      stroke: ${(props) => theme.light.color[props['data-color']]};
+      fill: ${({ color }) => theme.light.color[color]};
+      stroke: ${({ color }) => theme.light.color[color]};
 
-      ${(props) =>
-        !props['data-has-children'] &&
+      ${({ hasChildren }) =>
+        !hasChildren &&
         css`
           opacity: 33.3%;
         `};
