@@ -4,6 +4,12 @@ on:
     workflows: ['create-posts']
     types:
       - completed
+  workflow_dispatch:
+    inputs:
+      dispatch:
+        description: 'Dispatch gh-page deploy'
+        type: string
+        required: false
 env:
   GH_PAGE_BRANCH: gh-pages
 jobs:
