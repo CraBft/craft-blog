@@ -1,0 +1,1997 @@
+{
+  "hasFocusDecoration": false,
+  "style": {
+    "fontStyle": "system",
+    "alignmentStyle": "left",
+    "textStyle": "page"
+  },
+  "id": "41C3AD93-299C-4535-B94C-C772929265B1",
+  "type": "textBlock",
+  "hasBlockDecoration": false,
+  "content": [
+    {
+      "isItalic": false,
+      "isStrikethrough": false,
+      "text": "4/1(금) 프로젝트 종료",
+      "isCode": false,
+      "isBold": false
+    }
+  ],
+  "color": "text",
+  "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+  "subblocks": [
+    {
+      "hasBlockDecoration": false,
+      "id": "F8613BC7-AD50-4D71-8710-D46C11699C1F",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "[",
+          "isCode": false,
+          "highlightColor": "lime",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "link": {
+            "type": "dateLink",
+            "date": "2022-04-01"
+          },
+          "isCode": false,
+          "text": "4월 1일 (금)",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "]",
+          "isCode": false,
+          "highlightColor": "lime",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": " - 개포동 클러스터 4층",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "19570870-154E-4E5A-9033-F7A50AAFC4A5",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Attending",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "8497BE4A-F3AD-4934-8D60-47AAC043873E",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "이기훈",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "9C5CCAA2-6C33-465E-B008-2CE8FE1A2546",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "김재서",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "E28315D2-DEF9-4DC9-A244-7465D167F3F9",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Announcements",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": true,
+      "id": "21E0D9D6-7773-4928-B43D-02A3EB0AEA2A",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "별도 공지사항 없음",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "indentationLevel": 0,
+      "hasBlockDecoration": false,
+      "id": "ACC35E1E-44D7-4685-82B7-47427982FD93",
+      "listStyle": {
+        "type": "none"
+      },
+      "color": "text",
+      "lineStyle": "light",
+      "hasFocusDecoration": false,
+      "type": "horizontalLineBlock",
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a"
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A3706186-0A5F-465C-8120-910D66A95AA7",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Topics",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "BBA92B5E-B0F3-40BD-908A-D485A929AFEE",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "toggle"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "프로젝트 종료에 대한 목표 달성여부 및 결과 평가",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "30149A23-B346-4DF2-990A-F1DAF2B3ADAC",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "link": {
+            "type": "blockLink",
+            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+            "blockId": "35E2BFCC-FD10-4DB9-A7DA-2E468386FF39"
+          },
+          "isCode": false,
+          "text": "3.22(화) 첫 골 및 구조 ",
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "C38DFB76-C6A3-40F9-9DD5-059F8223EAAE",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "toggle"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "연계 프로젝트 운영 방식에 대한 결정",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "970987BB-2811-48E7-8035-E319F5A60F60",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "프로젝트 리더(기훈, 재서)의 향후 일정, 상황 공유",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "756CA7A2-3805-4425-8461-A548B502E725",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "이번 프로젝트 산출물을 투입하여 다음 프로젝트의 달성하고자 하는 목표 설정",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "645A1E39-4413-4462-875D-1A1C916BB4D2",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "toggle"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "다음 미팅 일정, 주제 결정",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "F17A9C4E-53C5-4788-B81B-48A8AD9E6D42",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "다음 미팅의 일정, 장소 및 다음 미팅 시 결정해야하는 안건 결정",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "indentationLevel": 0,
+      "hasBlockDecoration": false,
+      "id": "3AD99ACB-4E6F-4D01-99BE-7140D39CC858",
+      "listStyle": {
+        "type": "none"
+      },
+      "color": "text",
+      "lineStyle": "light",
+      "hasFocusDecoration": false,
+      "type": "horizontalLineBlock",
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a"
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "FE894A1A-4791-4968-88CD-DBEDA311033A",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "KPI 회고",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "indentationLevel": 0,
+      "hasBlockDecoration": false,
+      "id": "C2E6019E-FDEA-49B5-BA0A-A22E69E6634D",
+      "listStyle": {
+        "type": "none"
+      },
+      "color": "text",
+      "rows": [
+        {
+          "cells": [
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "182DDA9F-1538-47ED-AD92-957AF0133736",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "Keep",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              },
+              "style": {
+                "fillColor": "greenFill"
+              }
+            },
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "30558935-B35C-4DDE-93F6-93A032B5A18B",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "Problem",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              },
+              "style": {
+                "fillColor": "yellowFill1"
+              }
+            },
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "C8EFDC34-54EA-424F-8E20-1813DF273A0A",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "Try",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              },
+              "style": {
+                "fillColor": "blueFill1"
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "DDA1CF9D-DABF-4102-907C-73D36B9FF06D",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "일과에 대해서 대면으로 일정을 지키며 잘 따라주었으며, 규칙을 잘 지켰다.",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "BF18BF16-9CD2-4206-8958-8E073BD47C55",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "과정 안에서의 기록 및 지속가능한 문서 관리에 대한 부분이 부족했다.",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "AEB9D3DD-C546-4ECD-A0FF-9B015760646B",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "계획 단계에서 세운 우선 순위에 따라서만 작업해보자.",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "BC341B0C-1A45-400C-8E80-5093F3FBEFF0",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "프로젝트의 골을 잡았을 때 의사결정을 할 때 목표를 잊지 않고 제대로 나아갔다.",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "074AD158-DD38-41A2-9BC8-A2B5A2CBDC43",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "이번 기간의 목표 범위 외의 개발을 많이 했던거 같다. 목표 범위와 그렇지 않은 개발에 대해서 분리해서 사고하는 능력을 키워야겠다. ",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              }
+            },
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "2ED3DBDB-13AA-4F11-BC4E-1FB813D89909",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "저녁 회식 신나게 기분좋게 즐기자.",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "F8AE7AF1-9F48-4962-B02D-609F5D4F69B1",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "일과 중 중간 중간 쉬는시간도 적절히 잘 가졌던거도 좋았다.",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              }
+            },
+            {},
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "C9B4D3EE-D984-46B0-8A10-512DFE8FCCC3",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "다음번 결과물은 블로그로 쓸 수 있는 수준으로 만들자",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "89FA0653-956C-47EA-9506-16EBC1C3BE3A",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "빠른 커뮤니케이션이 좋았다.",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              }
+            },
+            {},
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "09C5BA19-1ACF-409C-A1E0-99011C5A5729",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "프론트앤드 개발자 추가 영입 필요",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "cells": [
+            {
+              "block": {
+                "hasBlockDecoration": false,
+                "id": "FD173649-5827-4053-A025-6FABD171230B",
+                "style": {
+                  "fontStyle": "system",
+                  "alignmentStyle": "left",
+                  "textStyle": "body"
+                },
+                "hasFocusDecoration": false,
+                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+                "listStyle": {
+                  "type": "none"
+                },
+                "subblocks": [],
+                "type": "textBlock",
+                "color": "text",
+                "indentationLevel": 0,
+                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+                "content": [
+                  {
+                    "isItalic": false,
+                    "isStrikethrough": false,
+                    "text": "서로의 학습에 대해서 공유하여, 팀의 인사이트가 전체적으로 향상될 수 있었다.",
+                    "isCode": false,
+                    "isBold": false
+                  }
+                ]
+              }
+            },
+            {},
+            {}
+          ]
+        }
+      ],
+      "columns": [
+        {},
+        {},
+        {}
+      ],
+      "hasFocusDecoration": false,
+      "type": "tableBlock",
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a"
+    },
+    {
+      "indentationLevel": 0,
+      "hasBlockDecoration": false,
+      "id": "45576F80-F667-4B29-AD2C-A15363B1D159",
+      "listStyle": {
+        "type": "none"
+      },
+      "color": "text",
+      "lineStyle": "light",
+      "hasFocusDecoration": false,
+      "type": "horizontalLineBlock",
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a"
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "71E9B372-7FEA-4BE7-9051-745299DD93D9",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Discussion",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "59AE9FA2-BCD2-4D9A-80E8-386F83499C81",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "서기 : 이기훈",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "ABA0DEE9-8496-4342-A96A-25C46419A5B3",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Topic1. 프로젝트 종료에 대한 목표 달성여부 및 결과 평가",
+          "isCode": false,
+          "highlightColor": "green",
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "AAA34D46-2CB4-4796-AE39-9560476DB1FF",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "strong"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Goal 달성 평가",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "B5ADD3FD-301F-4784-B223-D7D0308104CF",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": true,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Goal : mvp 기능 개발",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "F5A558F7-6443-4B2B-A38F-BD71067B6544",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "checked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "craft에서 github으로 data 전송 기능 개발",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "73D5B095-2564-4265-A55E-EDD4F035214C",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "checked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "깃헙 페이지 기능을 활용, nextjs 로 정적 페이지 생성",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A2773B26-8DC2-4B65-8972-BC6315A302E8",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "개발 중 추가로 발견한 필수 기능 개발 완료 사항",
+          "isCode": false,
+          "isBold": true
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "3A3F7D52-8C74-4A98-986E-A1454DB4EAA3",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "checked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "크래프트 문서 raw data를 가공하는 모듈을 rust로 개발",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "BA5EE0BE-0345-4FBB-B3EC-618C3FF5B954",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "checked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "github action을 활용하여, 최소한의 자동화 파이프라인 구축",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "BAFECC70-6347-4074-936B-05EC1A1D2493",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "세부 기능 개발 완료 사항",
+          "isCode": false,
+          "isBold": true
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "04E6C6E0-F74A-47F0-AD11-159403FB8450",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "checked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "CraftBaseBlock에서 공용 되는 Styling 분석 및 간단 적용",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "87E4681D-A722-43F9-B3F0-89A3C507CA6D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "checked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "CraftBlock 렌더링을 위한 레이아웃 방향 분석 및 설계 완료",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "E9429E13-FEB8-420B-B2DD-A3AF8476FE0D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "checked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "styled-components + next.js를 이용한 SSR 지원",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "246DF650-EBBB-4A35-A1F3-8D88978FD3CD",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "",
+          "isCode": false,
+          "highlightColor": "purple",
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "EBB79989-237A-4171-BF9D-B42F67E5B9FF",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Topic2. 연계 프로젝트 운영 방식에 대한 결정",
+          "isCode": false,
+          "highlightColor": "purple",
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "D78A4040-FC29-412B-9296-DC421B81EB8E",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "향후 일정 공유",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "8E5A4B64-91EA-49E1-A6E6-8CF7EC134708",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "기훈 ",
+          "isCode": false,
+          "isBold": true
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "FB9E925F-4E8E-4CF4-B7DB-647F2797B2D1",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "다음 주 부터는, 멘토님과 기획 중인 프로젝트에 시간을 많이 투입해야한다. 이 점을 고려하여 향후 프로젝트 일정관리에 반영하면 좋겠다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "55E11701-8C45-44BD-A6C7-1A8F2F0AAAA9",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "재서",
+          "isCode": false,
+          "isBold": true
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "FC8D6327-98E5-4C7A-8A5E-9284F00F8E97",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "42js 프로젝트 관리 외에는, 현재는 free",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "F465BFF1-7799-499E-8B76-5EBAF3BAF778",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "프로젝트의 달성하고자 하는 목표 설정",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "039D9FFC-45AC-448E-9A12-A023E2557060",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "프로젝트 일정 : 1달 주기로 Goal 을 설정하고 Iterable 하게 진행.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "0D610E2C-1810-4710-AECF-ADF67B336E82",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "회의 계획 : 프로젝트 시작 미팅 1회, 스프린트 미팅 2회 ( 2주를 1회로 )",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "63DD7396-B435-4713-BD6E-F6E39DFCE9B0",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": true,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Goal : 우리 서비스를 우리가 블로그로 사용할 수 있다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "918F5E65-0EC9-40B7-9F5B-886D779CCAC6",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "RSS를 제외한 SEO최적화",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "F0BF1117-63AF-489D-8AB6-42455C2FE418",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "블로그로서 갖추길 바라는 요소들 정하고, 구현하기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "55250F5E-32CF-4836-8094-D112E92DF620",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "블럭 기능 우선순위 정하고, 50% 달성",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "CD4C66FE-0922-4DB3-9FCC-E4F9009713F7",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "프론트앤드 멤버 영입",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "D03ACFAD-FFA3-4F7F-8589-AC3CC618D22F",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "디자이너 영입",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "4504B585-8132-40F7-BF4C-4AD1F16228CB",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "프로젝트 관리 체계화 ( 완성이 아니라, 협업 효과 증진을 위한 우선순위 도출 후 50% 달성 )",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "9F417DB0-53CB-4C54-B186-B8759DDCD5CB",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Topic3. 다음 미팅 일정, 주제 결정",
+          "isCode": false,
+          "highlightColor": "lime",
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "1597044A-B503-45FD-AD60-5CE5F4627065",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "일정 : 4/6 10시",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "0EB7869B-D1EF-4C2C-8799-692C7F574D91",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "참석자 : 이기훈, 김재서, 추가 멤버",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "0BB9324B-5957-43F6-9AC0-7D1CCC83CAD1",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "주제 : 이번 프로젝트 목표 달성을 위한 세부 계획 세우기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    }
+  ],
+  "indentationLevel": 0,
+  "listStyle": {
+    "type": "none"
+  },
+  "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2"
+}
