@@ -6,6 +6,7 @@
     "packages/*"
   ],
   "scripts": {
+    "postinstall": "is-ci || husky install",
     "lint": "eslint .",
     "lint:prettier": "prettier --write .",
     "blog:dev": "yarn workspace nextjs-craft-blog-kit run dev",
@@ -15,6 +16,8 @@
   },
   "packageManager": "yarn@3.2.0",
   "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
     "@craftdocs/craft-extension-api": "^0.0.4",
     "@types/node": "^17.0.23",
     "@types/react": "^17.0.43",
@@ -23,6 +26,8 @@
     "eslint": "^8.12.0",
     "eslint-config-next": "^12.1.4",
     "eslint-config-prettier": "^8.5.0",
+    "husky": "^7.0.4",
+    "is-ci": "^3.0.1",
     "prettier": "^2.6.1",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
