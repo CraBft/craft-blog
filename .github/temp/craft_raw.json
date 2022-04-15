@@ -1,35 +1,30 @@
 {
+  "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+  "color": "text",
+  "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
   "hasFocusDecoration": false,
-  "style": {
-    "fontStyle": "system",
-    "alignmentStyle": "left",
-    "textStyle": "page"
-  },
-  "id": "41C3AD93-299C-4535-B94C-C772929265B1",
-  "type": "textBlock",
   "hasBlockDecoration": false,
   "content": [
     {
       "isItalic": false,
       "isStrikethrough": false,
-      "text": "4/1(금) 프로젝트 종료",
+      "text": "한기용님 특강 (실리콘밸리 소재 하모나이즈라는 디지털 헬스케어 스타트업에서 데이터 팀)",
       "isCode": false,
       "isBold": false
     }
   ],
-  "color": "text",
-  "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+  "id": "75D7E3F0-690B-438D-8EF6-DB426E236C83",
   "subblocks": [
     {
       "hasBlockDecoration": false,
-      "id": "F8613BC7-AD50-4D71-8710-D46C11699C1F",
+      "id": "6B043B10-46F9-4FC1-B4EF-ABBE1ACFEEA5",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
         "textStyle": "body"
       },
       "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
         "type": "none"
       },
@@ -37,451 +32,67 @@
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "[",
+          "text": "메일 : keeyonghan@hotmail.com",
           "isCode": false,
-          "highlightColor": "lime",
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "91A5F767-AAE3-4FC3-A3F6-E7DC29961A39",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "만난 날 : ",
+          "isCode": false,
           "isBold": false
         },
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "link": {
-            "type": "dateLink",
-            "date": "2022-04-01"
-          },
-          "isCode": false,
-          "text": "4월 1일 (금)",
-          "isBold": false
-        },
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "]",
-          "isCode": false,
-          "highlightColor": "lime",
-          "isBold": false
-        },
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": " - 개포동 클러스터 4층",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "19570870-154E-4E5A-9033-F7A50AAFC4A5",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "heading"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "Attending",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "8497BE4A-F3AD-4934-8D60-47AAC043873E",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "bullet"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "이기훈",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "9C5CCAA2-6C33-465E-B008-2CE8FE1A2546",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "bullet"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "김재서",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "E28315D2-DEF9-4DC9-A244-7465D167F3F9",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "heading"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "Announcements",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": true,
-      "id": "21E0D9D6-7773-4928-B43D-02A3EB0AEA2A",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "bullet"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "별도 공지사항 없음",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "indentationLevel": 0,
-      "hasBlockDecoration": false,
-      "id": "ACC35E1E-44D7-4685-82B7-47427982FD93",
-      "listStyle": {
-        "type": "none"
-      },
-      "color": "text",
-      "lineStyle": "light",
-      "hasFocusDecoration": false,
-      "type": "horizontalLineBlock",
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a"
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "A3706186-0A5F-465C-8120-910D66A95AA7",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "heading"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "Topics",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "BBA92B5E-B0F3-40BD-908A-D485A929AFEE",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "toggle"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "프로젝트 종료에 대한 목표 달성여부 및 결과 평가",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "30149A23-B346-4DF2-990A-F1DAF2B3ADAC",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "bullet"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 1,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
           "link": {
             "type": "blockLink",
-            "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-            "blockId": "35E2BFCC-FD10-4DB9-A7DA-2E468386FF39"
+            "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+            "blockId": "75D7E3F0-690B-438D-8EF6-DB426E236C83"
           },
           "isCode": false,
-          "text": "3.22(화) 첫 골 및 구조 ",
+          "text": "한기용님 특강 (실리콘밸리 소재 하모나이즈라는 디지털 헬스케어 스타트업에서 데이터 팀)",
           "isBold": false
         }
       ]
     },
     {
       "hasBlockDecoration": false,
-      "id": "C38DFB76-C6A3-40F9-9DD5-059F8223EAAE",
+      "id": "62482558-300B-4E06-8D03-D0C723502CE4",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
         "textStyle": "body"
       },
       "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "toggle"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "연계 프로젝트 운영 방식에 대한 결정",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "970987BB-2811-48E7-8035-E319F5A60F60",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "bullet"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 1,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "프로젝트 리더(기훈, 재서)의 향후 일정, 상황 공유",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "756CA7A2-3805-4425-8461-A548B502E725",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "bullet"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 1,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "이번 프로젝트 산출물을 투입하여 다음 프로젝트의 달성하고자 하는 목표 설정",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "645A1E39-4413-4462-875D-1A1C916BB4D2",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "toggle"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "다음 미팅 일정, 주제 결정",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "F17A9C4E-53C5-4788-B81B-48A8AD9E6D42",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "bullet"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 1,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "다음 미팅의 일정, 장소 및 다음 미팅 시 결정해야하는 안건 결정",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "indentationLevel": 0,
-      "hasBlockDecoration": false,
-      "id": "3AD99ACB-4E6F-4D01-99BE-7140D39CC858",
-      "listStyle": {
-        "type": "none"
-      },
-      "color": "text",
-      "lineStyle": "light",
-      "hasFocusDecoration": false,
-      "type": "horizontalLineBlock",
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a"
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "FE894A1A-4791-4968-88CD-DBEDA311033A",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "heading"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
         "type": "none"
       },
@@ -489,531 +100,173 @@
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "DEE8F1C3-EFDC-4B44-90D6-759992F4707A",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "KPI 회고",
+          "text": "2021.12.9(목)",
           "isCode": false,
           "isBold": false
         }
       ]
     },
     {
-      "indentationLevel": 0,
       "hasBlockDecoration": false,
-      "id": "C2E6019E-FDEA-49B5-BA0A-A22E69E6634D",
+      "id": "99C16DFB-18D7-4F31-9073-7D98C54F2E17",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "page"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
         "type": "none"
       },
-      "color": "text",
-      "rows": [
+      "subblocks": [
         {
-          "cells": [
+          "hasBlockDecoration": false,
+          "id": "F15382F4-F189-484B-A4E8-44A6CDED1E6E",
+          "style": {
+            "fontStyle": "system",
+            "alignmentStyle": "left",
+            "textStyle": "body"
+          },
+          "hasFocusDecoration": false,
+          "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+          "listStyle": {
+            "type": "none"
+          },
+          "subblocks": [],
+          "type": "textBlock",
+          "color": "text",
+          "indentationLevel": 0,
+          "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+          "content": [
             {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "182DDA9F-1538-47ED-AD92-957AF0133736",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "Keep",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              },
-              "style": {
-                "fillColor": "greenFill"
-              }
-            },
-            {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "30558935-B35C-4DDE-93F6-93A032B5A18B",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "Problem",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              },
-              "style": {
-                "fillColor": "yellowFill1"
-              }
-            },
-            {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "C8EFDC34-54EA-424F-8E20-1813DF273A0A",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "Try",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              },
-              "style": {
-                "fillColor": "blueFill1"
-              }
+              "isItalic": false,
+              "isStrikethrough": false,
+              "text": "주 내용 :  “평생직장이 더 이상 존재하지 않는 세상에서 커리어는 어떻게 시작하고 바라보는 것이 좋을까?” \n시간 : 2021년 12월 9일 5시",
+              "isCode": false,
+              "isBold": false
             }
           ]
         },
         {
-          "cells": [
+          "hasBlockDecoration": false,
+          "id": "7CDBD5F6-6B9D-42F8-94B0-B7A161925CB0",
+          "style": {
+            "fontStyle": "system",
+            "alignmentStyle": "left",
+            "textStyle": "body"
+          },
+          "hasFocusDecoration": false,
+          "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+          "listStyle": {
+            "type": "none"
+          },
+          "subblocks": [],
+          "type": "textBlock",
+          "color": "text",
+          "indentationLevel": 0,
+          "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+          "content": [
             {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "DDA1CF9D-DABF-4102-907C-73D36B9FF06D",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "일과에 대해서 대면으로 일정을 지키며 잘 따라주었으며, 규칙을 잘 지켰다.",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              }
-            },
-            {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "BF18BF16-9CD2-4206-8958-8E073BD47C55",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "과정 안에서의 기록 및 지속가능한 문서 관리에 대한 부분이 부족했다.",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              }
-            },
-            {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "AEB9D3DD-C546-4ECD-A0FF-9B015760646B",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "계획 단계에서 세운 우선 순위에 따라서만 작업해보자.",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              }
+              "isItalic": false,
+              "isStrikethrough": false,
+              "text": "장소 : 새롬관 1층 오픈스튜디오",
+              "isCode": false,
+              "isBold": false
             }
           ]
         },
         {
-          "cells": [
+          "hasBlockDecoration": false,
+          "id": "FB18D290-CF19-4E7A-B5A8-9E26457F98BF",
+          "style": {
+            "fontStyle": "system",
+            "alignmentStyle": "left",
+            "textStyle": "body"
+          },
+          "hasFocusDecoration": false,
+          "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+          "listStyle": {
+            "type": "none"
+          },
+          "subblocks": [],
+          "type": "textBlock",
+          "color": "text",
+          "indentationLevel": 0,
+          "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+          "content": [
             {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "BC341B0C-1A45-400C-8E80-5093F3FBEFF0",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "프로젝트의 골을 잡았을 때 의사결정을 할 때 목표를 잊지 않고 제대로 나아갔다.",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              }
-            },
-            {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "074AD158-DD38-41A2-9BC8-A2B5A2CBDC43",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "이번 기간의 목표 범위 외의 개발을 많이 했던거 같다. 목표 범위와 그렇지 않은 개발에 대해서 분리해서 사고하는 능력을 키워야겠다. ",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              }
-            },
-            {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "2ED3DBDB-13AA-4F11-BC4E-1FB813D89909",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "저녁 회식 신나게 기분좋게 즐기자.",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              }
+              "isItalic": false,
+              "isStrikethrough": false,
+              "text": "한기용님을 소개드리면 (실리콘밸리의 개발자 커리어의 강력한 HUB 입니다. 피해갈 수 없다는)",
+              "isCode": false,
+              "isBold": false
             }
           ]
         },
         {
-          "cells": [
+          "hasBlockDecoration": false,
+          "id": "CA9BB457-09C2-4AF8-BCA4-619D1E1AD561",
+          "style": {
+            "fontStyle": "system",
+            "alignmentStyle": "left",
+            "textStyle": "body"
+          },
+          "hasFocusDecoration": true,
+          "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+          "listStyle": {
+            "type": "none"
+          },
+          "subblocks": [],
+          "type": "textBlock",
+          "color": "text",
+          "indentationLevel": 0,
+          "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+          "content": [
             {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "F8AE7AF1-9F48-4962-B02D-609F5D4F69B1",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "일과 중 중간 중간 쉬는시간도 적절히 잘 가졌던거도 좋았다.",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              }
-            },
-            {},
-            {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "C9B4D3EE-D984-46B0-8A10-512DFE8FCCC3",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "다음번 결과물은 블로그로 쓸 수 있는 수준으로 만들자",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              }
+              "isItalic": false,
+              "isStrikethrough": false,
+              "text": "발표자 한기용은 현재 실리콘밸리 소재 하모나이즈라는 디지털 헬스케어 스타트업에서 데이터 팀을 맡고 있다. 그 전에는 한국 대기업과 실리콘 밸리 스타트업을 대상으로 데이터 관련 다양한 컨설팅을 2년간 했고, 유데미(2021년 10월 나스닥에 상장)에서 2014년부터 4년간 일하며 데이터팀을 처음 만들어 30명까지 성장시켰으며 그 전에는 야후에서 엔지니어링 디렉터로 다양한 검색엔진 관련 프로젝트를 수행한 경험이 있다. 2000년 실리콘 밸리로 넘어가기 전에는 삼성전자에서 소프트웨어 엔지니어로 일했다. 커리어 관련 멘토링을 하며 남는 시간을 많이 보낸다 :)",
+              "isCode": false,
+              "isBold": false
             }
-          ]
-        },
-        {
-          "cells": [
-            {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "89FA0653-956C-47EA-9506-16EBC1C3BE3A",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "빠른 커뮤니케이션이 좋았다.",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              }
-            },
-            {},
-            {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "09C5BA19-1ACF-409C-A1E0-99011C5A5729",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "프론트앤드 개발자 추가 영입 필요",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "cells": [
-            {
-              "block": {
-                "hasBlockDecoration": false,
-                "id": "FD173649-5827-4053-A025-6FABD171230B",
-                "style": {
-                  "fontStyle": "system",
-                  "alignmentStyle": "left",
-                  "textStyle": "body"
-                },
-                "hasFocusDecoration": false,
-                "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-                "listStyle": {
-                  "type": "none"
-                },
-                "subblocks": [],
-                "type": "textBlock",
-                "color": "text",
-                "indentationLevel": 0,
-                "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-                "content": [
-                  {
-                    "isItalic": false,
-                    "isStrikethrough": false,
-                    "text": "서로의 학습에 대해서 공유하여, 팀의 인사이트가 전체적으로 향상될 수 있었다.",
-                    "isCode": false,
-                    "isBold": false
-                  }
-                ]
-              }
-            },
-            {},
-            {}
           ]
         }
       ],
-      "columns": [
-        {},
-        {},
-        {}
-      ],
-      "hasFocusDecoration": false,
-      "type": "tableBlock",
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a"
-    },
-    {
-      "indentationLevel": 0,
-      "hasBlockDecoration": false,
-      "id": "45576F80-F667-4B29-AD2C-A15363B1D159",
-      "listStyle": {
-        "type": "none"
-      },
-      "color": "text",
-      "lineStyle": "light",
-      "hasFocusDecoration": false,
-      "type": "horizontalLineBlock",
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a"
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "71E9B372-7FEA-4BE7-9051-745299DD93D9",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "heading"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "Discussion",
+          "text": "주제 : “급변하는 세상에서 커리어란?” ",
           "isCode": false,
           "isBold": false
         }
@@ -1021,14 +274,14 @@
     },
     {
       "hasBlockDecoration": false,
-      "id": "59AE9FA2-BCD2-4D9A-80E8-386F83499C81",
+      "id": "CA456176-C772-4264-9993-22FFE258EDB4",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
-        "textStyle": "body"
+        "textStyle": "subtitle"
       },
       "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
         "type": "none"
       },
@@ -1036,12 +289,12 @@
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "서기 : 이기훈",
+          "text": "멘토링을 하다보면 듣게되는 고민",
           "isCode": false,
           "isBold": false
         }
@@ -1049,71 +302,14 @@
     },
     {
       "hasBlockDecoration": false,
-      "id": "ABA0DEE9-8496-4342-A96A-25C46419A5B3",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "Topic1. 프로젝트 종료에 대한 목표 달성여부 및 결과 평가",
-          "isCode": false,
-          "highlightColor": "green",
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "AAA34D46-2CB4-4796-AE39-9560476DB1FF",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "strong"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "Goal 달성 평가",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "B5ADD3FD-301F-4784-B223-D7D0308104CF",
+      "id": "023EA963-0ABC-4284-AA37-32F9BF3DAF58",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
         "textStyle": "body"
       },
       "hasFocusDecoration": true,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
         "type": "none"
       },
@@ -1121,12 +317,12 @@
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "Goal : mvp 기능 개발",
+          "text": "불안감 → 학습 → 전문성/안정성",
           "isCode": false,
           "isBold": false
         }
@@ -1134,72 +330,14 @@
     },
     {
       "hasBlockDecoration": false,
-      "id": "F5A558F7-6443-4B2B-A38F-BD71067B6544",
+      "id": "4DCF0F52-063E-4B6E-9427-6C4D6E00CC94",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
-        "textStyle": "body"
+        "textStyle": "subtitle"
       },
       "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "checked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "craft에서 github으로 data 전송 기능 개발",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "73D5B095-2564-4265-A55E-EDD4F035214C",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "checked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "깃헙 페이지 기능을 활용, nextjs 로 정적 페이지 생성",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "A2773B26-8DC2-4B65-8972-BC6315A302E8",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
         "type": "none"
       },
@@ -1207,41 +345,12 @@
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "개발 중 추가로 발견한 필수 기능 개발 완료 사항",
-          "isCode": false,
-          "isBold": true
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "3A3F7D52-8C74-4A98-986E-A1454DB4EAA3",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "checked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "크래프트 문서 raw data를 가공하는 모듈을 rust로 개발",
+          "text": "요즘 시대의 전문성은 무엇인가?",
           "isCode": false,
           "isBold": false
         }
@@ -1249,216 +358,14 @@
     },
     {
       "hasBlockDecoration": false,
-      "id": "BA5EE0BE-0345-4FBB-B3EC-618C3FF5B954",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "checked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "github action을 활용하여, 최소한의 자동화 파이프라인 구축",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "BAFECC70-6347-4074-936B-05EC1A1D2493",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "세부 기능 개발 완료 사항",
-          "isCode": false,
-          "isBold": true
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "04E6C6E0-F74A-47F0-AD11-159403FB8450",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "checked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "CraftBaseBlock에서 공용 되는 Styling 분석 및 간단 적용",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "87E4681D-A722-43F9-B3F0-89A3C507CA6D",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "checked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "CraftBlock 렌더링을 위한 레이아웃 방향 분석 및 설계 완료",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "E9429E13-FEB8-420B-B2DD-A3AF8476FE0D",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "checked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "styled-components + next.js를 이용한 SSR 지원",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "246DF650-EBBB-4A35-A1F3-8D88978FD3CD",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "",
-          "isCode": false,
-          "highlightColor": "purple",
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "EBB79989-237A-4171-BF9D-B42F67E5B9FF",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "Topic2. 연계 프로젝트 운영 방식에 대한 결정",
-          "isCode": false,
-          "highlightColor": "purple",
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "D78A4040-FC29-412B-9296-DC421B81EB8E",
+      "id": "1ABF305C-8AE2-42FD-86EA-2E13198F51D0",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
         "textStyle": "heading"
       },
       "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
         "type": "none"
       },
@@ -1466,12 +373,12 @@
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "향후 일정 공유",
+          "text": "건강한 몸과 마음이 첫 번째",
           "isCode": false,
           "isBold": false
         }
@@ -1479,55 +386,27 @@
     },
     {
       "hasBlockDecoration": false,
-      "id": "8E5A4B64-91EA-49E1-A6E6-8CF7EC134708",
+      "id": "51D56E3D-5965-4C78-9574-4AC5D445466D",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
         "textStyle": "body"
       },
       "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
-        "type": "none"
+        "type": "bullet"
       },
       "subblocks": [],
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "기훈 ",
-          "isCode": false,
-          "isBold": true
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "FB9E925F-4E8E-4CF4-B7DB-647F2797B2D1",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "다음 주 부터는, 멘토님과 기획 중인 프로젝트에 시간을 많이 투입해야한다. 이 점을 고려하여 향후 프로젝트 일정관리에 반영하면 좋겠다.",
+          "text": "내가 익숙한 것들에서 벗어나는것이 중요하다. : 현재의 나를 성장시킨 장점에서 벗어나야 또 다른 성장을 한다.",
           "isCode": false,
           "isBold": false
         }
@@ -1535,55 +414,27 @@
     },
     {
       "hasBlockDecoration": false,
-      "id": "55E11701-8C45-44BD-A6C7-1A8F2F0AAAA9",
+      "id": "0D94C6EA-46B5-4059-B141-58E764F1069B",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
         "textStyle": "body"
       },
       "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
-        "type": "none"
+        "type": "bullet"
       },
       "subblocks": [],
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "재서",
-          "isCode": false,
-          "isBold": true
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "FC8D6327-98E5-4C7A-8A5E-9284F00F8E97",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "42js 프로젝트 관리 외에는, 현재는 free",
+          "text": "어떤 기술을 아느냐가 아닌 결과를 내는데 초점",
           "isCode": false,
           "isBold": false
         }
@@ -1591,55 +442,27 @@
     },
     {
       "hasBlockDecoration": false,
-      "id": "F465BFF1-7799-499E-8B76-5EBAF3BAF778",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "heading"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "프로젝트의 달성하고자 하는 목표 설정",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "039D9FFC-45AC-448E-9A12-A023E2557060",
+      "id": "9961B33A-B3A0-4DE3-8242-3473EDAA0BC8",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
         "textStyle": "body"
       },
       "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
         "type": "none"
       },
       "subblocks": [],
       "type": "textBlock",
       "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "프로젝트 일정 : 1달 주기로 Goal 을 설정하고 Iterable 하게 진행.",
+          "text": "예) 유데미 떄 데이터 과학자 이야기",
           "isCode": false,
           "isBold": false
         }
@@ -1647,42 +470,238 @@
     },
     {
       "hasBlockDecoration": false,
-      "id": "0D610E2C-1810-4710-AECF-ADF67B336E82",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "회의 계획 : 프로젝트 시작 미팅 1회, 스프린트 미팅 2회 ( 2주를 1회로 )",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "63DD7396-B435-4713-BD6E-F6E39DFCE9B0",
+      "id": "D6C4EEF6-4D39-41DF-84D6-8E6CA03285C1",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
         "textStyle": "body"
       },
       "hasFocusDecoration": true,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "실리콘 벨리에서 물리학자들은 연봉이 낮아서, 데이터 과학자로 커리어 전향을 많이 함.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "BF3EF193-53C2-4C5C-808E-84ABDB22C9B4",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": true,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "데이터 과학자로서 지식 베이스는 적합하다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "BCCEDECD-5E82-4E4B-8FAC-12302F14A1C6",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": true,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "지식도 빠르게 배우고, 코딩도 금방 잘했지만,학계에서의 습관을 버리지 못해서 해고 되었다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "B613FBB8-1D2F-42BD-AE13-E1D896474F5F",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": true,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "이미 다 있는거를, 처음부터 끝까지 내가 해낸거에 초점을 두는 버릇.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "6A65CC51-1F37-4B8E-B484-DF2566AA5671",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": true,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "얼마나 빠르게 최선의 결과를 내놓는가가 중요하다는 점을 알려줘도 안바뀌었음.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "D3F3C03D-1E82-464A-90F6-6B4067AC960A",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": true,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "하지만 해고가 되면 바뀐다. 해고된 뒤 다음 직장 찾는것도 도와줌",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "1FDE2B51-BD73-4BF1-BB54-32C95C7F8DC5",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": true,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "결과를 내는 것에 초점을 맞추는게 아니라, 처음부터 끝까지 내가 해냈다는 만족감에 기준을 두어서는 안된다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "5FD97BB1-F0E2-4EA6-9FC8-7C9A93BAF324",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "내가 하는 일에 결과를 내는데 필요한 기술의 배움에 초점",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "009C3254-4101-427B-B70F-2AB2A7EA92CB",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
         "type": "none"
       },
@@ -1690,201 +709,19 @@
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "Goal : 우리 서비스를 우리가 블로그로 사용할 수 있다.",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
     },
     {
       "hasBlockDecoration": false,
-      "id": "918F5E65-0EC9-40B7-9F5B-886D779CCAC6",
+      "id": "B781E20B-824F-4308-AE2F-38A8CF9E47B7",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
-        "textStyle": "body"
+        "textStyle": "heading"
       },
       "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "unchecked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "RSS를 제외한 SEO최적화",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "F0BF1117-63AF-489D-8AB6-42455C2FE418",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "unchecked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "블로그로서 갖추길 바라는 요소들 정하고, 구현하기",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "55250F5E-32CF-4836-8094-D112E92DF620",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "unchecked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "블럭 기능 우선순위 정하고, 50% 달성",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "CD4C66FE-0922-4DB3-9FCC-E4F9009713F7",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "unchecked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "프론트앤드 멤버 영입",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "D03ACFAD-FFA3-4F7F-8589-AC3CC618D22F",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "unchecked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "디자이너 영입",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "4504B585-8132-40F7-BF4C-4AD1F16228CB",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "todo",
-        "state": "unchecked"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "프로젝트 관리 체계화 ( 완성이 아니라, 협업 효과 증진을 위한 우선순위 도출 후 50% 달성 )",
-          "isCode": false,
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "9F417DB0-53CB-4C54-B186-B8759DDCD5CB",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
         "type": "none"
       },
@@ -1892,41 +729,12 @@
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "Topic3. 다음 미팅 일정, 주제 결정",
-          "isCode": false,
-          "highlightColor": "lime",
-          "isBold": false
-        }
-      ]
-    },
-    {
-      "hasBlockDecoration": false,
-      "id": "1597044A-B503-45FD-AD60-5CE5F4627065",
-      "style": {
-        "fontStyle": "system",
-        "alignmentStyle": "left",
-        "textStyle": "body"
-      },
-      "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
-      "listStyle": {
-        "type": "none"
-      },
-      "subblocks": [],
-      "type": "textBlock",
-      "color": "text",
-      "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
-      "content": [
-        {
-          "isItalic": false,
-          "isStrikethrough": false,
-          "text": "일정 : 4/6 10시",
+          "text": "요즘 세상의 전문성이란?",
           "isCode": false,
           "isBold": false
         }
@@ -1934,27 +742,27 @@
     },
     {
       "hasBlockDecoration": false,
-      "id": "0EB7869B-D1EF-4C2C-8799-692C7F574D91",
+      "id": "15B73451-FB64-4E43-9E51-7C52230784E9",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
         "textStyle": "body"
       },
       "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
-        "type": "none"
+        "type": "bullet"
       },
       "subblocks": [],
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "참석자 : 이기훈, 김재서, 추가 멤버",
+          "text": "변화에 두려워하지 않는 것이 전문성이다.",
           "isCode": false,
           "isBold": false
         }
@@ -1962,14 +770,169 @@
     },
     {
       "hasBlockDecoration": false,
-      "id": "0BB9324B-5957-43F6-9AC0-7D1CCC83CAD1",
+      "id": "5E445E88-6760-46F3-BADE-3552788F63D3",
       "style": {
         "fontStyle": "system",
         "alignmentStyle": "left",
         "textStyle": "body"
       },
       "hasFocusDecoration": false,
-      "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "한방에 끝내려고 하지 않아야한다 : ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "점진적인 발전.",
+          "isCode": false,
+          "highlightColor": "nightSkyGradient",
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "00D1ABFF-783F-44E9-BF11-BAC56AF5C466",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "자기 검열하지 않기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "F210F8E6-14E6-401D-8E5C-BE14BE33341B",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "numbered"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "동아시아권에서 자란 친구들은 자기 표현을 잘 못한다. 예를들면 승진을 하고싶으면, 미국인들 같은 경우에는 \"나 승진하고 싶은데, 너가 생각할 때는 내가 부족한게 뭐야?”, 동아시아 사람들은 ‘내가 열심히해서 성과를 내서 승진해야지’ - 소통을 먼저해서 Gap을 먼저 파악하고 이 것을 줄이는 방법으로 가야하는데 그렇게 안한다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "5F2EA75F-2FFD-4E80-AB30-13F6B34D2A3E",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "numbered"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "커리어를 시작하는 가장 좋은 방법은 이력서를 많이 내는 것이다. 내가 보는 기준에서 판단하지말고, 지원하고자 하는 곳에서 요구하는 30%만 채워서 제출하고, 피드백을 받고, 발전시켜라. - ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "점진적인 발전",
+          "isCode": false,
+          "highlightColor": "nightSkyGradient",
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "\n매주 이력서 5군데씩 제출해라. 내가 꼭 가고 싶은 곳은 나중에 내라. 이력서를 판단하는 역할의 사람들에게 판단은 맡기고, 나는 인터뷰를 통해 피드백을 받고 발전하면 된다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A75E9206-0904-4F2F-B452-5E3DBABA0A11",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "13D6647D-65F0-41D9-9200-7B1231018D60",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
       "listStyle": {
         "type": "none"
       },
@@ -1977,21 +940,3029 @@
       "type": "textBlock",
       "color": "text",
       "indentationLevel": 0,
-      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
       "content": [
         {
           "isItalic": false,
           "isStrikethrough": false,
-          "text": "주제 : 이번 프로젝트 목표 달성을 위한 세부 계획 세우기",
+          "text": "One way door vs. Two way door",
           "isCode": false,
           "isBold": false
         }
       ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "10C3E591-DD3E-4EA8-9FEF-C91AD87D32F2",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "아마존에서 새로운 기능을 런칭 할지 말지 결정할 때 사용하는 프레임워크",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "9CE5C1D9-42CD-4CF4-88EF-D57A49921A3C",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": true,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "One way door : 한번 실행하면 돌이킬 수 없는 선택지",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "D2C83349-91AA-42DD-BA2A-8C40863BD532",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": true,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Two way door : 시도 후 복구가 가능한 선택지",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "3B66243D-4812-4716-9968-BD7D9BE792F8",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "아마존은 새로운 기능을 런칭할지 말지 결정할 때, Two way door라고 판단되면 일단 런칭한다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "F2B0B13A-90AB-47D6-B2A0-BD404B74351C",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "길게 보면, One way door 라고 생각되는 것도, Two way door인 경우가 많다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "0DABA26A-572B-453F-96C1-8884EB6EBCC4",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "그러니, 내가 원하는 것을 하는지가 더 중요하게 여겨라.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "2749E24A-7C4A-449D-817D-FD2FBE9050E1",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "700D47AE-D81F-4E75-9ED3-B99C5269CB94",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "사례 : Meet P and D",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "8AC2DC54-E2CE-49C4-AB77-2D688F55F5FA",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Peter : 스탠포드 경영학 졸업",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A3EF839C-8417-4147-8E42-2FEEC22C2DF1",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "David : 문과",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "DC5417DC-F2C1-4A2E-B4CC-1B90F2510191",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "유데미가 20명도 안되었을 때, 입사한 친구들",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "647431EA-551B-4881-8C1D-9730AB4EF1AD",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "피터는 서포트 팀에서 시작, 데이비드는 세일즈 팀에서 시작",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "C26EE8D9-1C45-46B2-A387-E18764D02CF4",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "6A6E600C-71FF-4986-9D7A-4DDB2B4EB94D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "실리콘 벨리 회사들은 한 팀에서 일을 잘하는 사람에게, 다른팀으로 옮길 수 있는 기회를 받음",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "AD0CBCB9-FA57-43A7-A1C8-6E318C42EF2D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "둘 다, 마케팅 팀으로 옮김.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "2D1D50E4-74D7-41EE-8E52-D0E756E3A4F7",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "마케팅 팀에서도 일을 잘해서 각자 다른팀으로 옮겨서 일을 잘 하고 있다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "EAB56138-A913-45EF-9B8E-49E5B0246E2F",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "즉, 시작이 중요한게 아니다. 지속적인 성장으로 ",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "3433B57F-05D3-4A89-B4E5-9025F86C443F",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "사례 : Meet M and S",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A6929DBE-71E8-4149-920F-CBBC762E1B9C",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "여성만 뽑고, 파이썬만 가르치는 미국 코딩 부트캠프에서 공부한 친구들.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "3E79B57E-05FD-485D-9270-816F3D3BF927",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "12주마다 졸업생을 내고 데모데이를 진행한다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A865A561-C69C-4A7A-A92C-636891F16B74",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "M은 32살에 코딩 처음 배운 여성",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "1452A056-792D-444B-A59D-8457C820F40D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "시작할 때와 끝날 때 얼마나 성장했는지가 주니어의 실력을 판단하는 기준.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "45D60712-2CAC-446F-8FAA-C3EF55EDF965",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "S도 30대에 미국으로 남편 따라 넘어와서 코드 입문, 지금 유데미에서 데이터 엔지니어로 일함",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "BCCA6128-9AC5-4381-9695-02256C91D7B7",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "919FDF54-419B-43EF-B63A-D3E964390934",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "subtitle"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "커리어를 점진적인 발전이라는 관점에서 보기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "176ECAD4-B4C3-4C58-B37E-4F4F817E88E9",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "커리어의 발전 = 소프트웨어 개발 방법",
+          "isCode": false,
+          "isBold": true
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "B2AFAA73-4C87-4A94-9178-F8CBE76E4AFB",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "커리어가 평생 직장이란 것이 존재하던 세상에서는 waterfall 이었지만",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "0C9682B2-A6E5-4A2C-9065-6CA304238D69",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "지금은 Agile",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "779784F8-C65B-4C74-94D8-70B881DE0318",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A1331573-16CB-40E4-9A8F-08CF9F18806E",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "매니저 입장에서 주니어에게 바라는 점은?",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "02E3726E-5C34-488B-BD21-E4332D206ABC",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "피드백을 잘 받아들이고 개선하려고 하느냐?",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "85E4487B-C107-4683-A1EA-BDF54ACF419E",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "얼마나 발전 가능성이 있느냐?",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "3D9F869E-95E1-475B-900E-5A4AE811BFDD",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "처음에는 기술습득 (skillset) 중심에서 나중에는 영향력 (leadership)",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "B27D6943-443E-4559-BAC9-AA1D7029EDD0",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "질문을 잘 하느냐?",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "0E5EE3D5-ED3A-4873-A032-A064A1E73445",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "얼마나 긍정적인가?",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "56D46E90-EA98-47E3-A4A5-E182A98E2C87",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "2721064F-B63C-4847-B8C5-3E424E759C74",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "매니저 관점에서 어떻게 이를 안전하게 검증할 수 있을까?",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "FCD5B612-AE45-47B4-B83D-ED4E37D0C8A4",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "인턴십 (채용이 결혼이라고 생각하면, 인턴십은 동거)",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "9D3F1C63-CC75-46DB-A260-3DDB43BEDAF7",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "AC783967-3D29-4265-BF4F-644DA038F625",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "취직 준비 방법",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "996257A2-7195-49E3-B175-EA9A8B8D34B3",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "닥치는대로 이력서 내고 닥치는대로 인터뷰하기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "87B5673A-9EE3-45FF-B396-2DD55E437706",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Job Description 보고 부족한 것이 많네 하고 안 쫄기 - ",
+          "isCode": false,
+          "isBold": false
+        },
+        {
+          "isItalic": false,
+          "isStrikethrough": true,
+          "text": "자기 검열",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "78F1CAAC-11F2-46F8-B8E6-143BDA17AB5D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "99번 실패해도 하나만 잡으면 된다는 패기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "89E076B5-4863-4870-ADE6-9ECF57FE6484",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "실패에 상처받지 않기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "03AAFE9A-7594-4365-B3E3-808286BB19B4",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "어디건 시작해서 발전해 나가면 됨: 빨리 시작하는 것이 더 중요",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "9B0E3CA1-0CD3-40A0-8A80-56FF148D2F36",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "남들하고 비교하지 않기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "98379F6E-6F13-4C7F-82BE-4D06FF3650C9",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "“시작은 미약하나 그 끝은 창대하리라” - 시작하는 곳이 종착역이 아니라는 점 기억하기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "AEDB0BD0-9D6B-4C13-B807-030E28B38CCB",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A2A205A0-CBE3-40ED-A8DF-A15593BAA70E",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "직장 선택 기준",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "2602FD81-5A3A-44D0-96C5-BE0DDD8D924D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "numbered"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "가장 중요한건 내 매니저",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "79140564-4ACD-4A36-9334-3CFED184BBEE",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "내 매니저는 보고 배울 점이 많은 사람인가? 나이스한 것을 이야기하는 것이 아님. 윤리적이고 공정한 사람이며 명확한 결정을 내리고 피드백을 잘 주는지? 회사 내에서 힘이 있는 사람인지?",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "F1F9A2AD-7205-4D3B-BB6D-E6608E44DC9C",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "numbered"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "회사가 성장하고 있는가?",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "B57B4144-435B-45CA-BBD4-9CEFE91118D0",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "회사의 크기는 중요하지 않음. 외부에서 검증이 가능함",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "6E58698E-EA6A-4A4A-A6DD-A1639A1686B0",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Growing pain vs. just pain >> Growing pain을 택해라",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "60E6B8F0-1628-4D4C-935A-AE033098FB0D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "numbered"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "사람/문화",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "2AD15744-5D5A-493C-8E01-94ADE19059B1",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Inner circle이 존재하느냐? : 존재한다면 이 회사는 더 큰 성장을 이루는 것이 쉽지 않을 가능성이 높음.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "D3D8B6DE-C00E-4EF8-A0BA-A5C23CCCAC90",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "인터뷰를 해서 사람을 뽑으면, 뽑은 사람을 성공시키기 위한 환경이 되는가?",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "C6994EB7-9AC1-4783-8939-17D2FF524CDC",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A7304CA9-BE1C-4D23-8DC9-4DEB0333238F",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "새로운 시작 - 처음 90일이 중요",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "52215BDC-68D9-4229-A852-B0EC166157BD",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "자기 검열하지 말고 매니저의 스타일 파악하고 피드백 요청",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "4EA8A17C-41BA-4856-8479-6D1F05EA38C3",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "과거의 상처를 가지고 시작하지 않기 - 새 술은 새 부대에 담자.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "40E31D1D-81B5-485A-901D-4565C1DF3CFF",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "남(잘 나가는 주변 지인들)과 비교하지 않기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "2FF3F7D4-F136-4FDD-BEAF-4DDFDB5F76D3",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "열심히 일하되 너무 서두르지 않기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "3EF114C0-6BE4-4EBB-AFED-0905ABAE4276",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "뭔가 하나라도 이룩하는 것이다. 매니저와 소통을 많이해서, 이사람이 중요하게 생각하는 것을 작은것이라도 파악해서 이루는 것.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "CD5B8D98-BB5E-4B4A-AFA5-48A529250852",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "AC736502-3204-46B5-9093-6F2C4266D2CD",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "새로운 기술의 습득이 아닌 결과를 내는데 초점 맞추기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "BFE6B9CC-8CC9-4E0F-8143-3B4C9BCDA7F3",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "아주 나쁘지 않은 환경에 있다는 전제 :내가 있는 회사가 진짜 별로면 빨리 옮겨라",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "ECD3447E-F6CE-4749-BE46-11468C0116AE",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "자신이 맡은 일을 잘 하기 위해서 필요한 기술 습득",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "34154AF8-2316-42FA-8612-927BE453B29B",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "...",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "indentationLevel": 0,
+      "hasBlockDecoration": false,
+      "id": "7EBAD0EF-EAA4-47BE-9550-72BBC8F5FBB8",
+      "listStyle": {
+        "type": "none"
+      },
+      "color": "text",
+      "lineStyle": "regular",
+      "hasFocusDecoration": false,
+      "type": "horizontalLineBlock",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e"
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "5BB887A5-F759-4822-9497-8EC6147DBB84",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "기억했으면 하는 부분",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "FA9FFD11-B11E-4A2F-9EA4-CF936963E444",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "남과 비교하지 말고 앞으로 20-30년을 보기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "F70C0895-769F-4B33-9A43-AC1E0523E292",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "어제와 나와 오늘의 나를 비교하라.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "87B03BF1-77CA-4C11-AC0C-D4E0CB8FA32F",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "하나를 하기로 했으면 적어도 6개월은 파고 들기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "B82F07D2-039F-4028-B81E-17FA70AD6794",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "너무 빨리 포기하지 않기 (다시 한번 잘하는 다른 사람들과 비교하지 않기)",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "BC07A6D3-C986-476D-BC3D-2A542CCB37D8",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "뭔가 잘 안되면 서두르기 보다는 오히려 천천히 가기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "46ECCAC3-8BB7-46D9-84D9-B90D445BB528",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "공부를 위한 공부를 하기보다는 일을 시작해보기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "AE3DFFDD-8263-4306-ACD3-249DBA773DD6",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "어디건 일을 시작하고 발전해나가기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "706AEF64-F450-4A1A-9D90-236AA5C3B525",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "공부와 면접을 병행",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "CBCD3010-2BBF-452B-9823-B6DF39EB83E3",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "면접 실패를 감정적으로 받아들이지 않기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "CE7035E0-B0EC-4162-8D9C-4016D390E790",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "배움이 중요하고 그 보다 중요한 것은 변화를 두려워 하지 않는 것",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "FA2985BB-FF1E-43B3-A8E6-499C68200A95",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "불안감이 아닌 결과를 내기 위한 배움에 집중",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "DDE58E5B-710C-42C3-B97D-DD73A8B1DE75",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "처음에 작은 실패를 반복하며 내가 잘하고 즐기는 일을 찾는 것이 중요",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "DBB2EE3D-C4BD-4460-A738-553C362D1318",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "시작이 아닌 어디에서 마무리하느냐가 더 중요",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "E1B68BD5-264A-4632-8C35-C468332FE58E",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "회사의 명성보다는 같은 일하는 사람들이 더 중요",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "CD7CDC09-329D-4EFE-A9E8-4A246A66F3CC",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "특히 커리어의 초기에는 어떤 매니저/사수와 일하느냐가 더 중요",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "F7F35B56-CF27-4ECC-A8B3-C0904AB8CB06",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "자신감 갖기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "237AA4DE-A465-4784-AD3C-38A917A46ADF",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "작은 계획과 성취의 반복",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "9D286A64-DFD3-4634-B47E-CEEFB9EC4383",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 1,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Love Yourself",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "D73D7FE5-0AC1-42D6-86D5-35F6492985BD",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Q1. 해외 취업 비자 발급어려운데 테크트리 어떻게 하면 좋을까요?",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "479C6D3C-3868-4653-8667-99F41108517B",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "A1. 한국에 지사가 있는 실리콘 벨리 스타트업에서 신분세탁하세요~!",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "0098B93A-78CD-4463-A61E-62F3F9809D0B",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "A2. 싱가폴에 실리콘벨리 회사들 개발자 오피스가 많다. 여기는 비자도 잘나오니까, 여기있는 Facebook 등에서 일하고, 성과 내서 본사로 슝!",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "86B1336C-779B-479C-AD41-65A87D7EE2F0",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "B8555984-3EEB-4D8F-9E6B-47BE96DF0E07",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Q. 세 번째 창업을 준비하는데, 작은 성공을 쌓아가며 성공하고 싶다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "EF45E6A3-681F-4FD5-9F7D-D601F65F749B",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "A. 발전하는 존버가 필요하다. 어떻게 논쟁을 해도 관계가 깨지지 않을 수 있는 코파운더가 있으면 좋다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "CDDB21A2-AC1E-4DA9-8FA7-29F0D94A54E6",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "시작한 아이디어에 대해서 고집을 가지지 말고, 유연하게 생각해야한다. 필요하다면 피보팅 할 수 있는 유연한 사고, 유데미 창업자도 유데미가 세 번쨰 회사였다. ",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "333DB75F-950A-43AE-A173-A6922A2B7603",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "결론 ",
+          "isCode": false,
+          "isBold": true
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "1D339E02-FBAB-4785-B686-8388EEB007D2",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "numbered"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "어느정도 비상하고 똑똑",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "C24FD2DE-4F79-4CF0-97C6-6B2AC72F4C5F",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "numbered"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "포기안하는거 7 -8년 안하는거",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "70BEF604-FB95-40F2-A37A-601FDB66EB2B",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "numbered"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "포기 안하되 잘못된 거를 발견하고 발전할 수 있는가",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "D8D33D7A-ED18-4D61-98FD-172A812DF4A8",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "결론, 실력, 의지와 발전하는 존버.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "0A21B1D7-A485-4A1C-ADE4-8C7AF7673BB6",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "39A7A9CF-E993-4BF2-BEE3-09427F6C3A65",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "Q. 한국사람들이 행복한거 같나요, 미국사람들이 행복한거 같나요?",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "E25C8166-7D0C-44EF-B582-9C99D49FFE01",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "A. 일반적으로 인생을 더 현재에 맞춰서 사는건 미국사람들이지 않나 싶다.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "A222D377-BCF2-4364-8D9C-D9D67B0F666C",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "indentationLevel": 0,
+      "hasBlockDecoration": false,
+      "id": "098ABEC9-DC21-412C-A54D-D63761147305",
+      "listStyle": {
+        "type": "none"
+      },
+      "color": "text",
+      "lineStyle": "regular",
+      "hasFocusDecoration": false,
+      "type": "horizontalLineBlock",
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e"
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "7B54A3E9-2092-424E-9074-CBE2CAC17678",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "heading"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "강연을 듣고 느낀 핵심 메시지",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "B5D61995-FC23-4127-9274-8F56E785CA5A",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "한거 후회하는거보다 안한거 후회하는게 많다. ",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "BA653A3D-42EE-4024-A7B0-2FCF7319685F",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "내가 원하는 모습과 지금의 간극을 남들에게 물어보고, 어떻게 채울 수 있을지 지속적으로 소통해라",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "1EF2801C-57F6-4A47-AA98-523D65CB5727",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "bullet"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "한방에 무언가를 하려고 하지말고, 작은 계획과 성취의 반복을 지향하라.",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "ED121191-8DD0-4851-A88C-10C6D40C27B8",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "5D6F6CA5-D65D-4072-961F-55F69EAEF41E",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+      "content": []
     }
   ],
+  "type": "textBlock",
   "indentationLevel": 0,
   "listStyle": {
     "type": "none"
   },
-  "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2"
+  "style": {
+    "fontStyle": "system",
+    "alignmentStyle": "left",
+    "textStyle": "page"
+  }
 }
