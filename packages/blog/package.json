@@ -7,10 +7,13 @@
     "build": "next build",
     "export": "yarn run build && next export",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "next": "12.1.4",
+    "framer-motion": "^6.3.0",
+    "next": "12.1.5",
     "next-transpile-modules": "^9.0.0",
     "react": "18.0.0",
     "react-dom": "18.0.0",
@@ -18,12 +21,23 @@
   },
   "devDependencies": {
     "@craftdocs/craft-extension-api": "*",
+    "@storybook/addon-a11y": "*",
+    "@storybook/addon-actions": "*",
+    "@storybook/addon-essentials": "*",
+    "@storybook/addon-interactions": "*",
+    "@storybook/addon-links": "*",
+    "@storybook/builder-webpack5": "*",
+    "@storybook/manager-webpack5": "*",
+    "@storybook/react": "*",
+    "@storybook/testing-library": "*",
     "@types/node": "*",
     "@types/react": "*",
     "@types/react-dom": "*",
     "@types/styled-components": "*",
     "eslint": "*",
     "eslint-config-next": "*",
+    "eslint-plugin-storybook": "*",
+    "storybook-addon-next-router": "^3.1.1",
     "typescript": "*"
   }
 }

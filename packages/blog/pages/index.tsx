@@ -2,8 +2,8 @@ import type { GetStaticPropsContext, InferGetStaticPropsType, NextPage } from 'n
 import Link from 'next/link'
 import { getAllPosts } from '../libs/post-api'
 
-export const getStaticProps = async (ctx: GetStaticPropsContext) => {
-  const posts = await getAllPosts()
+export const getStaticProps = (ctx: GetStaticPropsContext) => {
+  const posts = getAllPosts()
 
   return {
     props: {

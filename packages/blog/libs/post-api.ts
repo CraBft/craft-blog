@@ -4,7 +4,7 @@ import { CraftBlogPage } from '../types/CraftBlogPage'
 
 const postsDirectory = path.join(process.cwd(), '../../_contents/posts')
 
-export const getAllPosts = async () => {
+export const getAllPosts = () => {
   const postPaths = fs.readdirSync(postsDirectory).filter((path) => path.endsWith('.json'))
 
   return postPaths

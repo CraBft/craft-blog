@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "src/index.ts",
   "source": "src/index.ts",
+  "scripts": {
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "peerDependencies": {
     "react": "*",
     "react-dom": "*",
@@ -10,12 +14,21 @@
   },
   "devDependencies": {
     "@craftdocs/craft-extension-api": "*",
+    "@storybook/addon-a11y": "*",
+    "@storybook/addon-actions": "*",
+    "@storybook/addon-essentials": "*",
+    "@storybook/addon-interactions": "*",
+    "@storybook/addon-links": "*",
+    "@storybook/builder-webpack5": "*",
+    "@storybook/manager-webpack5": "*",
+    "@storybook/react": "*",
+    "@storybook/testing-library": "*",
     "@types/katex": "^0.14.0",
     "@types/react": "*",
     "@types/react-dom": "*",
     "@types/react-syntax-highlighter": "^13.5.2",
     "@types/styled-components": "*",
-    "next": "^12.1.4"
+    "next": "^12.1.5"
   },
   "dependencies": {
     "@matejmazur/react-katex": "^3.1.3",
