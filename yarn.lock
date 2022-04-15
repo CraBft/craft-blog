@@ -372,7 +372,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftdocs/craft-extension-api-sdk@npm:0.0.4":
+"@craftdocs/craft-extension-api-sdk@npm:*, @craftdocs/craft-extension-api-sdk@npm:^0.0.4":
   version: 0.0.4
   resolution: "@craftdocs/craft-extension-api-sdk@npm:0.0.4"
   dependencies:
@@ -381,7 +381,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@craftdocs/craft-extension-api@npm:0.0.4, @craftdocs/craft-extension-api@npm:^0.0.4":
+"@craftdocs/craft-extension-api@npm:*, @craftdocs/craft-extension-api@npm:^0.0.4":
   version: 0.0.4
   resolution: "@craftdocs/craft-extension-api@npm:0.0.4"
   checksum: eca04f234b626ce946953e12e8b9ae89cc5c45163cdd0e637d813d0f8bb85e43b51957ae96d4eeb813788f7b6844b8f25d45c7c6e52d2ef9999ddc0cc772fbd8
@@ -500,12 +500,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@next/eslint-plugin-next@npm:12.1.4":
-  version: 12.1.4
-  resolution: "@next/eslint-plugin-next@npm:12.1.4"
+"@next/eslint-plugin-next@npm:12.1.5":
+  version: 12.1.5
+  resolution: "@next/eslint-plugin-next@npm:12.1.5"
   dependencies:
     glob: 7.1.7
-  checksum: 6908d3ea066cc31a2353a198eb019bccb1158f032df8607568bb5ca17f84d271871e916e426f981eab08f2dbbc3df7a0ab00de2a8f14ed323492417e4f9d7903
+  checksum: fe070fbd42f699b0e158d2ea276569ad686343c78fb698c1835cd587862903bc2d146e04dd747495e186019cff685f36120b3953afce8b0c9f0fb43cd58798a7
   languageName: node
   linkType: hard
 
@@ -851,10 +851,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:17.0.23, @types/node@npm:>=12, @types/node@npm:^17.0.23":
+"@types/node@npm:*, @types/node@npm:>=12":
   version: 17.0.23
   resolution: "@types/node@npm:17.0.23"
   checksum: a3517554737cbb042e76c30d0e5482192ac4d9bea0eeb086e2622d9cabf460a0eb52a696b99fcd18e7fcc93c96db6cc7ae507f6608f256ef0b5c1d8c87a5a470
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^17.0.24":
+  version: 17.0.24
+  resolution: "@types/node@npm:17.0.24"
+  checksum: 9e7c4f863601b2430b4c2429a89935f22eba692956f5013c90a4c7fb0e1401ed8add8c4307453c5d6b8b985384500f8c3f644427ab88632640cc396159af479a
   languageName: node
   linkType: hard
 
@@ -893,12 +900,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:17.0.14, @types/react-dom@npm:^17.0.11, @types/react-dom@npm:^17.0.14":
-  version: 17.0.14
-  resolution: "@types/react-dom@npm:17.0.14"
+"@types/react-dom@npm:*, @types/react-dom@npm:^18.0.1":
+  version: 18.0.1
+  resolution: "@types/react-dom@npm:18.0.1"
   dependencies:
     "@types/react": "*"
-  checksum: b54cd0ef573236b3d87fe7493e6d1c36d8b4ca37a3b46364272a5c91ac178e3296b68ea1aeb299ce68f12ad663c5720ee890d0539b14881c6754bdcbdb0befa0
+  checksum: 6c183e2e50240b77ed767cd968fe061ef4f2b47f84da5ec9e412a767d68c9a004d1f6ccca4295a5aa2c3ee723377e59006a2031f3767c00d8ac9e240a51bb142
   languageName: node
   linkType: hard
 
@@ -911,7 +918,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:17.0.43, @types/react@npm:^17.0.37, @types/react@npm:^17.0.43":
+"@types/react@npm:*":
   version: 17.0.43
   resolution: "@types/react@npm:17.0.43"
   dependencies:
@@ -919,6 +926,17 @@ __metadata:
     "@types/scheduler": "*"
     csstype: ^3.0.2
   checksum: 981b0993f5b3ea9d3488b8cc883201e8ae47ba7732929f788f450a79fd72829e658080d5084e67caa008e58d989b0abc1d5f36ff0a1cda09315ea3a3c0c9dc11
+  languageName: node
+  linkType: hard
+
+"@types/react@npm:^18.0.5":
+  version: 18.0.5
+  resolution: "@types/react@npm:18.0.5"
+  dependencies:
+    "@types/prop-types": "*"
+    "@types/scheduler": "*"
+    csstype: ^3.0.2
+  checksum: 70d3336d43ef25509fa89ef3278f57fdf1945fc921e69b7890a78ab9a52a55ee38e2f13aa71eb4f6032b7311e7557860ce8836c1acf3028304989571c9736a96
   languageName: node
   linkType: hard
 
@@ -964,14 +982,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/styled-components@npm:5.1.24, @types/styled-components@npm:^5.1.24":
-  version: 5.1.24
-  resolution: "@types/styled-components@npm:5.1.24"
+"@types/styled-components@npm:*, @types/styled-components@npm:^5.1.25":
+  version: 5.1.25
+  resolution: "@types/styled-components@npm:5.1.25"
   dependencies:
     "@types/hoist-non-react-statics": "*"
     "@types/react": "*"
     csstype: ^3.0.2
-  checksum: 158c69085ad899622f558426c623d3052f7b521ede01c0fd342280c93ef2ac462a39c4c3b2374e7c7e2630fcc64dfcfd8f4446c8d4809cbac9a7b962a73357c0
+  checksum: 60ce64f13283b01da54fd3a4c5703769d8575c979d5ec6b67ad124c2d4df980c9b96bb91af87e03f6447a816a5d2b0270c63eefad60cfa885091b594984525f5
   languageName: node
   linkType: hard
 
@@ -2449,17 +2467,18 @@ __metadata:
     "@commitlint/cli": ^16.2.3
     "@commitlint/config-conventional": ^16.2.1
     "@craftdocs/craft-extension-api": ^0.0.4
-    "@types/node": ^17.0.23
-    "@types/react": ^17.0.43
-    "@types/react-dom": ^17.0.14
-    "@types/styled-components": ^5.1.24
+    "@craftdocs/craft-extension-api-sdk": ^0.0.4
+    "@types/node": ^17.0.24
+    "@types/react": ^18.0.5
+    "@types/react-dom": ^18.0.1
+    "@types/styled-components": ^5.1.25
     conventional-commits-parser: ^3.2.4
-    eslint: ^8.12.0
-    eslint-config-next: ^12.1.4
+    eslint: ^8.13.0
+    eslint-config-next: ^12.1.5
     eslint-config-prettier: ^8.5.0
     husky: ^7.0.4
     is-ci: ^3.0.1
-    prettier: ^2.6.1
+    prettier: ^2.6.2
     react: ^18.0.0
     react-dom: ^18.0.0
     styled-components: ^5.3.5
@@ -3125,11 +3144,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:12.1.4, eslint-config-next@npm:^12.1.4":
-  version: 12.1.4
-  resolution: "eslint-config-next@npm:12.1.4"
+"eslint-config-next@npm:*, eslint-config-next@npm:^12.1.5":
+  version: 12.1.5
+  resolution: "eslint-config-next@npm:12.1.5"
   dependencies:
-    "@next/eslint-plugin-next": 12.1.4
+    "@next/eslint-plugin-next": 12.1.5
     "@rushstack/eslint-patch": 1.0.8
     "@typescript-eslint/parser": 5.10.1
     eslint-import-resolver-node: 0.3.4
@@ -3145,7 +3164,7 @@ __metadata:
   peerDependenciesMeta:
     typescript:
       optional: true
-  checksum: 913a1b938a35886efebe3c909175ac47b26499d75ddd33cdab4d66eeaac5fdbbad1ef22c601b8f87ef562dee4c2685335fbced356c4a6dc270b7c293a43fd220
+  checksum: 823b50d0c3706b206ab8c9fa62c6580603d7b523b678f1a7dbbb226697c22626e48ee05fab11a8136f82bf6d559d2357e39c90bef3c32d9a167437b0660a9175
   languageName: node
   linkType: hard
 
@@ -3329,9 +3348,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.12.0, eslint@npm:^8.12.0":
-  version: 8.12.0
-  resolution: "eslint@npm:8.12.0"
+"eslint@npm:*, eslint@npm:^8.13.0":
+  version: 8.13.0
+  resolution: "eslint@npm:8.13.0"
   dependencies:
     "@eslint/eslintrc": ^1.2.1
     "@humanwhocodes/config-array": ^0.9.2
@@ -3370,7 +3389,7 @@ __metadata:
     v8-compile-cache: ^2.0.3
   bin:
     eslint: bin/eslint.js
-  checksum: 111bf9046b7a463049788dd00d7f4cd91e024029982352dff4811ce5dfa8cb1136aa127cd8a7a91508234d3e1b4fb6f638a1f5ef9ea08b1af93a18703a4a8dc1
+  checksum: bc7d2fc9a046d42cb2c8987573ecaf534c1fae14747c4695e32388e179c5f21b83eefdb3e4f35924bf76152e226d7cc9dfb21f12348baf12c803109005b17439
   languageName: node
   linkType: hard
 
@@ -5953,19 +5972,19 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "nextjs-craft-blog-kit@workspace:packages/blog"
   dependencies:
-    "@craftdocs/craft-extension-api": ^0.0.4
-    "@types/node": 17.0.23
-    "@types/react": 17.0.43
-    "@types/react-dom": 17.0.14
-    "@types/styled-components": 5.1.24
-    eslint: 8.12.0
-    eslint-config-next: 12.1.4
+    "@craftdocs/craft-extension-api": "*"
+    "@types/node": "*"
+    "@types/react": "*"
+    "@types/react-dom": "*"
+    "@types/styled-components": "*"
+    eslint: "*"
+    eslint-config-next: "*"
     next: 12.1.4
     next-transpile-modules: ^9.0.0
     react: 18.0.0
     react-dom: 18.0.0
     styled-components: ^5.3.5
-    typescript: 4.6.3
+    typescript: "*"
   languageName: unknown
   linkType: soft
 
@@ -6727,7 +6746,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:^2.6.1":
+"prettier@npm:^2.6.2":
   version: 2.6.2
   resolution: "prettier@npm:2.6.2"
   bin:
@@ -6912,13 +6931,13 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-craft-x@workspace:packages/components"
   dependencies:
-    "@craftdocs/craft-extension-api": ^0.0.4
+    "@craftdocs/craft-extension-api": "*"
     "@matejmazur/react-katex": ^3.1.3
     "@types/katex": ^0.14.0
-    "@types/react": ^17.0.43
-    "@types/react-dom": ^17.0.14
+    "@types/react": "*"
+    "@types/react-dom": "*"
     "@types/react-syntax-highlighter": ^13.5.2
-    "@types/styled-components": ^5.1.24
+    "@types/styled-components": "*"
     katex: ^0.15.3
     next: ^12.1.4
     react-syntax-highlighter: ^15.5.0
@@ -6961,7 +6980,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.0.0, react-dom@npm:^18.0.0":
+"react-dom@npm:*, react-dom@npm:18.0.0, react-dom@npm:^18.0.0":
   version: 18.0.0
   resolution: "react-dom@npm:18.0.0"
   dependencies:
@@ -6970,19 +6989,6 @@ __metadata:
   peerDependencies:
     react: ^18.0.0
   checksum: dd0ba9f2f31dd728076c892a95b2f5a8dfe79136431b0289afb46eec39d0ca6b6f0f40a60fd8aa6ef702c98ce7c26100d3d4dbc35c7c9e87429cd04f84cb58bd
-  languageName: node
-  linkType: hard
-
-"react-dom@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react-dom@npm:17.0.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-    scheduler: ^0.20.2
-  peerDependencies:
-    react: 17.0.2
-  checksum: 1c1eaa3bca7c7228d24b70932e3d7c99e70d1d04e13bb0843bbf321582bc25d7961d6b8a6978a58a598af2af496d1cedcfb1bf65f6b0960a0a8161cb8dab743c
   languageName: node
   linkType: hard
 
@@ -7015,22 +7021,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.0.0, react@npm:^18.0.0":
+"react@npm:*, react@npm:18.0.0, react@npm:^18.0.0":
   version: 18.0.0
   resolution: "react@npm:18.0.0"
   dependencies:
     loose-envify: ^1.1.0
   checksum: 293020b96536b3c7113ee57ca5c990a3f25649d1751b1c7a3aabd16dff0691fe9f1eed1206616d0906d05933536052037340a0c8d0941ff870b0eb469a2f975b
-  languageName: node
-  linkType: hard
-
-"react@npm:^17.0.2":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: b254cc17ce3011788330f7bbf383ab653c6848902d7936a87b09d835d091e3f295f7e9dd1597c6daac5dc80f90e778c8230218ba8ad599f74adcc11e33b9d61b
   languageName: node
   linkType: hard
 
@@ -7404,16 +7400,6 @@ __metadata:
   version: 2.1.2
   resolution: "safer-buffer@npm:2.1.2"
   checksum: cab8f25ae6f1434abee8d80023d7e72b598cf1327164ddab31003c51215526801e40b66c5e65d658a0af1e9d6478cadcb4c745f4bd6751f97d8644786c0978b0
-  languageName: node
-  linkType: hard
-
-"scheduler@npm:^0.20.2":
-  version: 0.20.2
-  resolution: "scheduler@npm:0.20.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: c4b35cf967c8f0d3e65753252d0f260271f81a81e427241295c5a7b783abf4ea9e905f22f815ab66676f5313be0a25f47be582254db8f9241b259213e999b8fc
   languageName: node
   linkType: hard
 
@@ -8468,12 +8454,12 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "typescript-extension@workspace:packages/extension"
   dependencies:
-    "@craftdocs/craft-extension-api": 0.0.4
-    "@craftdocs/craft-extension-api-sdk": 0.0.4
+    "@craftdocs/craft-extension-api": "*"
+    "@craftdocs/craft-extension-api-sdk": "*"
     "@tailwindcss/forms": ^0.5.0
-    "@types/node": ^17.0.23
-    "@types/react": ^17.0.37
-    "@types/react-dom": ^17.0.11
+    "@types/node": "*"
+    "@types/react": "*"
+    "@types/react-dom": "*"
     autoprefixer: ^10.4.4
     copy-webpack-plugin: ^9.1.0
     css-loader: ^6.5.1
@@ -8481,9 +8467,9 @@ __metadata:
     js-base64: ^3.7.2
     postcss: ^8.4.12
     postcss-loader: ^6.2.1
-    react: ^17.0.2
+    react: "*"
     react-dev-utils: ^11.0.4
-    react-dom: ^17.0.2
+    react-dom: "*"
     style-loader: ^3.3.1
     tailwindcss: ^2.2.19
     ts-loader: ^9.2.6
@@ -8496,7 +8482,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"typescript@npm:4.6.3, typescript@npm:^4.4.3, typescript@npm:^4.6.2, typescript@npm:^4.6.3":
+"typescript@npm:*, typescript@npm:^4.4.3, typescript@npm:^4.6.2, typescript@npm:^4.6.3":
   version: 4.6.3
   resolution: "typescript@npm:4.6.3"
   bin:
@@ -8506,7 +8492,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.6.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
+"typescript@patch:typescript@*#~builtin<compat/typescript>, typescript@patch:typescript@^4.4.3#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.2#~builtin<compat/typescript>, typescript@patch:typescript@^4.6.3#~builtin<compat/typescript>":
   version: 4.6.3
   resolution: "typescript@patch:typescript@npm%3A4.6.3#~builtin<compat/typescript>::version=4.6.3&hash=bda367"
   bin:

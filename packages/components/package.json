@@ -9,12 +9,12 @@
     "styled-components": "*"
   },
   "devDependencies": {
-    "@craftdocs/craft-extension-api": "^0.0.4",
+    "@craftdocs/craft-extension-api": "*",
     "@types/katex": "^0.14.0",
-    "@types/react": "^17.0.43",
-    "@types/react-dom": "^17.0.14",
+    "@types/react": "*",
+    "@types/react-dom": "*",
     "@types/react-syntax-highlighter": "^13.5.2",
-    "@types/styled-components": "^5.1.24",
+    "@types/styled-components": "*",
     "next": "^12.1.4"
   },
   "dependencies": {
