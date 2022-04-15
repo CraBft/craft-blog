@@ -8464,9 +8464,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript-extension@workspace:packages/craft-x-data-publish":
+"typescript-extension@workspace:packages/extension":
   version: 0.0.0-use.local
-  resolution: "typescript-extension@workspace:packages/craft-x-data-publish"
+  resolution: "typescript-extension@workspace:packages/extension"
   dependencies:
     "@craftdocs/craft-extension-api": 0.0.4
     "@craftdocs/craft-extension-api-sdk": 0.0.4
