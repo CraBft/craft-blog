@@ -1,0 +1,366 @@
+{
+  "content": [
+    {
+      "isItalic": false,
+      "isStrikethrough": false,
+      "text": "목표 기능 정의",
+      "isCode": false,
+      "isBold": false
+    }
+  ],
+  "hasBlockDecoration": false,
+  "style": {
+    "fontStyle": "system",
+    "alignmentStyle": "left",
+    "textStyle": "page"
+  },
+  "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+  "indentationLevel": 0,
+  "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+  "id": "7fa944c2-4509-466d-b654-7880fd7f39aa",
+  "hasFocusDecoration": false,
+  "listStyle": {
+    "type": "none"
+  },
+  "color": "text",
+  "type": "textBlock",
+  "subblocks": [
+    {
+      "hasBlockDecoration": false,
+      "id": "AFB1F7BD-ADD7-4D18-A519-E104061E7E99",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "subtitle"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "생각나는 기능 막 적어보기",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "80A2834A-C875-489F-BE5C-47FBD088726D",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "구글 검색 최적화 기능",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "6A9978E9-8302-40C4-8B5C-3F06243E30FB",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "메인 페이지 - 글 목록",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "C1A5CCEC-5431-49F8-9606-12B1884F3553",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "시리즈 기능",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "CE960C4D-246F-4D8E-8039-841122616C14",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "SEO 최적화 및 피드 활용을 위한 description 기능",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "85D992B5-3B87-4BA7-BA5D-3297B4013308",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "URL 최적화 기능",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "E0F0DA89-09A8-47E9-9D10-14AC255D2918",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "태그 기능",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "8B16FFA4-35BA-487F-8FFC-3C18CDF4B69F",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "벨로그 ",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "5CB6BDEA-DB36-475F-9FE2-F060ECC136FD",
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "previewUrl": "https://res.craft.do/user/preview/9b73b1e8-42ea-cb9a-4429-738126302e2a/doc/dced4d3d-f578-4788-aa23-e3f531c517c4/5CB6BDEA-DB36-475F-9FE2-F060ECC136FD_1/5SxmsxMM9nDPgylny13v6moayvOcQcG65JQMCONhiCwz/Image.jpg",
+      "listStyle": {
+        "type": "none"
+      },
+      "filename": "Image.png",
+      "url": "https://res.craft.do/user/full/9b73b1e8-42ea-cb9a-4429-738126302e2a/doc/dced4d3d-f578-4788-aa23-e3f531c517c4/5CB6BDEA-DB36-475F-9FE2-F060ECC136FD_2/1VP8yGNtBOs95Oa9RBGjDxyqh08TEHxY5ffdgOuqQaUz/Image.png",
+      "type": "imageBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "previewImageStyle": {
+        "fillStyle": "fill",
+        "sizeStyle": "auto"
+      },
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a"
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "524CE79E-9056-4D52-9446-A91CB4E7124C",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "글 삭제 기능",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "51AE431A-0C49-4A82-A01C-C0A9A660B928",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "body"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "listStyle": {
+        "type": "todo",
+        "state": "unchecked"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "업데이트 기능",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    },
+    {
+      "hasBlockDecoration": false,
+      "id": "111B3B5E-C0AF-4F90-9E7A-635723107BB0",
+      "style": {
+        "fontStyle": "system",
+        "alignmentStyle": "left",
+        "textStyle": "subtitle"
+      },
+      "hasFocusDecoration": false,
+      "documentId": "dced4d3d-f578-4788-aa23-e3f531c517c4",
+      "listStyle": {
+        "type": "none"
+      },
+      "subblocks": [],
+      "type": "textBlock",
+      "color": "text",
+      "indentationLevel": 0,
+      "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+      "content": [
+        {
+          "isItalic": false,
+          "isStrikethrough": false,
+          "text": "핵심 기능 우선순위에 따라 정리",
+          "isCode": false,
+          "isBold": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "hasBlockDecoration": false,
+  "indentationLevel": 0,
+  "hasFocusDecoration": false,
+  "id": "30FB08F5-9382-40FE-BC8F-4D7D4DFB7C35",
+  "type": "textBlock",
+  "documentId": "5878FB5E-5DC5-4349-964B-AE7FA4551EE9",
+  "spaceId": "9b73b1e8-42ea-cb9a-4429-738126302e2a",
+  "style": {
+    "fontStyle": "system",
+    "alignmentStyle": "left",
+    "textStyle": "page"
+  },
+  "color": "text",
+  "content": [
+    {
+      "isItalic": false,
+      "isStrikethrough": false,
+      "text": "3.24(목) 차경묵 멘토님 멘토링",
+      "isCode": false,
+      "isBold": false
+    }
+  ],
+  "listStyle": {
+    "type": "none"
+  },
+  "subblocks": []
+}
