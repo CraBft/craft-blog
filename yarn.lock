@@ -5949,9 +5949,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nextjs-craft-blog-kit@workspace:packages/nextjs-craft-blog-kit":
+"nextjs-craft-blog-kit@workspace:packages/blog":
   version: 0.0.0-use.local
-  resolution: "nextjs-craft-blog-kit@workspace:packages/nextjs-craft-blog-kit"
+  resolution: "nextjs-craft-blog-kit@workspace:packages/blog"
   dependencies:
     "@craftdocs/craft-extension-api": ^0.0.4
     "@types/node": 17.0.23
@@ -6908,9 +6908,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-craft-x@workspace:packages/react-craft-x":
+"react-craft-x@workspace:packages/components":
   version: 0.0.0-use.local
-  resolution: "react-craft-x@workspace:packages/react-craft-x"
+  resolution: "react-craft-x@workspace:packages/components"
   dependencies:
     "@craftdocs/craft-extension-api": ^0.0.4
     "@matejmazur/react-katex": ^3.1.3
