@@ -6,7 +6,7 @@
     "packages/*"
   ],
   "scripts": {
-    "postinstall": "is-ci || husky install",
+    "postinstall": "is-ci || (husky install && git config commit.template commit-template.txt)",
     "lint": "eslint .",
     "lint:prettier": "prettier --write .",
     "blog:dev": "yarn workspace nextjs-craft-blog-kit run dev",
