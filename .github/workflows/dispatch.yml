@@ -8,7 +8,7 @@ on:
       - '.github/temp/**'
 
 env:
-  RUST_DIR: ./packages/rust-craft-data-process
+  RUST_DIR: ./packages/parser
   POST_DIR_FROM_RUST_DIR: ../../_contents/posts
   INPUT_DIR_FROM_RUST_DIR: ../../.github/temp
   INPUT_JSON: craft_raw.json
@@ -19,7 +19,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Build rust-craft-data-process
+      - name: Build parser
         working-directory: ${{ env.RUST_DIR }}
         run: cargo build --verbose
 
