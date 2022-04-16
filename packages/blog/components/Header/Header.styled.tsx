@@ -1,52 +1,71 @@
 import { motion } from 'framer-motion'
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
+import { breakPoint } from '../../styles/theme'
+
+export const mediaPadding = css`
+  padding: 16px 32px;
+`
 
 const Styled = {
   rootContainer: styled(motion.header)`
-    position: fixed;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
 
     display: flex;
+
     width: 100%;
   `,
-  mainContainer: styled(motion.div)`
+  wrapContainer: styled(motion.div)`
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
+    ${mediaPadding}
 
     width: 100%;
-    max-width: 1536px;
-
-    padding: 8px 16px;
-
+    max-width: 1280px;
     margin-left: auto;
     margin-right: auto;
   `,
-  leftContainer: styled(motion.div)`
+  flexContainer: styled(motion.div)`
     display: flex;
 
     align-items: center;
 
     gap: 8px;
   `,
-  image: styled(motion.img)`
-    border-radius: 50%;
-  `,
-  infoContainer: styled(motion.div)`
+  anchor: styled(motion.a)`
     display: flex;
-    flex-direction: column;
-    gap: 8px;
+    align-items: center;
+    gap: 4px;
+
+    color: inherit;
+    text-decoration: inherit;
+  `,
+  icon: styled(motion.img)`
+    border-radius: 50%;
+    width: 32px;
+    height: 32px;
+
+    display: block;
+    @media screen and (max-width: ${breakPoint.md}px) {
+      display: none;
+    }
   `,
   title: styled(motion.h1)`
     margin: 0;
+    margin-top: auto;
+    margin-bottom: auto;
     font-weight: 600;
   `,
-  subtitle: styled(motion.h2)`
-    margin: 0;
-    font-weight: 400;
+  menu: styled(motion.div)`
+    display: none;
+    @media screen and (max-width: ${breakPoint.md}px) {
+      display: flex;
+    }
   `,
-  rigthContainer: styled(motion.div)`
-    display: flex;
-  `,
-  search: styled(motion.div)``,
 }
 
 export default Styled

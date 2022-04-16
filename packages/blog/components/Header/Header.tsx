@@ -1,20 +1,32 @@
-import React, { useState } from 'react'
-import { useViewportScroll, MotionConfig } from 'framer-motion'
+import React, { useEffect, useState } from 'react'
+import { MotionConfig, LayoutGroup } from 'framer-motion'
 import Styled from './Header.styled'
+import Link from 'next/link'
+import Hero from './Hero'
+import { useRouter } from 'next/router'
+
+const image = {
+  src: 'https://avatars.githubusercontent.com/u/48559454?v=4',
+  alt: "JaeSeoKim's avatar",
+}
+
+const title = 'JaeSeoKim'
+const subtitle = '🎢 To become a better developer...!'
 
 export type HeaderProps = {}
 
 const Header: React.FC<HeaderProps> = ({}) => {
-  const { scrollY } = useViewportScroll()
-  const [isHero, setIsHero] = useState(scrollY.get() < 200)
+  const router = useRouter()
+  const [isHome, setIsHome] = useState(router.pathname === '/')
+  const [isShowHero, setIsShowHero] = useState(false)
 
-  scrollY.onChange((value) => {
-    if (value < 200) {
-      setIsHero(true)
+  useEffect(() => {
+    if (router.pathname === '/') {
+      setIsHome(true)
     } else {
-      setIsHero(false)
+      setIsHome(false)
     }
-  })
+  }, [router.pathname])
 
   return (
     <MotionConfig
@@ -23,73 +35,51 @@ const Header: React.FC<HeaderProps> = ({}) => {
         type: 'tween',
       }}
     >
-      <Styled.rootContainer
-        initial={scrollY.get() < 200 ? 'hero' : 'header'}
-        animate={isHero ? 'hero' : 'header'}
-        variants={{
-          hero: {
-            paddingTop: '64px',
-            backgroundColor: '#ffffff',
-            boxShadow: `0px`,
-          },
-          header: {
-            paddingTop: '0px',
-            backgroundColor: '#F5F5F7',
-            boxShadow: `0px 1px 2px rgba(0, 0, 0, 0.25)`,
-          },
-        }}
-      >
-        <Styled.mainContainer>
-          <Styled.leftContainer>
-            <Styled.image
-              src="https://avatars.githubusercontent.com/u/48559454?v=4"
-              alt="JaeSeoKim's avatar"
-              variants={{
-                hero: {
-                  width: '200px',
-                  height: '200px',
-                },
-                header: {
-                  width: '36px',
-                  height: '36px',
-                },
-              }}
-            />
-            <Styled.infoContainer>
-              <Styled.title
-                variants={{
-                  hero: {
-                    fontSize: '36px',
-                  },
-                  header: {
-                    fontSize: '24px',
-                  },
-                }}
-              >
-                JaeSeoKim
-              </Styled.title>
-              <Styled.subtitle
-                variants={{
-                  hero: {
-                    fontSize: '24px',
-                    opacity: 1,
-                    scale: 1,
-                    display: 'flex',
-                  },
-                  header: {
-                    opacity: 0,
-                    scale: 0,
-                    display: 'none',
-                  },
-                }}
-              >
-                Frontend Developer
-              </Styled.subtitle>
-            </Styled.infoContainer>
-          </Styled.leftContainer>
-          <Styled.rigthContainer>right</Styled.rigthContainer>
-        </Styled.mainContainer>
-      </Styled.rootContainer>
+      <LayoutGroup>
+        <Styled.rootContainer
+          initial={[isShowHero ? 'hero' : 'header']}
+          animate={[isShowHero ? 'hero' : 'header']}
+          variants={{
+            hero: {
+              boxShadow: `0px`,
+              backgroundColor: `rgba(255, 255, 255, 0)`,
+            },
+            header: {
+              boxShadow: `rgb(0 0 0 0.2) 0px 1px 15px`,
+              backgroundColor: `#F5F5F7`,
+            },
+          }}
+        >
+          <Styled.wrapContainer>
+            <Styled.menu>menu</Styled.menu>
+            <Styled.flexContainer>
+              {!isShowHero && (
+                <Link href={'/'} passHref>
+                  <Styled.anchor>
+                    <Styled.icon layoutId={`${router.pathname}-image`} src={image.src} alt={image.alt} />
+                    <Styled.title layoutId={`${router.pathname}-title`}>{title}</Styled.title>
+                  </Styled.anchor>
+                </Link>
+              )}
+            </Styled.flexContainer>
+            <Styled.flexContainer>right</Styled.flexContainer>
+          </Styled.wrapContainer>
+        </Styled.rootContainer>
+        {isHome && (
+          <Hero
+            image={image}
+            title={title}
+            subtitle={subtitle}
+            onViewportEnter={() => {
+              setIsShowHero(true)
+            }}
+            onViewportLeave={() => {
+              setIsShowHero(false)
+            }}
+            pathname={router.pathname}
+          />
+        )}
+      </LayoutGroup>
     </MotionConfig>
   )
 }
