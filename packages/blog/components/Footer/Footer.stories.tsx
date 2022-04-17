@@ -1,6 +1,7 @@
 import React from 'react'
 import { ComponentMeta, ComponentStory } from '@storybook/react'
 import Footer from './Footer'
+import { nanoid } from 'nanoid'
 
 export default {
   title: 'Components/Footer',
@@ -22,4 +23,27 @@ const Template: ComponentStory<typeof Footer> = (args) => (
 )
 
 export const Primary = Template.bind({})
-Primary.args = {}
+Primary.args = {
+  links: [
+    {
+      id: nanoid(),
+      name: 'github',
+      url: '',
+    },
+    {
+      id: nanoid(),
+      name: 'email',
+      url: '',
+    },
+    {
+      id: nanoid(),
+      name: 'kakao',
+      url: '',
+    },
+    {
+      id: nanoid(),
+      name: 'instagram',
+      url: '',
+    },
+  ],
+}

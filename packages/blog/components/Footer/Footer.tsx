@@ -1,4 +1,3 @@
-import { nanoid } from 'nanoid'
 import Styled from './Footer.styled'
 import Image from 'next/image'
 
@@ -10,36 +9,11 @@ export type FooterProps = {
   }[]
 }
 
-const Footer: React.FC = () => {
-  const footerData = {
-    links: [
-      {
-        id: nanoid(),
-        name: 'github',
-        url: '',
-      },
-      {
-        id: nanoid(),
-        name: 'email',
-        url: '',
-      },
-      {
-        id: nanoid(),
-        name: 'kakao',
-        url: '',
-      },
-      {
-        id: nanoid(),
-        name: 'instagram',
-        url: '',
-      },
-    ],
-  }
-
+const Footer: React.FC<FooterProps> = ({ links }) => {
   return (
     <Styled.container>
       <Styled.ul>
-        {footerData.links.map((link) => {
+        {links.map((link) => {
           const { id, name, url } = link
           return (
             <Styled.li key={id}>
