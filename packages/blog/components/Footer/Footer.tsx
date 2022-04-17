@@ -18,7 +18,7 @@ const Footer: React.FC<FooterProps> = ({ links }) => {
           return (
             <Styled.li key={id}>
               <Styled.anchor href={url} target="_blank" aria-label={name}>
-                <Image src={`/assets/${name}.png`} alt={name} width={'20px'} height={'20px'} />
+                <Image src={`/assets/${name}.png`} alt={name} width={'40px'} height={'40px'} quality={100} />
               </Styled.anchor>
             </Styled.li>
           )
