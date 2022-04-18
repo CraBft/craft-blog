@@ -22,3 +22,5 @@ yarn-error.log*
 
 # If you're using Zero-Installs:
 .yarn/*
+
+.github/
