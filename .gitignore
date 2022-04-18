@@ -30,3 +30,5 @@ yarn-error.log*
 
 # Only dev module
 background-extract
+
+.eslintcache
