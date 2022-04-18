@@ -2,7 +2,7 @@
   "extends": ["next/core-web-vitals", "prettier", "plugin:storybook/recommended"],
   "settings": {
     "next": {
-      "rootDir": "packages/nextjs-craft-blog-kit/"
+      "rootDir": "packages/blog/"
     }
   }
 }
