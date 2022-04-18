@@ -1,0 +1,145 @@
+{
+  "id": "99C16DFB-18D7-4F31-9073-7D98C54F2E17",
+  "parentId": "75D7E3F0-690B-438D-8EF6-DB426E236C83",
+  "rootBlock": {
+    "color": "text",
+    "content": [
+      {
+        "isBold": false,
+        "isCode": false,
+        "isItalic": false,
+        "isStrikethrough": false,
+        "text": "주제 : “급변하는 세상에서 커리어란?” "
+      }
+    ],
+    "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+    "hasBlockDecoration": false,
+    "hasFocusDecoration": false,
+    "id": "99C16DFB-18D7-4F31-9073-7D98C54F2E17",
+    "indentationLevel": 0,
+    "listStyle": {
+      "type": "none"
+    },
+    "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+    "style": {
+      "alignmentStyle": "left",
+      "fontStyle": "system",
+      "textStyle": "page"
+    },
+    "subblocks": [
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "주 내용 :  “평생직장이 더 이상 존재하지 않는 세상에서 커리어는 어떻게 시작하고 바라보는 것이 좋을까?” \n시간 : 2021년 12월 9일 5시"
+          }
+        ],
+        "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "F15382F4-F189-484B-A4E8-44A6CDED1E6E",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "장소 : 새롬관 1층 오픈스튜디오"
+          }
+        ],
+        "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "7CDBD5F6-6B9D-42F8-94B0-B7A161925CB0",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "한기용님을 소개드리면 (실리콘밸리의 개발자 커리어의 강력한 HUB 입니다. 피해갈 수 없다는)"
+          }
+        ],
+        "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": false,
+        "id": "FB18D290-CF19-4E7A-B5A8-9E26457F98BF",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      },
+      {
+        "color": "text",
+        "content": [
+          {
+            "isBold": false,
+            "isCode": false,
+            "isItalic": false,
+            "isStrikethrough": false,
+            "text": "발표자 한기용은 현재 실리콘밸리 소재 하모나이즈라는 디지털 헬스케어 스타트업에서 데이터 팀을 맡고 있다. 그 전에는 한국 대기업과 실리콘 밸리 스타트업을 대상으로 데이터 관련 다양한 컨설팅을 2년간 했고, 유데미(2021년 10월 나스닥에 상장)에서 2014년부터 4년간 일하며 데이터팀을 처음 만들어 30명까지 성장시켰으며 그 전에는 야후에서 엔지니어링 디렉터로 다양한 검색엔진 관련 프로젝트를 수행한 경험이 있다. 2000년 실리콘 밸리로 넘어가기 전에는 삼성전자에서 소프트웨어 엔지니어로 일했다. 커리어 관련 멘토링을 하며 남는 시간을 많이 보낸다 :)"
+          }
+        ],
+        "documentId": "7B69DC60-DD76-4D4F-B0EF-3988F2BA8C9B",
+        "hasBlockDecoration": false,
+        "hasFocusDecoration": true,
+        "id": "CA9BB457-09C2-4AF8-BCA4-619D1E1AD561",
+        "indentationLevel": 0,
+        "listStyle": {
+          "type": "none"
+        },
+        "spaceId": "7d31ebac-862e-57f5-cccc-f6c05ed5f10e",
+        "style": {
+          "alignmentStyle": "left",
+          "fontStyle": "system",
+          "textStyle": "body"
+        },
+        "subblocks": [],
+        "type": "textBlock"
+      }
+    ],
+    "type": "textBlock"
+  }
+}
