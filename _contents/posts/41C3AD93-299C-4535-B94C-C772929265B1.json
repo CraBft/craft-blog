@@ -509,11 +509,7 @@
       },
       {
         "color": "text",
-        "columns": [
-          {},
-          {},
-          {}
-        ],
+        "columns": [{}, {}, {}],
         "documentId": "DB29A26D-2759-4258-B42E-5BCED3A1A8B2",
         "hasBlockDecoration": false,
         "hasFocusDecoration": false,

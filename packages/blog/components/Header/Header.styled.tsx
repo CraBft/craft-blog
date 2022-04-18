@@ -1,5 +1,5 @@
-import { motion } from "framer-motion";
-import styled from "styled-components";
+import { motion } from 'framer-motion'
+import styled from 'styled-components'
 
 const Styled = {
   rootContainer: styled(motion.header)`
@@ -47,6 +47,6 @@ const Styled = {
     display: flex;
   `,
   search: styled(motion.div)``,
-};
+}
 
-export default Styled;
+export default Styled
