@@ -1,40 +1,32 @@
 {
-  "name": "typescript-extension",
-  "version": "1.0.0",
+  "name": "crabft-blog-extension",
+  "version": "0.0.0",
   "description": "",
   "scripts": {
     "build": "webpack --mode=production",
     "dev": "webpack serve --mode=development"
   },
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
     "@craftdocs/craft-extension-api": "*",
     "@craftdocs/craft-extension-api-sdk": "*",
-    "@types/node": "*",
     "@types/react": "*",
     "@types/react-dom": "*",
-    "autoprefixer": "^10.4.4",
-    "copy-webpack-plugin": "^9.1.0",
-    "css-loader": "^6.5.1",
-    "html-webpack-plugin": "^5.5.0",
-    "postcss": "^8.4.12",
-    "postcss-loader": "^6.2.1",
-    "react-dev-utils": "^11.0.4",
-    "style-loader": "^3.3.1",
-    "tailwindcss": "^2.2.19",
-    "ts-loader": "^9.2.6",
-    "typescript": "^4.6.2",
-    "url-loader": "^4.1.1",
-    "webpack": "^5.62.2",
-    "webpack-cli": "^4.9.1",
-    "webpack-dev-server": "^4.4.0",
-    "zip-webpack-plugin": "^4.0.1"
+    "@types/styled-components": "*",
+    "copy-webpack-plugin": "*",
+    "css-loader": "*",
+    "html-webpack-plugin": "*",
+    "react-dev-utils": "*",
+    "style-loader": "*",
+    "ts-loader": "*",
+    "typescript": "*",
+    "webpack": "*",
+    "webpack-cli": "*",
+    "webpack-dev-server": "*",
+    "zip-webpack-plugin": "*"
   },
   "dependencies": {
-    "@tailwindcss/forms": "^0.5.0",
-    "js-base64": "^3.7.2",
     "react": "*",
-    "react-dom": "*"
+    "react-dom": "*",
+    "styled-components": "*"
   }
 }

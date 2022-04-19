@@ -5,7 +5,6 @@ const InlineChunkHtmlPlugin = require('react-dev-utils/InlineChunkHtmlPlugin')
 const ZipPlugin = require('zip-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const { CraftExtensionApiPlugin } = require('@craftdocs/craft-extension-api-sdk')
-const webpack = require('webpack')
 
 module.exports = (env, argv) => {
   const isProd = argv.mode === 'production'
@@ -24,34 +23,18 @@ module.exports = (env, argv) => {
     },
     module: {
       rules: [
-        {
-          test: /\.tsx?$/,
-          use: 'ts-loader',
-          exclude: /node_modules/,
-        },
-        // Enables including CSS by doing "import './file.css'" in your TypeScript code
+        { test: /\.tsx?$/, loader: 'ts-loader' },
         {
           test: /\.css$/,
-          use: ['style-loader', 'css-loader', 'postcss-loader'],
+          use: ['style-loader', 'css-loader'],
         },
-        // Allows you to use import './file.png'" in your code to get a data URI
         {
           test: /\.(svg|png|bmp|jpg|jpeg|webp|gif)$/i,
-          use: [
-            {
-              loader: 'url-loader',
-              options: {
-                limit: 100000000,
-              },
-            },
-          ],
+          type: 'asset/inline',
         },
       ],
     },
     plugins: [
-      new webpack.EnvironmentPlugin({
-        NODE_ENV: isProd ? 'production' : 'development',
-      }),
       new CraftExtensionApiPlugin(),
       new HtmlWebpackPlugin({
         inject: 'body',
@@ -70,5 +53,17 @@ module.exports = (env, argv) => {
           include: ['app.js.LICENSE.txt', 'index.html', 'manifest.json', 'icon.png'],
         }),
     ].filter(Boolean),
+    devServer: {
+      static: 'dist',
+      historyApiFallback: true,
+      client: {
+        overlay: {
+          errors: true,
+          warnings: false,
+        },
+        reconnect: true,
+      },
+      hot: true,
+    },
   }
 }
