@@ -5,7 +5,7 @@ import Styled from './Hero.styled'
 
 export type HeroProps = {
   title: string
-  subtitle: string
+  description: string
   image: {
     src: string
     alt: string
@@ -15,13 +15,13 @@ export type HeroProps = {
   pathname: string
 }
 
-const Hero: React.FC<HeroProps> = ({ image, title, subtitle, onViewportEnter, onViewportLeave, pathname }) => {
+const Hero: React.FC<HeroProps> = ({ image, title, description, onViewportEnter, onViewportLeave, pathname }) => {
   return (
     <Styled.container onViewportEnter={onViewportEnter} onViewportLeave={onViewportLeave}>
       <Styled.image layoutId={`${pathname}-image`} {...image} />
       <Styled.infoContainer>
         <Styled.title layoutId={`${pathname}-title`}>{title}</Styled.title>
-        <Styled.subtitle>{subtitle}</Styled.subtitle>
+        <Styled.description>{description}</Styled.description>
       </Styled.infoContainer>
     </Styled.container>
   )

@@ -1,9 +1,10 @@
 import { motion } from 'framer-motion'
 import styled, { css } from 'styled-components'
 import { breakPoint } from '../../styles/theme'
+import { BiSearch, BiMenu } from 'react-icons/bi'
 
 export const mediaPadding = css`
-  padding: 16px 32px;
+  padding: 16px 16px;
 `
 
 const Styled = {
@@ -44,7 +45,7 @@ const Styled = {
     color: inherit;
     text-decoration: inherit;
   `,
-  icon: styled(motion.img)`
+  blogImage: styled(motion.img)`
     border-radius: 50%;
     width: 32px;
     height: 32px;
@@ -60,11 +61,25 @@ const Styled = {
     margin-bottom: auto;
     font-weight: 600;
   `,
-  menu: styled(motion.div)`
+  menuContainer: styled(motion.div)`
     display: none;
     @media screen and (max-width: ${breakPoint.md}px) {
       display: flex;
     }
+  `,
+  iconButtonWrapper: styled(motion.button)`
+    width: 24px;
+    height: 24px;
+  `,
+  search: styled(BiSearch)`
+    width: 100%;
+    height: 100%;
+    fill: ${({ theme }) => theme.color.black};
+  `,
+  menu: styled(BiMenu)`
+    width: 100%;
+    height: 100%;
+    fill: ${({ theme }) => theme.color.black};
   `,
 }
 

@@ -62,7 +62,7 @@ const Styled = {
       font-size: 24px;
     }
   `,
-  subtitle: styled(motion.h2)`
+  description: styled(motion.p)`
     font-size: 16px;
     font-weight: normal;
     line-height: 1.2;

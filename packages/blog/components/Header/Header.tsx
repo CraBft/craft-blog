@@ -11,7 +11,7 @@ const image = {
 }
 
 const title = 'JaeSeoKim'
-const subtitle = '🎢 To become a better developer...!'
+const description = '🎢 To become a better developer...!'
 
 export type HeaderProps = {}
 
@@ -51,25 +51,49 @@ const Header: React.FC<HeaderProps> = ({}) => {
           }}
         >
           <Styled.wrapContainer>
-            <Styled.menu>menu</Styled.menu>
+            <Styled.menuContainer>
+              <Styled.iconButtonWrapper
+                whileHover={{
+                  scale: 1.2,
+                  transition: {
+                    scale: { type: 'spring', duration: 0.5 },
+                  },
+                }}
+                aria-label="menu button"
+              >
+                <Styled.menu />
+              </Styled.iconButtonWrapper>
+            </Styled.menuContainer>
             <Styled.flexContainer>
               {!isShowHero && (
                 <Link href={'/'} passHref>
                   <Styled.anchor>
-                    <Styled.icon layoutId={`${router.pathname}-image`} src={image.src} alt={image.alt} />
+                    <Styled.blogImage layoutId={`${router.pathname}-image`} src={image.src} alt={image.alt} />
                     <Styled.title layoutId={`${router.pathname}-title`}>{title}</Styled.title>
                   </Styled.anchor>
                 </Link>
               )}
             </Styled.flexContainer>
-            <Styled.flexContainer>right</Styled.flexContainer>
+            <Styled.flexContainer>
+              <Styled.iconButtonWrapper
+                whileHover={{
+                  scale: 1.2,
+                  transition: {
+                    scale: { type: 'spring', duration: 0.5 },
+                  },
+                }}
+                aria-label="search button"
+              >
+                <Styled.search />
+              </Styled.iconButtonWrapper>
+            </Styled.flexContainer>
           </Styled.wrapContainer>
         </Styled.rootContainer>
         {isHome && (
           <Hero
             image={image}
             title={title}
-            subtitle={subtitle}
+            description={description}
             onViewportEnter={() => {
               setIsShowHero(true)
             }}
