@@ -1,15 +1,17 @@
-import { CraftBlockInsert } from '@craftdocs/craft-extension-api'
-import * as React from 'react'
-import * as ReactDOM from 'react-dom'
-import { initConsole, logToInPageConsole } from './utils/console'
+import React from 'react'
+import ReactDOM from 'react-dom/client'
 import craftXIconSrc from './craftx-icon.png'
-import Github from './component/github'
-import Dispatch from './component/Dispatch'
-import Upload from './component/Upload'
 
 const App: React.FC<{}> = () => {
   const isDarkMode = useCraftDarkMode()
-  const [data, setData] = React.useState('')
+
+  React.useEffect(() => {
+    if (isDarkMode) {
+      document.body.classList.add('dark')
+    } else {
+      document.body.classList.remove('dark')
+    }
+  }, [isDarkMode])
 
   return (
     <div
@@ -20,9 +22,9 @@ const App: React.FC<{}> = () => {
       }}
     >
       <img className="icon" src={craftXIconSrc} alt="CraftX logo" />
-      <Github />
-      <Dispatch />
-      <Upload />
+      <button className={`btn ${isDarkMode ? 'dark' : ''}`} onClick={insertHelloWorld}>
+        Hello world!
+      </button>
     </div>
   )
 }
@@ -31,20 +33,25 @@ function useCraftDarkMode() {
   const [isDarkMode, setIsDarkMode] = React.useState(false)
 
   React.useEffect(() => {
-    craft.env.setListener((env) => {
-      setIsDarkMode(env.colorScheme === 'dark')
-      if (env.colorScheme === 'dark') {
-        document.documentElement.classList.add('dark')
-      } else {
-        document.documentElement.classList.remove('dark')
-      }
-    })
+    craft.env.setListener((env) => setIsDarkMode(env.colorScheme === 'dark'))
   }, [])
 
   return isDarkMode
 }
 
+function insertHelloWorld() {
+  const block = craft.blockFactory.textBlock({
+    content: 'Hello world!',
+  })
+
+  craft.dataApi.addBlocks([block])
+}
+
 export function initApp() {
-  ReactDOM.render(<App />, document.getElementById('react-root'))
-  initConsole()
+  const appNode = document.getElementById('react-root')
+  ReactDOM.createRoot(appNode!).render(
+    <React.StrictMode>
+      <App />
+    </React.StrictMode>
+  )
 }

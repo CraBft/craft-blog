@@ -1,10 +1,10 @@
 {
-  "id": "crabft.publisher",
-  "name": "Crabft🦀-publisher",
-  "fileName": "Crabft🦀-publisher",
-  "author": "Crabft🦀",
-  "author-email": "gnsdlrl@daum.net",
-  "description": "Publish Craft document to blog extension ",
-  "api": "0.0.1",
+  "id": "do.craft.template.typescript",
+  "name": "Typescript extension template",
+  "fileName": "typescript-extension",
+  "author" : "Craft Docs",
+  "author-email" : "team@craft.do",
+  "description" : "Template for creating Craft Docs extensions with Typescript",
+  "api": "0.0.4",
   "main": "index.html"
 }
