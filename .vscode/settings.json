@@ -1,0 +1,4 @@
+{
+  "stylelint.snippet": ["css", "less", "postcss", "typescript", "typescriptreact"],
+  "stylelint.validate": ["css", "less", "postcss", "typescript", "typescriptreact"]
+}
