@@ -1,9 +1,20 @@
 {
-  "extends": ["stylelint-config-recommended", "stylelint-config-styled-components", "stylelint-config-prettier"],
-  "overrides": [
-    {
-      "files": ["**/*.styled.{js,ts,jsx,tsx}"],
-      "customSyntax": "@stylelint/postcss-css-in-js"
-    }
-  ]
+  "plugins": ["stylelint-order", "stylelint-config-rational-order/plugin"],
+  "processors": ["stylelint-processor-styled-components"],
+  "extends": ["stylelint-config-recommended-scss", "stylelint-config-styled-components", "stylelint-config-prettier"],
+  "customSyntax": "postcss-scss",
+  "rules": {
+    "selector-type-case": ["lower", { "ignoreTypes": ["/^\\$\\w+/"] }],
+    "selector-type-no-unknown": [true, { "ignoreTypes": ["/-styled-mixin/", "/^\\$\\w+/"] }],
+    "value-keyword-case": ["lower", { "ignoreKeywords": ["dummyValue"] }],
+    "declaration-colon-newline-after": null,
+    "order/properties-order": [],
+    "plugin/rational-order": [
+      true,
+      {
+        "border-in-box-model": false,
+        "empty-line-between-groups": true
+      }
+    ]
+  }
 }

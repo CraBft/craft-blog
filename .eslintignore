@@ -24,3 +24,5 @@ yarn-error.log*
 .yarn/*
 
 .github/
+_contents
+_config
