@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { breakPoint } from '../../styles/theme'
+import { breakpoint } from '../../styles/theme'
 
 const Styled = {
   container: styled.footer`
@@ -15,7 +15,7 @@ const Styled = {
     flex-direction: column;
     gap: 24px;
 
-    @media screen and (max-width: ${breakPoint.md}px) {
+    @media screen and (max-width: ${breakpoint.md}px) {
       padding: 50px 30px;
     }
   `,
@@ -34,6 +34,7 @@ const Styled = {
 
     display: flex;
     justify-content: center;
+    align-items: center;
   `,
   p: styled.p`
     display: flex;

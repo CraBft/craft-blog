@@ -12,6 +12,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@icons-pack/react-simple-icons": "^4.6.1",
     "framer-motion": "^6.3.0",
     "nanoid": "^3.3.2",
     "next": "12.1.5",
