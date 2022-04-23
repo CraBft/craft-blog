@@ -54,13 +54,13 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
   }
   button:focus{
-    outline:none;
+    outline-color: ${({ theme }) => theme.color.main};
   }
   input:focus{
-	  outline: none;
+    outline-color: ${({ theme }) => theme.color.main};
   }
   a{
-	  outline: none;
+    outline-color: ${({ theme }) => theme.color.main};
 	  text-decoration: none;
   }
   a:visited, a:link {
