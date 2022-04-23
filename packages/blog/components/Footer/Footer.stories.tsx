@@ -26,22 +26,18 @@ export const Primary = Template.bind({})
 Primary.args = {
   links: [
     {
-      id: nanoid(),
       name: 'github',
       url: '',
     },
     {
-      id: nanoid(),
-      name: 'email',
+      name: 'gmail',
       url: '',
     },
     {
-      id: nanoid(),
       name: 'kakao',
       url: '',
     },
     {
-      id: nanoid(),
       name: 'instagram',
       url: '',
     },

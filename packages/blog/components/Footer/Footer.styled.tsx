@@ -1,44 +1,44 @@
 import styled from 'styled-components'
-import { breakpoint } from '../../styles/theme'
+import { theme } from '../../styles/theme'
 
 const Styled = {
   container: styled.footer`
-    width: 100%;
-    /* background-color: #ffffff; */
-    background-color: #f5f5f7;
-
-    position: absolute;
-    padding: 48px 60px;
+    position: fixed;
     bottom: 0;
 
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    width: 100%;
+    row-gap: 24px;
+    padding: 48px 60px;
 
-    @media screen and (max-width: ${breakpoint.md}px) {
+    background-color: #f5f5f7;
+
+    @media screen and (max-width: ${theme.breakpoint.md}px) {
       padding: 50px 30px;
     }
   `,
   ul: styled.ul`
     display: flex;
-    justify-content: center;
-    align-items: center;
     gap: 12px;
+    align-items: center;
+    justify-content: center;
   `,
   li: styled.li``,
   anchor: styled.a`
-    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 40px;
     height: 40px;
-    background-color: #000000;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    background-color: #000000;
+    border-radius: 50%;
   `,
   p: styled.p`
     display: flex;
     justify-content: center;
+
     font-size: 15px;
   `,
 }
