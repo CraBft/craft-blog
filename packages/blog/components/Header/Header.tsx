@@ -4,6 +4,7 @@ import Styled from './Header.styled'
 import Link from 'next/link'
 import Hero from './Hero'
 import { useRouter } from 'next/router'
+import { theme } from '../../styles/theme'
 
 const image = {
   src: 'https://avatars.githubusercontent.com/u/48559454?v=4',
@@ -15,7 +16,7 @@ const description = '🎢 To become a better developer...!'
 
 export type HeaderProps = {}
 
-const Header: React.FC<HeaderProps> = ({}) => {
+export default function Header({}: HeaderProps): JSX.Element {
   const router = useRouter()
   const [isHome, setIsHome] = useState(router.pathname === '/')
   const [isShowHero, setIsShowHero] = useState(false)
@@ -46,7 +47,7 @@ const Header: React.FC<HeaderProps> = ({}) => {
             },
             header: {
               boxShadow: `rgb(0 0 0 0.2) 0px 1px 15px`,
-              backgroundColor: `#F5F5F7`,
+              backgroundColor: theme.color.grey100,
             },
           }}
         >
@@ -107,5 +108,3 @@ const Header: React.FC<HeaderProps> = ({}) => {
     </MotionConfig>
   )
 }
-
-export default Header

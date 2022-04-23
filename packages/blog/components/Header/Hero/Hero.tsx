@@ -15,7 +15,14 @@ export type HeroProps = {
   pathname: string
 }
 
-const Hero: React.FC<HeroProps> = ({ image, title, description, onViewportEnter, onViewportLeave, pathname }) => {
+export default function Hero({
+  image,
+  title,
+  description,
+  onViewportEnter,
+  onViewportLeave,
+  pathname,
+}: HeroProps): JSX.Element {
   return (
     <Styled.container onViewportEnter={onViewportEnter} onViewportLeave={onViewportLeave}>
       <Styled.image layoutId={`${pathname}-image`} {...image} />
@@ -26,5 +33,3 @@ const Hero: React.FC<HeroProps> = ({ image, title, description, onViewportEnter,
     </Styled.container>
   )
 }
-
-export default Hero

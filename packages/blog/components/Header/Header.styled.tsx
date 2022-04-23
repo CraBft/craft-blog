@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion'
 import styled, { css } from 'styled-components'
-import { breakPoint } from '../../styles/theme'
 import { BiSearch, BiMenu } from 'react-icons/bi'
 
 export const mediaPadding = css`
@@ -20,38 +19,36 @@ const Styled = {
   `,
   wrapContainer: styled(motion.div)`
     display: flex;
-    justify-content: space-between;
     align-items: center;
-
-    ${mediaPadding}
+    justify-content: space-between;
 
     width: 100%;
     max-width: 1280px;
-    margin-left: auto;
     margin-right: auto;
+    margin-left: auto;
+    ${mediaPadding}
   `,
   flexContainer: styled(motion.div)`
     display: flex;
-
-    align-items: center;
-
     gap: 8px;
+    align-items: center;
   `,
   anchor: styled(motion.a)`
     display: flex;
-    align-items: center;
     gap: 4px;
+    align-items: center;
 
     color: inherit;
     text-decoration: inherit;
   `,
   blogImage: styled(motion.img)`
-    border-radius: 50%;
+    display: block;
     width: 32px;
     height: 32px;
 
-    display: block;
-    @media screen and (max-width: ${breakPoint.md}px) {
+    border-radius: 50%;
+
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}) {
       display: none;
     }
   `,
@@ -59,11 +56,12 @@ const Styled = {
     margin: 0;
     margin-top: auto;
     margin-bottom: auto;
+
     font-weight: 600;
   `,
   menuContainer: styled(motion.div)`
     display: none;
-    @media screen and (max-width: ${breakPoint.md}px) {
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}) {
       display: flex;
     }
   `,
@@ -74,11 +72,13 @@ const Styled = {
   search: styled(BiSearch)`
     width: 100%;
     height: 100%;
+
     fill: ${({ theme }) => theme.color.black};
   `,
   menu: styled(BiMenu)`
     width: 100%;
     height: 100%;
+
     fill: ${({ theme }) => theme.color.black};
   `,
 }

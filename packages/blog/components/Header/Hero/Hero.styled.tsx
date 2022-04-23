@@ -1,24 +1,21 @@
 import { motion } from 'framer-motion'
 import styled from 'styled-components'
-import { breakPoint } from '../../../styles/theme'
 import { mediaPadding } from '../Header.styled'
 
 const Styled = {
   container: styled(motion.div)`
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    align-items: flex-start;
     width: 100%;
+    max-width: ${({ theme }) => theme.breakpoint.xl}px;
 
-    max-width: ${breakPoint.xl}px;
-    margin-left: auto;
     margin-right: auto;
-
+    margin-left: auto;
     ${mediaPadding}
 
-    display: flex;
-    gap: 24px;
-
-    flex-direction: row;
-    align-items: flex-start;
-    @media screen and (max-width: ${breakPoint.md}px) {
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}px) {
       flex-direction: column;
       align-items: center;
     }
@@ -27,11 +24,11 @@ const Styled = {
     width: 180px;
     height: 180px;
 
-    @media screen and (max-width: ${breakPoint.lg}px) {
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.lg}px) {
       width: 120px;
       height: 120px;
     }
-    @media screen and (max-width: ${breakPoint.md}px) {
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}px) {
       width: 100px;
       height: 100px;
     }
@@ -42,29 +39,30 @@ const Styled = {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    align-items: flex-start;
 
     margin-top: 8px;
     margin-bottom: 8px;
 
-    align-items: flex-start;
-    @media screen and (max-width: ${breakPoint.md}px) {
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}px) {
       align-items: center;
     }
   `,
   title: styled(motion.h1)`
     display: flex;
     align-items: center;
-    font-size: 36px;
+
     font-weight: bold;
+    font-size: 36px;
     line-height: 1.2;
 
-    @media screen and (max-width: ${breakPoint.md}px) {
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}px) {
       font-size: 24px;
     }
   `,
   description: styled(motion.p)`
-    font-size: 16px;
     font-weight: normal;
+    font-size: 16px;
     line-height: 1.2;
   `,
 }
