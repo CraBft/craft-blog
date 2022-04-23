@@ -7,8 +7,8 @@ import 'katex/dist/katex.min.css'
 const MyApp = ({ Component, pageProps }: AppProps) => {
   return (
     <>
-      <GlobalStyle />
       <ThemeProvider theme={theme}>
+        <GlobalStyle />
         <Component {...pageProps} />
       </ThemeProvider>
     </>

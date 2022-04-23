@@ -1,4 +1,4 @@
-import {} from 'styled-components'
+import { css } from 'styled-components'
 
 const color = {
   main: '#558FFF',
@@ -10,7 +10,7 @@ const color = {
   grey400: '#737373',
 } as const
 
-export const breakpoint = {
+const breakpoint = {
   sm: '640px',
   md: '768px',
   lg: '1024px',
@@ -20,6 +20,7 @@ export const breakpoint = {
 
 export const theme = {
   color,
+  breakpoint,
 }
 
 export type Theme = typeof theme
