@@ -48,8 +48,11 @@ const Styled = {
     align-items: center;
     justify-content: center;
     width: fit-content;
+    height: fit-content;
 
     cursor: pointer;
+
+    transition: all 0.2s ease-in;
 
     ${({ view }: SProps) =>
       view &&

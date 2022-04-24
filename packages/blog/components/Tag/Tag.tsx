@@ -5,10 +5,11 @@ export interface TagProps extends SProps {
   name: string
   onClick: MouseEventHandler<HTMLButtonElement> &
     ((event: React.MouseEventHandler<HTMLButtonElement>) => void | undefined)
+  style?: React.CSSProperties
 }
 
-const Tag: React.FC<TagProps> = ({ name, onClick, view }) => (
-  <Styled.tag view={view} onClick={onClick}>
+const Tag: React.FC<TagProps> = ({ name, onClick, view, style }) => (
+  <Styled.tag view={view} onClick={onClick} style={style}>
     {name}
   </Styled.tag>
 )
