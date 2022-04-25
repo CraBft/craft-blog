@@ -1,0 +1,3 @@
+{
+  "packages": ["packages/blog", "packages/components", "packages/extension"]
+}
