@@ -1871,6 +1871,58 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@egjs/children-differ@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@egjs/children-differ@npm:1.0.1"
+  dependencies:
+    "@egjs/list-differ": ^1.0.0
+  checksum: 087f286822a93cc5ac2ba0beb9f332f3828a8870fea0e9d0a177078c96fc265ce74979be827a78dab674a833e3a22d4fe60636112a1aae93252e0a38f58ff754
+  languageName: node
+  linkType: hard
+
+"@egjs/component@npm:^3.0.0, @egjs/component@npm:^3.0.1":
+  version: 3.0.2
+  resolution: "@egjs/component@npm:3.0.2"
+  checksum: 4fd8854192e52f47b5cec5bad4952448b0df3b36f65bc1adae0f933164877d33fc705e9533af27a02b6faa0a4fddcaf101cce7c8f156de6202ad174b1df61e81
+  languageName: node
+  linkType: hard
+
+"@egjs/grid@npm:~1.9.1":
+  version: 1.9.1
+  resolution: "@egjs/grid@npm:1.9.1"
+  dependencies:
+    "@egjs/children-differ": ^1.0.1
+    "@egjs/component": ^3.0.0
+    "@egjs/imready": ^1.3.0
+  checksum: 6633e2bd2404597024809f38c0d355f7e369b9a3547fef9be3b0267946b0ebee22b8887673462df3a1816c47a3b7606c41b47c5cd4edce643d47208b0b03805a
+  languageName: node
+  linkType: hard
+
+"@egjs/imready@npm:^1.3.0":
+  version: 1.3.0
+  resolution: "@egjs/imready@npm:1.3.0"
+  dependencies:
+    "@egjs/component": ^3.0.1
+  checksum: 207736c7586619f736413ac4da0ea3fdb4b8a83cf315d6911f4258b61769738e8ece37c7f661bc6a0f4464618b581af9b94001833ba743d06d9d120e8c3cdaf0
+  languageName: node
+  linkType: hard
+
+"@egjs/list-differ@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@egjs/list-differ@npm:1.0.0"
+  checksum: d1827d134ddab12a024358367cb8a3b70d2ba0f286e5beb6ce2a6bbd021594f26b02c38b2d8b3d1dfd76bd7d1fcda54de3b40decaa9b4fc939230f6e7d531d0c
+  languageName: node
+  linkType: hard
+
+"@egjs/react-grid@npm:^1.9.1":
+  version: 1.9.1
+  resolution: "@egjs/react-grid@npm:1.9.1"
+  dependencies:
+    "@egjs/grid": ~1.9.1
+  checksum: 73eed84450637cc2beadb92c99c0dbed8f2c29f8e27cf28123e807c07be226720f88f050f6438ea7279364e049ecd2eede674070d2f45a221b208493592ec9a5
+  languageName: node
+  linkType: hard
+
 "@emotion/cache@npm:^10.0.27":
   version: 10.0.29
   resolution: "@emotion/cache@npm:10.0.29"
@@ -14514,6 +14566,7 @@ __metadata:
   resolution: "nextjs-craft-blog-kit@workspace:packages/blog"
   dependencies:
     "@craftdocs/craft-extension-api": "*"
+    "@egjs/react-grid": ^1.9.1
     "@storybook/addon-a11y": "*"
     "@storybook/addon-actions": "*"
     "@storybook/addon-essentials": "*"
