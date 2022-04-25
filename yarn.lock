@@ -5307,6 +5307,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/body-scroll-lock@npm:^3.1.0":
+  version: 3.1.0
+  resolution: "@types/body-scroll-lock@npm:3.1.0"
+  checksum: 9b0d88053cd65abfc7b0f4946da844f4c822f58d47413457e03220a62bc3de897f7682339e6a04eba07658020910bbfc5dcd0a12ef8f0282780d1ce6e4d71570
+  languageName: node
+  linkType: hard
+
 "@types/bonjour@npm:^3.5.9":
   version: 3.5.10
   resolution: "@types/bonjour@npm:3.5.10"
@@ -7410,6 +7417,13 @@ __metadata:
     raw-body: 2.4.3
     type-is: ~1.6.18
   checksum: 7f777ea65670e2622ca4a785b5dcb2a68451b3bb8d4d0f41091d307d56b640dba588a9ae04d85dda2cdd5e42788266a783528d5417e5643720fd611fd52522e7
+  languageName: node
+  linkType: hard
+
+"body-scroll-lock@npm:^4.0.0-beta.0":
+  version: 4.0.0-beta.0
+  resolution: "body-scroll-lock@npm:4.0.0-beta.0"
+  checksum: 61d40007fddf64ecc69e9e02ed9d96bb895f88d7da65cea7651081110225de48efa44ffc4acd376ed004788e242a9af12059fec728c096774b49365524ea6f46
   languageName: node
   linkType: hard
 
@@ -9857,7 +9871,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-config-next@npm:^12.1.5":
+"eslint-config-next@npm:*, eslint-config-next@npm:^12.1.5":
   version: 12.1.5
   resolution: "eslint-config-next@npm:12.1.5"
   dependencies:
@@ -10818,7 +10832,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"framer-motion@npm:^6.3.0":
+"framer-motion@npm:^6.3.1":
   version: 6.3.1
   resolution: "framer-motion@npm:6.3.1"
   dependencies:
@@ -14509,13 +14523,16 @@ __metadata:
     "@storybook/manager-webpack5": "*"
     "@storybook/react": "*"
     "@storybook/testing-library": "*"
+    "@types/body-scroll-lock": ^3.1.0
     "@types/node": "*"
     "@types/react": "*"
     "@types/react-dom": "*"
     "@types/styled-components": "*"
+    body-scroll-lock: ^4.0.0-beta.0
     eslint: "*"
+    eslint-config-next: "*"
     eslint-plugin-storybook: "*"
-    framer-motion: ^6.3.0
+    framer-motion: ^6.3.1
     next: 12.1.5
     next-transpile-modules: ^9.0.0
     react: 18.0.0

@@ -12,7 +12,8 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
-    "framer-motion": "^6.3.0",
+    "body-scroll-lock": "^4.0.0-beta.0",
+    "framer-motion": "^6.3.1",
     "next": "12.1.5",
     "next-transpile-modules": "^9.0.0",
     "react": "18.0.0",
@@ -31,6 +32,7 @@
     "@storybook/manager-webpack5": "*",
     "@storybook/react": "*",
     "@storybook/testing-library": "*",
+    "@types/body-scroll-lock": "^3.1.0",
     "@types/node": "*",
     "@types/react": "*",
     "@types/react-dom": "*",
