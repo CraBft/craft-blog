@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion'
 import styled, { css } from 'styled-components'
-import { BiSearch, BiMenu } from 'react-icons/bi'
+import MenuIcon from './MenuIcon'
+import SearchIcon from './SearchIcon'
 
 export const mediaPadding = css`
   padding: 16px 16px;
@@ -58,6 +59,7 @@ const Styled = {
     margin-bottom: auto;
 
     font-weight: 600;
+    font-size: 16px;
   `,
   menuContainer: styled(motion.div)`
     display: none;
@@ -69,17 +71,36 @@ const Styled = {
     width: 24px;
     height: 24px;
   `,
-  search: styled(BiSearch)`
+  search: styled(SearchIcon)`
     width: 100%;
     height: 100%;
 
     fill: ${({ theme }) => theme.color.black};
   `,
-  menu: styled(BiMenu)`
+  menu: styled(MenuIcon)`
     width: 100%;
     height: 100%;
 
     fill: ${({ theme }) => theme.color.black};
+    stroke: ${({ theme }) => theme.color.black};
+  `,
+  linkContainer: styled(motion.div)`
+    display: flex;
+    gap: 18px;
+
+    margin-right: 12px;
+
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}) {
+      display: none;
+    }
+  `,
+  link: styled(motion.a)`
+    font-weight: 600;
+    font-size: 16px;
+
+    &:hover {
+      box-shadow: 0 2px 0 0 ${({ theme }) => theme.color.black};
+    }
   `,
 }
 

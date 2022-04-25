@@ -9,13 +9,13 @@ const Styled = {
     gap: 24px;
     align-items: flex-start;
     width: 100%;
-    max-width: ${({ theme }) => theme.breakpoint.xl}px;
+    max-width: ${({ theme }) => theme.breakpoint.xl};
 
     margin-right: auto;
     margin-left: auto;
     ${mediaPadding}
 
-    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}px) {
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}) {
       flex-direction: column;
       align-items: center;
     }
@@ -24,11 +24,11 @@ const Styled = {
     width: 180px;
     height: 180px;
 
-    @media screen and (max-width: ${({ theme }) => theme.breakpoint.lg}px) {
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.lg}) {
       width: 120px;
       height: 120px;
     }
-    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}px) {
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}) {
       width: 100px;
       height: 100px;
     }
@@ -44,7 +44,7 @@ const Styled = {
     margin-top: 8px;
     margin-bottom: 8px;
 
-    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}px) {
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}) {
       align-items: center;
     }
   `,
@@ -56,7 +56,7 @@ const Styled = {
     font-size: 36px;
     line-height: 1.2;
 
-    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}px) {
+    @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}) {
       font-size: 24px;
     }
   `,

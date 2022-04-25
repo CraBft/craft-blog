@@ -1,10 +1,8 @@
 import { GetStaticPaths, GetStaticPathsResult, GetStaticProps, NextPage } from 'next'
 import { CraftPage } from 'react-craft-x'
 import styled from 'styled-components'
-import { motion } from 'framer-motion'
 import { getAllPosts } from '../../libs/post-api'
 import { CraftBlogPage } from '../../types/CraftBlogPage'
-import Header from '../../components/Header'
 
 export const getStaticProps: GetStaticProps = async (ctx) => {
   const { slug } = ctx.params!
@@ -52,12 +50,7 @@ const PostPage: NextPage<{
     margin-right: auto;
   `
 
-  return (
-    <>
-      <Header />
-      <StyledCraftPage rootBlock={page.rootBlock} />
-    </>
-  )
+  return <StyledCraftPage rootBlock={page.rootBlock} />
 }
 
 export default PostPage
