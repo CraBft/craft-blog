@@ -8,7 +8,7 @@ export type CraftPageProps = {
   rootBlock: CraftTextBlock
 }
 
-const CraftPage: React.VFC<CraftPageProps> = ({ rootBlock, ...props }) => {
+const CraftPage: React.FC<CraftPageProps> = ({ rootBlock, ...props }) => {
   return (
     <ReactCraftXContextProvider
       config={{

@@ -31,15 +31,17 @@ const baseStyle = (style: CraftCardStyle) => {
     box-sizing: border-box;
     margin: 2px 3px;
     margin-bottom: 8px;
-
-    border-radius: 7px;
-    overflow: hidden;
-    box-shadow: rgb(0 0 0 / 20%) 0px 0px 1px;
-    transition: all 0.3s ease 0s;
     padding: 25px;
+    overflow: hidden;
+
+    color: ${isLightColor ? 'black' : 'white'};
 
     background-color: ${colors[0]};
-    color: ${isLightColor ? 'black' : 'white'};
+    border-radius: 7px;
+    box-shadow: rgb(0 0 0 / 20%) 0px 0px 1px;
+
+    transition: all 0.3s ease 0s;
+
     ${backgroundUrl &&
     css`
       content: '';

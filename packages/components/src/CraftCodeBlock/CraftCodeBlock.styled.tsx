@@ -9,7 +9,7 @@ const UnStyledContainer = ({
   children,
   ...props
 }: {
-  Element: React.FC
+  Element: React.FC<React.PropsWithChildren<{}>>
   block: CraftBlock
   children: ReactNode
   [key: string]: any
@@ -19,14 +19,15 @@ const UnStyledContainer = ({
 
 const Styled = {
   Container: styled(UnStyledContainer)`
-    background: ${({ block: { color } }) => theme.light.background[color]} !important;
-
+    margin: 0px;
     padding: 8px 28px 8px 12px !important;
-    border-radius: 4px;
+
     font-size: 15px;
     font-family: 'Roboto Mono', monospace;
     line-height: 20px;
-    margin: 0px;
+
+    background: ${({ block: { color } }) => theme.light.background[color]} !important;
+    border-radius: 4px;
 
     .katex-display {
       margin: 0;

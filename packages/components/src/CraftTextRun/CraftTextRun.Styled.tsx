@@ -82,11 +82,12 @@ const Styled = {
           return css`
             background-color: ${theme.light.text.highlightColor[highlightColor]};
             print-color-adjust: exact;
-            -webkit-print-color-adjust: exact;
+
+            border-radius: 2px;
             box-shadow: ${theme.light.text.highlightColor[highlightColor]} -1px 0px 0px,
               ${theme.light.text.highlightColor[highlightColor]} 1px 0px 0px;
+
             transition: all 0.3s ease 0s;
-            border-radius: 2px;
           `
         case 'beachGradient':
         case 'nightSkyGradient':
@@ -94,12 +95,12 @@ const Styled = {
         case 'orangeGradient':
         case 'goldGradient':
           return css`
-            background-image: ${theme.light.text.highlightColor[highlightColor]};
             -webkit-text-fill-color: transparent;
+
+            background-image: ${theme.light.text.highlightColor[highlightColor]};
             background-clip: text;
-            -webkit-background-clip: text;
             box-decoration-break: clone;
-            -webkit-box-decoration-break: clone;
+
             transition: all 0.3s ease 0s;
           `
         default:

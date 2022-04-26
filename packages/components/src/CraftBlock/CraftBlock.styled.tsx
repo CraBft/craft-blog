@@ -68,8 +68,8 @@ const Styled = {
       ${({ next, block }) =>
         !(next && next.color === block.color && next.hasFocusDecoration) &&
         css`
-          border-bottom-left-radius: 2px;
           border-bottom-right-radius: 2px;
+          border-bottom-left-radius: 2px;
         `}
     `,
     padding: styled.div`
@@ -94,8 +94,8 @@ const Styled = {
     ${({ next, block }) =>
       !(next && next.color === block.color && next.hasBlockDecoration) &&
       css`
-        border-bottom-left-radius: 4px;
         border-bottom-right-radius: 4px;
+        border-bottom-left-radius: 4px;
       `}
   `,
   ul: styled.ul`

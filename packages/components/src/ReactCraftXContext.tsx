@@ -90,8 +90,10 @@ export const useListOfIndex = (block: CraftBlock, index?: number) => {
   return listOfIndex
 }
 
-export const ReactCraftXContextProvider: React.FC<{
-  config: Partial<ReactCraftXContext>
-}> = ({ children, config }) => {
+export const ReactCraftXContextProvider: React.FC<
+  React.PropsWithChildren<{
+    config: Partial<ReactCraftXContext>
+  }>
+> = ({ children, config }) => {
   return <ReactCraftXContext.Provider value={{ ...defaultConfig, ...config }}>{children}</ReactCraftXContext.Provider>
 }

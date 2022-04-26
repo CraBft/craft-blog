@@ -10,11 +10,11 @@ const CraftAnchorDefault: CraftAnchor = ({ children, ...props }) => {
   return <a {...props}>{children}</a>
 }
 
-export type CraftTextRunProps = {
+export type CraftTextRunProps = React.PropsWithChildren<{
   text: CraftTextRun
   prev?: CraftTextRun | null
   next?: CraftTextRun | null
-}
+}>
 
 const CraftTextRun: React.FC<CraftTextRunProps> = ({ text, children, prev, next, ...props }) => {
   let styledText = (

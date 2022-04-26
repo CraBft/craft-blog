@@ -36,12 +36,13 @@ const Styled = {
       }
       if (block.layoutStyle === 'card') {
         return css`
-          width: 100%;
-          min-height: 1px;
           flex-basis: 1px;
           flex-grow: 1;
-          margin: 0px;
           box-sizing: border-box;
+
+          width: 100%;
+          min-height: 1px;
+          margin: 0px;
         `
       }
     }}
@@ -112,10 +113,11 @@ export const CSS = {
   base: (block: CraftUrlBlock) => css`
     display: flex;
     width: 100%;
-    border-radius: 4px;
+
     background-color: ${!block.hasBlockDecoration && block.color === 'text'
       ? '#f7f7f7'
       : theme.light.background[block.color]};
+    border-radius: 4px;
   `,
 }
 
