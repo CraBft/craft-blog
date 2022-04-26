@@ -8730,6 +8730,8 @@ __metadata:
     react: "*"
     react-dev-utils: "*"
     react-dom: "*"
+    react-icons: ^4.3.1
+    react-router-dom: ^6.3.0
     style-loader: "*"
     styled-components: "*"
     ts-loader: "*"
@@ -16567,7 +16569,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-router-dom@npm:^6.0.0":
+"react-router-dom@npm:^6.0.0, react-router-dom@npm:^6.3.0":
   version: 6.3.0
   resolution: "react-router-dom@npm:6.3.0"
   dependencies:
