@@ -38,6 +38,8 @@ const Styled = {
     display: flex;
     gap: 4px;
     align-items: center;
+    margin: -8px;
+    padding: 8px;
 
     color: inherit;
     text-decoration: inherit;
@@ -68,8 +70,10 @@ const Styled = {
     }
   `,
   iconButtonWrapper: styled(motion.button)`
-    width: 24px;
-    height: 24px;
+    width: calc(24px + 8px * 2);
+    height: calc(24px + 8px * 2);
+    margin: -8px;
+    padding: 8px;
   `,
   search: styled(SearchIcon)`
     width: 100%;

@@ -33,14 +33,17 @@ export default function SideBar({ links, onClose }: SidebarProps): JSX.Element {
           initial: {
             background: 'rgba(0, 0, 0, 0)',
             backdropFilter: 'blur(0px)',
+            WebkitBackdropFilter: 'blur(0px)',
           },
           enter: {
             background: 'rgba(0, 0, 0, 0.08)',
             backdropFilter: 'blur(2px)',
+            WebkitBackdropFilter: 'blur(2px)',
           },
           exit: {
             background: 'rgba(0, 0, 0, 0)',
             backdropFilter: 'blur(0px)',
+            WebkitBackdropFilter: 'blur(0px)',
             transition: {
               delay: 0.5,
             },
@@ -56,12 +59,10 @@ export default function SideBar({ links, onClose }: SidebarProps): JSX.Element {
             enter: {
               x: 0,
               opacity: 1,
-              transition: { type: 'tween', delayChildren: 0.2 },
             },
             exit: {
               x: -300,
               opacity: 0,
-              transition: { type: 'tween', delay: 0.5 },
             },
           }}
         >
@@ -71,27 +72,25 @@ export default function SideBar({ links, onClose }: SidebarProps): JSX.Element {
                 <Styled.link
                   variants={{
                     initial: {
-                      y: 50,
                       opacity: 0,
                     },
                     enter: {
-                      y: 0,
                       opacity: 1,
-                      transition: {
-                        y: { stiffness: 1000, velocity: -100 },
-                      },
                     },
                     exit: {
-                      y: 50,
                       opacity: 0,
-                      transition: {
-                        y: { stiffness: 1000, velocity: -100 },
-                      },
                     },
                   }}
                 >
                   {link.name}
                 </Styled.link>
+              </Link>
+            </div>
+          ))}
+          {links.map((link, i) => (
+            <div key={i}>
+              <Link href={link.url} passHref>
+                <Styled.link>{link.name}</Styled.link>
               </Link>
             </div>
           ))}
