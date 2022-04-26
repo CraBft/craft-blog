@@ -5,9 +5,6 @@ import TagMenu from './TagMenu'
 export default {
   title: 'Components/TagMenu',
   component: TagMenu,
-  parameters: {
-    layout: 'fullscreen',
-  },
 } as ComponentMeta<typeof TagMenu>
 
 const Template: ComponentStory<typeof TagMenu> = (args) => (

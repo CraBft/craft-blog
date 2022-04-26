@@ -5,9 +5,6 @@ import Tag from './Tag'
 export default {
   title: 'Components/Tag',
   component: Tag,
-  parameters: {
-    layout: 'fullscreen',
-  },
 } as ComponentMeta<typeof Tag>
 
 const Template: ComponentStory<typeof Tag> = (args) => <Tag {...args} />

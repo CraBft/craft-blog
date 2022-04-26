@@ -1871,6 +1871,66 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@egjs/agent@npm:^2.2.1":
+  version: 2.4.0
+  resolution: "@egjs/agent@npm:2.4.0"
+  checksum: f1439379768800ec820927c5ed48d931c3db24361bd67db041d040bcf3643cdb1ad73958f24feb63fb82649301a48d41a2f9b3823205f9864fa08e13c3735204
+  languageName: node
+  linkType: hard
+
+"@egjs/axes@npm:^2.8.0":
+  version: 2.8.0
+  resolution: "@egjs/axes@npm:2.8.0"
+  dependencies:
+    "@egjs/agent": ^2.2.1
+    "@egjs/component": ^2.2.2
+    "@egjs/hammerjs": ^2.0.15
+  checksum: 883a0207883796168d0fa09e50e9a61038b8da59129caa6b1fb6fb73dc2d0521c4962cc31005ffeeaf11453a2673d5c0167bb6c8c41e60e6e69667847d69c0ce
+  languageName: node
+  linkType: hard
+
+"@egjs/component@npm:^2.2.2":
+  version: 2.2.2
+  resolution: "@egjs/component@npm:2.2.2"
+  checksum: d5caa05f1bf018db87953138b2a0858539ee37982cc41a989aa1424d8706ef6d5bbb8e7b56f7234f0394e5daa5fdc8d3e247503c48190c11dd0721f07efcb3af
+  languageName: node
+  linkType: hard
+
+"@egjs/component@npm:^3.0.1":
+  version: 3.0.2
+  resolution: "@egjs/component@npm:3.0.2"
+  checksum: 4fd8854192e52f47b5cec5bad4952448b0df3b36f65bc1adae0f933164877d33fc705e9533af27a02b6faa0a4fddcaf101cce7c8f156de6202ad174b1df61e81
+  languageName: node
+  linkType: hard
+
+"@egjs/conveyer@npm:~1.1.0":
+  version: 1.1.0
+  resolution: "@egjs/conveyer@npm:1.1.0"
+  dependencies:
+    "@egjs/axes": ^2.8.0
+    "@egjs/component": ^3.0.1
+  checksum: b87b45d15a1a5971354a38c035d21b6adbfc4ef6a4ba3e969ee9f7e654fa96aeaf44c005463e2ff75c7e69072358a893eb40af89c1161966640a5f9f4a46d9c9
+  languageName: node
+  linkType: hard
+
+"@egjs/hammerjs@npm:^2.0.15":
+  version: 2.0.17
+  resolution: "@egjs/hammerjs@npm:2.0.17"
+  dependencies:
+    "@types/hammerjs": ^2.0.36
+  checksum: 8945137cec5837edd70af3f2e0ea621543eb0aa3b667e6269ec6485350f4d120c2434b37c7c30b1cf42a65275dd61c1f24626749c616696d3956ac0c008c4766
+  languageName: node
+  linkType: hard
+
+"@egjs/react-conveyer@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@egjs/react-conveyer@npm:1.1.0"
+  dependencies:
+    "@egjs/conveyer": ~1.1.0
+  checksum: 9128b7c697316f7ac77e53cc2426c0d97e354c412b8fe61649f8ad4a39502e4cd6f649a1ec5f08e106ea545cef86c596324eb24321229ec7ca1eb8df738e44fc
+  languageName: node
+  linkType: hard
+
 "@emotion/cache@npm:^10.0.27":
   version: 10.0.29
   resolution: "@emotion/cache@npm:10.0.29"
@@ -5424,6 +5484,13 @@ __metadata:
   dependencies:
     "@types/node": "*"
   checksum: d076bb61f45d0fc42dee496ef8b1c2f8742e15d5e47e90e20d0243386e426c04d4efd408a48875ab432f7960b4ce3414db20ed0fbbfc7bcc89d84e574f6e045a
+  languageName: node
+  linkType: hard
+
+"@types/hammerjs@npm:^2.0.36":
+  version: 2.0.41
+  resolution: "@types/hammerjs@npm:2.0.41"
+  checksum: d16fbd688fc9b18cc270abe8dea8d4c50ef7bd8375e593d92c233d299387933a6b003c8db69819344833052458bc5f9ef1b472001277a49f095928d184356006
   languageName: node
   linkType: hard
 
@@ -14514,6 +14581,7 @@ __metadata:
   resolution: "nextjs-craft-blog-kit@workspace:packages/blog"
   dependencies:
     "@craftdocs/craft-extension-api": "*"
+    "@egjs/react-conveyer": ^1.1.0
     "@storybook/addon-a11y": "*"
     "@storybook/addon-actions": "*"
     "@storybook/addon-essentials": "*"

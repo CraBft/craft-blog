@@ -1,55 +1,50 @@
-import React, { useEffect, useState, useRef, useCallback } from 'react'
+import React, { useRef, useState } from 'react'
+import { useConveyer } from '@egjs/react-conveyer'
 import { theme } from '../../styles/theme'
-import Tag from '../Tag/Tag'
+import Tag from '../Tag'
 import Styled from './TagMenu.styled'
 
 export interface TagMenuProps {
   tags: string[]
 }
 
-type edgeType = 'left' | 'right' | 'both' | 'none'
-
 const TagMenu: React.FC<TagMenuProps> = ({ tags }) => {
-  const scrollRef = useRef<any>()
-  const [edge, setEdge] = useState<edgeType>('none')
-  const [selectedTag, setSelectedTag] = useState(0)
+  const scrollRef = useRef<HTMLDivElement>(null)
+  const { isReachEnd, isReachStart, scrollIntoView } = useConveyer(scrollRef, {
+    horizontal: true,
+  })
+  const [selectedTag, setSelectedTag] = useState('all')
+
   const activeStyle = {
     color: theme.color.white,
     backgroundColor: theme.color.main,
   }
 
-  const handleEdge = useCallback(
-    ({ scrollLeft, scrollWidth, clientWidth }: { scrollLeft: number; scrollWidth: number; clientWidth: number }) => {
-      const scrollRange = scrollWidth - clientWidth
-      if (scrollRange === 0) setEdge('none')
-      else if (scrollLeft === 0) setEdge('right')
-      else if (scrollLeft === scrollRange) setEdge('left')
-      else setEdge('both')
-    },
-    []
-  )
-
-  useEffect(() => {
-    handleEdge(scrollRef.current)
-  }, [handleEdge, scrollRef])
-
-  const onTagMenuScroll = (e: React.UIEvent<HTMLElement>) => {
-    handleEdge(e.currentTarget)
-    e.stopPropagation()
-  }
-
   return (
     <Styled.container>
-      {edge === 'left' || edge === 'both' ? <Styled.leftShadow /> : <></>}
-      {edge === 'right' || edge === 'both' ? <Styled.rightShadow /> : <></>}
-      <Styled.scrollbar ref={scrollRef} onScroll={onTagMenuScroll}>
-        {tags.map((tag, idx) => (
+      {!isReachStart && <Styled.leftShadow />}
+      {!isReachEnd && <Styled.rightShadow />}
+      <Styled.scrollbar ref={scrollRef}>
+        <Tag
+          name={'all'}
+          onClick={() => setSelectedTag('all')}
+          view={'menu'}
+          style={selectedTag === 'all' ? activeStyle : {}}
+        />
+        {tags.map((tag) => (
           <Tag
-            key={idx}
+            key={tag}
             name={tag}
-            onClick={(e) => setSelectedTag(idx)}
+            onClick={(e) => {
+              scrollIntoView(e.currentTarget, {
+                duration: 500,
+                align: 'center',
+                excludeStand: true,
+              })
+              setSelectedTag(tag)
+            }}
             view={'menu'}
-            style={selectedTag === idx ? activeStyle : {}}
+            style={selectedTag === tag ? activeStyle : {}}
           />
         ))}
       </Styled.scrollbar>

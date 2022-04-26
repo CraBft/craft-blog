@@ -3,8 +3,7 @@ import Styled, { SProps } from './Tag.styled'
 
 export interface TagProps extends SProps {
   name: string
-  onClick: MouseEventHandler<HTMLButtonElement> &
-    ((event: React.MouseEventHandler<HTMLButtonElement>) => void | undefined)
+  onClick: React.MouseEventHandler<HTMLButtonElement>
   style?: React.CSSProperties
 }
 

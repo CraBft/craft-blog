@@ -5,36 +5,45 @@ const Styled = {
     position: relative;
 
     width: 100%;
-    height: 65px;
 
     background-color: ${({ theme }) => theme.color.grey200};
     border-radius: 7px;
   `,
   scrollbar: styled.div`
-    position: relative;
-    z-index: 1;
-
-    display: flex;
+    display: block;
     width: 100%;
-    height: 100%;
-    padding: 16px 20px;
+    padding: 8px 12px;
 
-    overflow-x: scroll;
+    overflow-x: auto;
+    overflow-y: hidden;
 
-    column-gap: 9px;
+    white-space: nowrap;
+    overscroll-behavior: none;
 
-    scroll-behavior: smooth;
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+
     &::-webkit-scrollbar {
       display: none;
+    }
+    &::-ms-scrollbar {
+      display: none;
+    }
+    &::-o-scrollbar {
+      display: none;
+    }
+
+    & > button {
+      margin-right: 8px;
+    }
+    & > :last-child {
+      margin-right: 0;
     }
   `,
   leftShadow: styled.div`
     position: absolute;
     top: 0;
     left: 0;
-    z-index: 2;
 
     width: 100%;
     height: 100%;
@@ -48,7 +57,6 @@ const Styled = {
     position: absolute;
     top: 0;
     right: 0;
-    z-index: 2;
 
     width: 100%;
     height: 100%;

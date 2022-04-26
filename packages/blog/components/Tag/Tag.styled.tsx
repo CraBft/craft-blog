@@ -4,10 +4,10 @@ import { TagProps } from './Tag'
 
 const tagTheme = {
   menu: {
-    padding: '4px 26px',
+    padding: '4px 18px',
 
     color: theme.color.black,
-    fontSize: '21px',
+    fontSize: '14px',
     fontWeight: 'bold',
 
     backgroundColor: theme.color.white,
@@ -44,18 +44,15 @@ export interface SProps {
 
 const Styled = {
   tag: styled.button`
-    display: flex;
+    display: inline-block;
     align-items: center;
     justify-content: center;
-    width: fit-content;
-    height: fit-content;
 
     cursor: pointer;
 
     transition: all 0.2s ease-in;
 
     ${({ view }: SProps) =>
-      view &&
       css`
         padding: ${tagTheme[view]['padding']};
 
