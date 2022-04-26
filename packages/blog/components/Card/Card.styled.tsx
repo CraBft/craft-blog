@@ -1,7 +1,8 @@
 import styled from 'styled-components'
 
 const Styled = {
-  rootContainer: styled.section`
+  rootContainer: styled.article`
+    width: 100%;
     padding-bottom: 16px;
 
     overflow: hidden;
