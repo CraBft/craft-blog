@@ -1907,6 +1907,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@egjs/infinitegrid@npm:~4.2.1":
+  version: 4.2.1
+  resolution: "@egjs/infinitegrid@npm:4.2.1"
+  dependencies:
+    "@egjs/children-differ": ^1.0.1
+    "@egjs/component": ^3.0.0
+    "@egjs/grid": ~1.9.1
+    "@egjs/list-differ": ^1.0.0
+  checksum: 897cec36dafa2c309615064d2af471173f748f98e73b82ad7d9d525de775ece53c2077a742c584e0811511ba3df11998f4ab5daecccf77f635171b66f3d41fb3
+  languageName: node
+  linkType: hard
+
 "@egjs/list-differ@npm:^1.0.0":
   version: 1.0.0
   resolution: "@egjs/list-differ@npm:1.0.0"
@@ -1914,12 +1926,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@egjs/react-grid@npm:^1.9.1":
-  version: 1.9.1
-  resolution: "@egjs/react-grid@npm:1.9.1"
+"@egjs/react-infinitegrid@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "@egjs/react-infinitegrid@npm:4.2.1"
   dependencies:
-    "@egjs/grid": ~1.9.1
-  checksum: 73eed84450637cc2beadb92c99c0dbed8f2c29f8e27cf28123e807c07be226720f88f050f6438ea7279364e049ecd2eede674070d2f45a221b208493592ec9a5
+    "@egjs/infinitegrid": ~4.2.1
+  checksum: 718fc08cd93933dec8c311dba3663b46d6026ad038ab13201079f491797d970f93ea0e4e2db3d8d579db109052a5f9660be7301f8a3569b5636357bdf4eae353
   languageName: node
   linkType: hard
 
@@ -14566,7 +14578,7 @@ __metadata:
   resolution: "nextjs-craft-blog-kit@workspace:packages/blog"
   dependencies:
     "@craftdocs/craft-extension-api": "*"
-    "@egjs/react-grid": ^1.9.1
+    "@egjs/react-infinitegrid": ^4.2.1
     "@storybook/addon-a11y": "*"
     "@storybook/addon-actions": "*"
     "@storybook/addon-essentials": "*"
