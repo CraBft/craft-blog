@@ -6,8 +6,8 @@ export type CardProps = {
   logoImgUrl: string
   logoImgAlt?: string
   logoImgWidth?: number
-  blogName?: string
-  blogPlatform?: string
+  title: string
+  description: string
   onClickRoutePath: string
 }
 
@@ -27,8 +27,8 @@ export default function Card(props: CardProps): JSX.Element {
         alt={props.logoImgAlt ?? 'Platform logo image'}
       />
       <StyledNextIcon />
-      <StyledTitle>Publish to {props.blogName}</StyledTitle>
-      <StyledDescription>Publish to {props.blogPlatform}</StyledDescription>
+      <StyledTitle>{props.title}</StyledTitle>
+      <StyledDescription>{props.description}</StyledDescription>
     </StyledCard>
   )
 }
