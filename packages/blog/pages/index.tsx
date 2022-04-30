@@ -1,5 +1,6 @@
 import type { GetStaticPropsContext, InferGetStaticPropsType, NextPage } from 'next'
 import Link from 'next/link'
+import Header from '../components/Header'
 import { getAllPosts } from '../libs/post-api'
 
 export const getStaticProps = (ctx: GetStaticPropsContext) => {
@@ -20,7 +21,7 @@ export const getStaticProps = (ctx: GetStaticPropsContext) => {
 const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({ posts }) => {
   return (
     <div>
-      <h1>craft-blog-starter</h1>
+      <Header isHome />
       {posts.map((post) => (
         <Link key={post.id} href={`/posts/${post.id}`}>
           <a

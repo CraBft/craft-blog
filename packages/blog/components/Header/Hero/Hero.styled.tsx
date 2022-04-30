@@ -6,7 +6,13 @@ const Styled = {
   container: styled(motion.div)`
     display: flex;
     flex-direction: row;
-    gap: 24px;
+    /* stylelint-disable-next-line no-descending-specificity */
+    & > * {
+      margin-right: 24px;
+    }
+    & > *:last-child {
+      margin-right: 0;
+    }
     align-items: flex-start;
     width: 100%;
     max-width: ${({ theme }) => theme.breakpoint.xl};
@@ -38,7 +44,13 @@ const Styled = {
   infoContainer: styled(motion.div)`
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    /* stylelint-disable-next-line no-descending-specificity */
+    & > * {
+      margin-right: 16px;
+    }
+    & > *:last-child {
+      margin-right: 0;
+    }
     align-items: flex-start;
 
     margin-top: 8px;

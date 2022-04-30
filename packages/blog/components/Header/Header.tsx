@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useState } from 'react'
 import { LayoutGroup, Variant, AnimatePresence } from 'framer-motion'
 import Styled from './Header.styled'
 import Link from 'next/link'
@@ -34,13 +34,12 @@ export type Link = {
   url: string
 }
 
-export type HeaderProps = {}
+export type HeaderProps = { isHome?: boolean | any }
 
-export default function Header({}: HeaderProps): JSX.Element {
+export default function Header({ isHome }: HeaderProps): JSX.Element {
+  isHome = typeof isHome !== 'undefined'
   const router = useRouter()
-  const [pathname, setPathname] = useState(router.pathname)
-  const isHome = pathname === '/'
-  const [isShowHero, setIsShowHero] = useState(false)
+  const [isShowHero, setIsShowHero] = useState(isHome)
   const [isSidebarOpen, setIsSidebarOpen] = useState(false)
 
   const hoverAnimation: Variant = {
@@ -50,13 +49,8 @@ export default function Header({}: HeaderProps): JSX.Element {
     },
   }
 
-  useEffect(() => {
-    setPathname(router.pathname)
-    setIsShowHero(false)
-  }, [router.pathname])
-
   return (
-    <LayoutGroup id={pathname}>
+    <LayoutGroup>
       <Styled.rootContainer
         initial={[isShowHero ? 'hero' : 'header']}
         animate={[isShowHero ? 'hero' : 'header']}

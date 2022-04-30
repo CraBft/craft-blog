@@ -31,12 +31,25 @@ const Styled = {
   `,
   flexContainer: styled(motion.div)`
     display: flex;
-    gap: 8px;
     align-items: center;
+    & > * {
+      margin-right: 8px;
+    }
+    & > *:last-child {
+      margin-right: 0;
+    }
   `,
   anchor: styled(motion.a)`
     display: flex;
-    gap: 4px;
+
+    /* stylelint-disable-next-line no-descending-specificity */
+    & > * {
+      margin-right: 4px;
+    }
+    & > *:last-child {
+      margin-right: 0;
+    }
+
     align-items: center;
     margin: -8px;
     padding: 8px;
@@ -90,9 +103,14 @@ const Styled = {
   `,
   linkContainer: styled(motion.div)`
     display: flex;
-    gap: 18px;
-
-    margin-right: 12px;
+    /* stylelint-disable-next-line no-descending-specificity */
+    & > * {
+      margin-right: 8px;
+    }
+    & > *:last-child {
+      margin-right: 0;
+    }
+    margin-right: 16px;
 
     @media screen and (max-width: ${({ theme }) => theme.breakpoint.md}) {
       display: none;

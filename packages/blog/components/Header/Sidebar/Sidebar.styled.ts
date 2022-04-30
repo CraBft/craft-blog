@@ -19,7 +19,13 @@ const Styled = {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
-    gap: 16px;
+    /* stylelint-disable-next-line no-descending-specificity */
+    & > * {
+      margin-right: 16px;
+    }
+    & > *:last-child {
+      margin-right: 0;
+    }
 
     width: 80%;
     max-width: 480px;
