@@ -1,7 +1,6 @@
 export type GithubBlogInfo = {
   apiToken: string
-  repoName: string
-  repoOwner: string
+  repoFullName: string
   blogName: string
 }
 

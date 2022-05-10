@@ -33,10 +33,10 @@ function blogInfoReducer(state: GithubBlogInfo, action: BlogInfoActionType): Git
 export function BlogInfoContextProvider(props: { children: ReactChild }): JSX.Element {
   const [blogInfo, dispatchBlogInfo] = useReducer<typeof blogInfoReducer>(blogInfoReducer, {
     apiToken: 'empty',
-    repoName: 'empty',
-    repoOwner: 'empty',
+    repoFullName: 'empty',
     blogName: 'empty',
   })
+
   const [loadStatus, setLoadStatus] = useState<LoadStatus>('loading')
 
   async function getBlogInfo(): Promise<void> {
