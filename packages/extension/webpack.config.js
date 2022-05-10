@@ -5,6 +5,8 @@ const InlineChunkHtmlPlugin = require('react-dev-utils/InlineChunkHtmlPlugin')
 const ZipPlugin = require('zip-webpack-plugin')
 const CopyPlugin = require('copy-webpack-plugin')
 const { CraftExtensionApiPlugin } = require('@craftdocs/craft-extension-api-sdk')
+const ReactRefreshWebpackPlugin = require('@pmmmwh/react-refresh-webpack-plugin')
+const ReactRefreshTypeScript = require('react-refresh-typescript')
 
 module.exports = (env, argv) => {
   const isProd = argv.mode === 'production'
@@ -23,7 +25,16 @@ module.exports = (env, argv) => {
     },
     module: {
       rules: [
-        { test: /\.tsx?$/, loader: 'ts-loader' },
+        {
+          test: /\.tsx?$/,
+          loader: 'ts-loader',
+          options: {
+            getCustomTransformers: () => ({
+              before: [!isProd && ReactRefreshTypeScript()].filter(Boolean),
+            }),
+            transpileOnly: !isProd,
+          },
+        },
         {
           test: /\.css$/,
           use: ['style-loader', 'css-loader'],
@@ -41,6 +52,7 @@ module.exports = (env, argv) => {
         template: path.resolve(__dirname, 'src/index.html'),
         chunks: ['app'],
       }),
+      !isProd && new ReactRefreshWebpackPlugin(),
       isProd && new InlineChunkHtmlPlugin(HtmlWebpackPlugin, [/app/]),
       isProd &&
         new CopyPlugin({
