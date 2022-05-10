@@ -9,6 +9,7 @@
   "devDependencies": {
     "@craftdocs/craft-extension-api": "*",
     "@craftdocs/craft-extension-api-sdk": "*",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
     "@types/react": "*",
     "@types/react-dom": "*",
     "@types/styled-components": "*",
@@ -16,6 +17,8 @@
     "css-loader": "*",
     "html-webpack-plugin": "*",
     "react-dev-utils": "*",
+    "react-refresh": "^0.13.0",
+    "react-refresh-typescript": "^2.0.4",
     "style-loader": "*",
     "ts-loader": "*",
     "typescript": "*",
@@ -25,6 +28,7 @@
     "zip-webpack-plugin": "*"
   },
   "dependencies": {
+    "octokit": "^1.7.1",
     "react": "*",
     "react-dom": "*",
     "react-icons": "^4.3.1",
