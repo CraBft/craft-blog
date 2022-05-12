@@ -9065,6 +9065,7 @@ __metadata:
     copy-webpack-plugin: "*"
     css-loader: "*"
     html-webpack-plugin: "*"
+    js-base64: ^3.7.2
     octokit: ^1.7.1
     react: "*"
     react-dev-utils: "*"
@@ -13382,6 +13383,13 @@ __metadata:
     merge-stream: ^2.0.0
     supports-color: ^8.0.0
   checksum: 98cd68b696781caed61c983a3ee30bf880b5bd021c01d98f47b143d4362b85d0737f8523761e2713d45e18b4f9a2b98af1eaee77afade4111bb65c77d6f7c980
+  languageName: node
+  linkType: hard
+
+"js-base64@npm:^3.7.2":
+  version: 3.7.2
+  resolution: "js-base64@npm:3.7.2"
+  checksum: 573f28e9a27c3df60096d4d3f551bcb4fcb6d49161cf83396e9bad9b76f94736a70bb70b8808fe834dff2a388f76604ba09d6e153bbf181646e407720139fa5b
   languageName: node
   linkType: hard
 

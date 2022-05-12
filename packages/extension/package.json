@@ -28,6 +28,7 @@
     "zip-webpack-plugin": "*"
   },
   "dependencies": {
+    "js-base64": "^3.7.2",
     "octokit": "^1.7.1",
     "react": "*",
     "react-dom": "*",
