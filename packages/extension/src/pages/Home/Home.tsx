@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react'
 import Card from './components/Card'
 import NavBar from '../../components/NavBar'
-import craftStorageApi, { GithubBlogInfo } from '../../utils/craftStorageApi'
+import { GithubBlogInfo } from '../../utils/craftStorageApi'
 import { useBlogInfoContext } from '../../contexts/blogGlobalContext'
-import { Navigate } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 export type HomeProps = {
   blogInfo: GithubBlogInfo
@@ -21,6 +21,7 @@ function Home(props: HomeProps): JSX.Element {
         description="Link CraBft blog with github"
         onClickRoutePath="blog-config/step1"
       />
+      <Link to={'/publish'}>publish</Link>
     </>
   )
 }
