@@ -52,6 +52,7 @@ const GlobalStyle = createGlobalStyle`
     background-color: inherit;
     border: none;
     padding: 0;
+    margin: 0;
   }
   button:focus{
     outline-color: ${({ theme }) => theme.color.main};
