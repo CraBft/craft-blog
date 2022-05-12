@@ -1,6 +1,5 @@
 import { ApiResponse, CraftHttpHeaders, CraftHttpTextRequestBody } from '@craftdocs/craft-extension-api'
-import { Endpoints, OctokitResponse } from '@octokit/types'
-import { Octokit } from 'octokit'
+import { Endpoints } from '@octokit/types'
 
 const END_POINT = 'https://api.github.com'
 
@@ -60,7 +59,5 @@ export async function getUserRepos(personalAccessToken: string) {
     token: personalAccessToken,
   })
   // TODO 예외 케이스 처리 하기
-  const repoDatas = await response.data!.body!.json()
-  console.log(repoDatas)
-  return repoDatas
+  return response.data!.body!.json()
 }
