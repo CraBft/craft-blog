@@ -1,6 +1,7 @@
 import type { GetStaticPropsContext, InferGetStaticPropsType, NextPage } from 'next'
 import Link from 'next/link'
 import { getAllPosts } from '../libs/post-api'
+import Home from '../src/pages/Home/Home'
 
 export const getStaticProps = (ctx: GetStaticPropsContext) => {
   const posts = getAllPosts()
@@ -16,25 +17,10 @@ export const getStaticProps = (ctx: GetStaticPropsContext) => {
     },
   }
 }
+export type GetStaticProps = React.ComponentProps<typeof HomePage>
 
-const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({ posts }) => {
-  return (
-    <div>
-      <h1>craft-blog-starter</h1>
-      {posts.map((post) => (
-        <Link key={post.id} href={`/posts/${post.id}`}>
-          <a
-            style={{
-              margin: '0.5rem',
-              fontSize: '1.5rem',
-            }}
-          >
-            <p>{post.title}</p>
-          </a>
-        </Link>
-      ))}
-    </div>
-  )
+const HomePage: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = (props) => {
+  return <Home {...props} />
 }
 
-export default Home
+export default HomePage
