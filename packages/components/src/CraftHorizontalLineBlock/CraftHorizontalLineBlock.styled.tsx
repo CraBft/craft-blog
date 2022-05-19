@@ -4,9 +4,11 @@ import { css } from 'styled-components'
 import { theme } from '../theme'
 
 const baseStyle = css`
+  box-sizing: content-box;
+
   width: 100%;
   height: 27px;
-  box-sizing: content-box;
+
   transition: all 0.3s ease 0s;
 `
 

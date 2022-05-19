@@ -23,7 +23,12 @@ const Home: NextPage<InferGetStaticPropsType<typeof getStaticProps>> = ({ posts 
       <h1>craft-blog-starter</h1>
       {posts.map((post) => (
         <Link key={post.id} href={`/posts/${post.id}`}>
-          <a>
+          <a
+            style={{
+              margin: '0.5rem',
+              fontSize: '1.5rem',
+            }}
+          >
             <p>{post.title}</p>
           </a>
         </Link>

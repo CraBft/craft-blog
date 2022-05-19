@@ -1,97 +1,137 @@
-import React, { useState } from 'react'
-import { useViewportScroll, MotionConfig } from 'framer-motion'
+import React, { useEffect, useRef, useState } from 'react'
+import { LayoutGroup, Variant, AnimatePresence } from 'framer-motion'
 import Styled from './Header.styled'
+import Link from 'next/link'
+import Hero from './Hero'
+import { useRouter } from 'next/router'
+import { theme } from '../../styles/theme'
+import Sidebar from './Sidebar'
+
+const image = {
+  src: 'https://avatars.githubusercontent.com/u/48559454?v=4',
+  alt: "JaeSeoKim's avatar",
+}
+
+const title = 'JaeSeoKim'
+const description = '🎢 To become a better developer...!'
+const links: Link[] = [
+  {
+    name: 'about',
+    url: '#',
+  },
+  {
+    name: 'link1',
+    url: '#',
+  },
+  {
+    name: 'link2',
+    url: '#',
+  },
+]
+
+export type Link = {
+  name: string
+  url: string
+}
 
 export type HeaderProps = {}
 
-const Header: React.FC<HeaderProps> = ({}) => {
-  const { scrollY } = useViewportScroll()
-  const [isHero, setIsHero] = useState(scrollY.get() < 200)
+export default function Header({}: HeaderProps): JSX.Element {
+  const router = useRouter()
+  const [pathname, setPathname] = useState(router.pathname)
+  const isHome = pathname === '/'
+  const [isShowHero, setIsShowHero] = useState(false)
+  const [isSidebarOpen, setIsSidebarOpen] = useState(false)
 
-  scrollY.onChange((value) => {
-    if (value < 200) {
-      setIsHero(true)
-    } else {
-      setIsHero(false)
-    }
-  })
+  const hoverAnimation: Variant = {
+    scale: 1.1,
+    transition: {
+      type: 'spring',
+    },
+  }
+
+  useEffect(() => {
+    setPathname(router.pathname)
+    setIsShowHero(false)
+  }, [router.pathname])
 
   return (
-    <MotionConfig
-      reducedMotion="user"
-      transition={{
-        type: 'tween',
-      }}
-    >
+    <LayoutGroup id={pathname}>
       <Styled.rootContainer
-        initial={scrollY.get() < 200 ? 'hero' : 'header'}
-        animate={isHero ? 'hero' : 'header'}
+        initial={[isShowHero ? 'hero' : 'header']}
+        animate={[isShowHero ? 'hero' : 'header']}
         variants={{
           hero: {
-            paddingTop: '64px',
-            backgroundColor: '#ffffff',
             boxShadow: `0px`,
+            backgroundColor: `rgba(255, 255, 255, 0)`,
           },
           header: {
-            paddingTop: '0px',
-            backgroundColor: '#F5F5F7',
-            boxShadow: `0px 1px 2px rgba(0, 0, 0, 0.25)`,
+            boxShadow: `rgb(0 0 0 0.2) 0px 1px 15px`,
+            backgroundColor: theme.color.grey100,
           },
         }}
       >
-        <Styled.mainContainer>
-          <Styled.leftContainer>
-            <Styled.image
-              src="https://avatars.githubusercontent.com/u/48559454?v=4"
-              alt="JaeSeoKim's avatar"
-              variants={{
-                hero: {
-                  width: '200px',
-                  height: '200px',
-                },
-                header: {
-                  width: '36px',
-                  height: '36px',
-                },
+        <Styled.wrapContainer>
+          <Styled.menuContainer>
+            <AnimatePresence>
+              {isSidebarOpen && <Sidebar links={links} onClose={() => setIsSidebarOpen(false)} />}
+            </AnimatePresence>
+            <Styled.iconButtonWrapper
+              style={{
+                zIndex: 1,
               }}
-            />
-            <Styled.infoContainer>
-              <Styled.title
-                variants={{
-                  hero: {
-                    fontSize: '36px',
-                  },
-                  header: {
-                    fontSize: '24px',
-                  },
-                }}
-              >
-                JaeSeoKim
-              </Styled.title>
-              <Styled.subtitle
-                variants={{
-                  hero: {
-                    fontSize: '24px',
-                    opacity: 1,
-                    scale: 1,
-                    display: 'flex',
-                  },
-                  header: {
-                    opacity: 0,
-                    scale: 0,
-                    display: 'none',
-                  },
-                }}
-              >
-                Frontend Developer
-              </Styled.subtitle>
-            </Styled.infoContainer>
-          </Styled.leftContainer>
-          <Styled.rigthContainer>right</Styled.rigthContainer>
-        </Styled.mainContainer>
+              aria-label="menu button"
+              onClick={() => setIsSidebarOpen((p) => !p)}
+              whileHover={hoverAnimation}
+            >
+              <Styled.menu isOpen={isSidebarOpen} />
+            </Styled.iconButtonWrapper>
+          </Styled.menuContainer>
+          <Styled.flexContainer>
+            {!isShowHero && (
+              <Link href={'/'} passHref>
+                <Styled.anchor>
+                  <Styled.blogImage
+                    layoutId={`${router.pathname}-image`}
+                    key={`${router.pathname}-image`}
+                    src={image.src}
+                    alt={image.alt}
+                  />
+                  <Styled.title layoutId={`${router.pathname}-title`} key={`${router.pathname}-title`}>
+                    {title}
+                  </Styled.title>
+                </Styled.anchor>
+              </Link>
+            )}
+          </Styled.flexContainer>
+          <Styled.flexContainer>
+            <Styled.linkContainer>
+              {links.map((link, i) => (
+                <Link href={link.url} passHref key={i}>
+                  <Styled.link>{link.name}</Styled.link>
+                </Link>
+              ))}
+            </Styled.linkContainer>
+            <Styled.iconButtonWrapper aria-label="search button" whileHover={hoverAnimation}>
+              <Styled.search />
+            </Styled.iconButtonWrapper>
+          </Styled.flexContainer>
+        </Styled.wrapContainer>
       </Styled.rootContainer>
-    </MotionConfig>
+      {isHome && (
+        <Hero
+          image={image}
+          title={title}
+          description={description}
+          onViewportEnter={() => {
+            setIsShowHero(true)
+          }}
+          onViewportLeave={() => {
+            setIsShowHero(false)
+          }}
+          pathname={router.pathname}
+        />
+      )}
+    </LayoutGroup>
   )
 }
-
-export default Header

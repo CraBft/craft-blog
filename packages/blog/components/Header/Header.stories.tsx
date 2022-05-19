@@ -13,13 +13,31 @@ export default {
 const Template: ComponentStory<typeof Header> = (args) => (
   <div
     style={{
+      position: 'relative',
       boxSizing: 'border-box',
-      height: '200vh',
+      height: '500vh',
     }}
   >
     <Header {...args} />
   </div>
 )
 
-export const Primary = Template.bind({})
-Primary.args = {}
+export const Home = Template.bind({})
+Home.args = {}
+Home.parameters = {
+  nextRouter: {
+    pathname: '/',
+    asPath: '/',
+    query: {},
+  },
+}
+
+export const OtherPage = Template.bind({})
+OtherPage.args = {}
+OtherPage.parameters = {
+  nextRouter: {
+    pathname: '/other-page',
+    asPath: '/other-page',
+    query: {},
+  },
+}

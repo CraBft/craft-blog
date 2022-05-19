@@ -14,7 +14,8 @@
     "blog:dev": "yarn workspace nextjs-craft-blog-kit run dev",
     "blog:start": "yarn workspace nextjs-craft-blog-kit run start",
     "blog:build": "yarn workspace nextjs-craft-blog-kit run build",
-    "blog:export": "yarn workspace nextjs-craft-blog-kit run export"
+    "blog:export": "yarn workspace nextjs-craft-blog-kit run export",
+    "blog:storybook": "yarn workspace nextjs-craft-blog-kit run storybook"
   },
   "packageManager": "yarn@3.2.0",
   "devDependencies": {

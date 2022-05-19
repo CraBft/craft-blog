@@ -10,12 +10,12 @@ export type CraftBlockProps = {
   index?: number
 }
 
-export type StyledCraftBlockProps = {
+export type StyledCraftBlockProps = React.PropsWithChildren<{
   block: CraftBlockType
   prev?: CraftBlockType
   next?: CraftBlockType
   index?: number
-}
+}>
 
 const Indent: React.FC<StyledCraftBlockProps> = ({ block, prev, next, index, ...props }) => {
   if (block.indentationLevel > 0) {
@@ -52,7 +52,14 @@ const BlockDecoration: React.FC<StyledCraftBlockProps> = ({ block, prev, next, i
   return <ListDecoration block={block} prev={prev} next={next} index={index} {...props} />
 }
 
-const ListDecoration: React.FC<StyledCraftBlockProps> = ({ block, prev, next, index, children, ...props }) => {
+const ListDecoration: React.FC<React.PropsWithChildren<StyledCraftBlockProps>> = ({
+  block,
+  prev,
+  next,
+  index,
+  children,
+  ...props
+}) => {
   const listOfIndex = useListOfIndex(block, index)
 
   if (block.listStyle.type === 'bullet') {
@@ -111,7 +118,7 @@ const Color = styled(Indent)`
   ${({ block: { color } }) => CSS.color(color)}
 `
 
-const CraftBlock: React.FC<CraftBlockProps> = ({ block, index, children, ...props }) => {
+const CraftBlock: React.FC<React.PropsWithChildren<CraftBlockProps>> = ({ block, index, children, ...props }) => {
   const prev = usePrevBlock(index)
   const next = useNextBlock(index)
 

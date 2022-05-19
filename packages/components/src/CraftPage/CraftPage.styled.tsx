@@ -6,8 +6,8 @@ const Styled = {
     display: block;
     box-sizing: border-box;
     max-width: ${theme.screen.maxWidth};
-    padding-left: ${theme.screen.paddingX};
     padding-right: ${theme.screen.paddingX};
+    padding-left: ${theme.screen.paddingX};
   `,
 }
 
