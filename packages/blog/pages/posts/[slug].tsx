@@ -1,6 +1,7 @@
 import { GetStaticPaths, GetStaticPathsResult, GetStaticProps, NextPage } from 'next'
 import { CraftPage } from 'react-craft-x'
 import styled from 'styled-components'
+import Header from '../../components/Header'
 import { getAllPosts } from '../../libs/post-api'
 import { CraftBlogPage } from '../../types/CraftBlogPage'
 
@@ -50,7 +51,12 @@ const PostPage: NextPage<{
     margin-right: auto;
   `
 
-  return <StyledCraftPage rootBlock={page.rootBlock} />
+  return (
+    <>
+      <Header />
+      <StyledCraftPage rootBlock={page.rootBlock} />
+    </>
+  )
 }
 
 export default PostPage
