@@ -10,6 +10,7 @@
     "@craftdocs/craft-extension-api": "*",
     "@craftdocs/craft-extension-api-sdk": "*",
     "@pmmmwh/react-refresh-webpack-plugin": "^0.5.5",
+    "@testing-library/react": "*",
     "@types/react": "*",
     "@types/react-dom": "*",
     "@types/styled-components": "*",
