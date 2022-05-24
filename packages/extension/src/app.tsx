@@ -1,57 +1,37 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import craftXIconSrc from './craftx-icon.png'
+import { Route, MemoryRouter, Routes, HashRouter } from 'react-router-dom'
+import BlogConfig from './pages/BlogConfig'
+import Home from './pages/Home'
+import { BlogInfoContextProvider } from './contexts/blogGlobalContext'
+import Publish from './pages/Publish'
+import BlogConfigGetApiToken from './pages/BlogConfig/BlogConfigGetApiToken/BlogConfigGetApiToken'
+import BlogConfigSelectRepo from './pages/BlogConfig/BlogConfigSelectRepo'
+import BlogConfigSetBlogName from './pages/BlogConfig/BlogConfigSetBlogName'
 
 const App: React.FC<{}> = () => {
-  const isDarkMode = useCraftDarkMode()
-
-  React.useEffect(() => {
-    if (isDarkMode) {
-      document.body.classList.add('dark')
-    } else {
-      document.body.classList.remove('dark')
-    }
-  }, [isDarkMode])
-
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'column',
-        alignItems: 'center',
-      }}
-    >
-      <img className="icon" src={craftXIconSrc} alt="CraftX logo" />
-      <button className={`btn ${isDarkMode ? 'dark' : ''}`} onClick={insertHelloWorld}>
-        Hello world!
-      </button>
-    </div>
+    <BlogInfoContextProvider>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/blog-config" element={<BlogConfig />}>
+          <Route path="step1" element={<BlogConfigGetApiToken />} />
+          <Route path="step2" element={<BlogConfigSelectRepo />} />
+          <Route path="step3" element={<BlogConfigSetBlogName />} />
+        </Route>
+        <Route path="/publish" element={<Publish />} />
+      </Routes>
+    </BlogInfoContextProvider>
   )
-}
-
-function useCraftDarkMode() {
-  const [isDarkMode, setIsDarkMode] = React.useState(false)
-
-  React.useEffect(() => {
-    craft.env.setListener((env) => setIsDarkMode(env.colorScheme === 'dark'))
-  }, [])
-
-  return isDarkMode
-}
-
-function insertHelloWorld() {
-  const block = craft.blockFactory.textBlock({
-    content: 'Hello world!',
-  })
-
-  craft.dataApi.addBlocks([block])
 }
 
 export function initApp() {
   const appNode = document.getElementById('react-root')
   ReactDOM.createRoot(appNode!).render(
     <React.StrictMode>
-      <App />
+      <HashRouter>
+        <App />
+      </HashRouter>
     </React.StrictMode>
   )
 }
